@@ -1,0 +1,55 @@
+#ifndef NDNSIM_ENHENCEFLOODING_H
+#define NDNSIM_ENHENCEFLOODING_H
+
+#include "nacks.h"
+#include "ns3/log.h"
+
+namespace ns3 {
+namespace ndn {
+namespace fw {
+
+/**
+ * \ingroup ndn
+ * \brief Flooding strategy
+ *
+ * \todo Describe
+ */
+class enhenceFlooding :
+    public Nacks
+{
+private:
+  typedef Nacks super;
+
+public:
+  static TypeId
+  GetTypeId ();
+
+  /**
+   * @brief Helper function to retrieve logging name for the forwarding strategy
+   */
+  static std::string
+  GetLogName ();
+  
+  /**
+   * @brief Default constructor
+   */
+  Flooding ();
+
+protected:
+  // inherited from  Nacks/ForwardingStrategy
+  virtual bool
+  DoPropagateInterest (Ptr<Face> inFace,
+                       Ptr<const Interest> header,
+                       Ptr<const Packet> origPacket,
+                       Ptr<pit::Entry> pitEntry);
+
+protected:
+  static LogComponent g_log;
+};
+
+} // namespace fw
+} // namespace ndn
+} // namespace ns3
+
+#endif // NDNSIM_FLOODING
+

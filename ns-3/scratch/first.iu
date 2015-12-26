@@ -1,0 +1,170 @@
+/* -*- Mode:C++; c-file-style:"gnu"; indent-tabs-mode:nil; -*- */
+/*
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation;
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
+#include "ns3/log.h"
+#include "ns3/uinteger.h"
+#include "ns3/core-module.h"
+#include "ns3/network-module.h"
+#include "ns3/internet-module.h"
+#include "ns3/point-to-point-module.h"
+#include "ns3/applications-module.h"
+#include "ns3/flow-monitor-module.h"
+#include"ns3/random-variable-stream.h"
+#include "ns3/mobility-module.h"
+#include "ns3/object-factory.h"
+#include "../ip/print.h"
+#include "../ip/udp-echo-client1024.h"
+#include "../ip/udp-echo-client1024.cc"
+#include "../ip/udp-echo-server1024.h"
+#include "../ip/udp-echo-server1024.cc"
+
+#include "ns3/yans-wifi-helper.h"
+#include "ns3/ocb-wifi-mac.h"
+#include "ns3/wifi-80211p-helper.h"
+#include "ns3/wave-mac-helper.h"
+#include "ns3/ns2-mobility-helper.h"
+
+using namespace ns3;
+
+//NS_LOG_COMPONENT_DEFINE ("FirstScriptExample");
+
+int
+main (int argc, char *argv[])
+{
+  std::string phyMode ("OfdmRate6MbpsBW10MHz");
+
+  bool verbose = false;
+  int port =10;
+  int n_1,n_2;
+  int num_nodes = 100;
+  int num_pk = 350;
+  Ptr<UniformRandomVariable> nodeIndex = CreateObject<UniformRandomVariable> ();
+  nodeIndex->SetAttribute("Min",DoubleValue(0));
+  nodeIndex->SetAttribute("Max",DoubleValue(100));
+  n_1 = nodeIndex->GetValue();
+  n_2 = nodeIndex->GetValue();
+//  std::cout<<"n_1 = "<<n_1<<"    "<<"n_2 = "<<n_2<<std::endl;
+  Time::SetResolution (Time::NS);
+
+ //LogComponentEnable ("UdpEchoClient1024Application", LOG_LEVEL_INFO);
+//  LogComponentEnable ("UdpEchoServer1024Application", LOG_LEVEL_INFO);
+  
+ // NS_LOG_INFO("Creating Topology");
+
+  CommandLine cmd;
+  cmd.Parse(argc,argv);
+
+  NodeContainer nodes;
+  nodes.Create (num_nodes);
+
+  YansWifiPhyHelper wifiPhy =  YansWifiPhyHelper::Default ();
+  YansWifiChannelHelper wifiChannel ;//= YansWifiChannelHelper::Default ();
+  wifiChannel.SetPropagationDelay ("ns3::ConstantSpeedPropagationDelayModel");
+  wifiChannel.AddPropagationLoss ("ns3::LogDistancePropagationLossModel");
+//  wifiChannel.AddPropagationLoss ("ns3::FixedRssLossModel","Rss",DoubleValue (rss));
+  Ptr<YansWifiChannel> channel = wifiChannel.Create ();
+  wifiPhy.SetChannel (channel);
+  // ns-3 supports generate a pcap trace
+  wifiPhy.SetPcapDataLinkType (YansWifiPhyHelper::DLT_IEEE802_11);
+
+  NqosWaveMacHelper wifi80211pMac = NqosWaveMacHelper::Default ();
+  Wifi80211pHelper wifi80211p = Wifi80211pHelper::Default ();
+  wifi80211p.SetStandard (WIFI_PHY_STANDARD_80211_10MHZ);
+  if (verbose)
+    {
+      wifi80211p.EnableLogComponents ();      // Turn on all Wifi 802.11p logging
+    }
+
+  wifi80211p.SetRemoteStationManager ("ns3::ConstantRateWifiManager",
+                                      "DataMode",StringValue (phyMode),
+                                      "ControlMode",StringValue (phyMode));
+  NetDeviceContainer devices = wifi80211p.Install (wifiPhy, wifi80211pMac, nodes);
+
+
+//// Install constant model
+//  MobilityHelper mobility;
+//  double distance =50.0;
+//  Ptr<ListPositionAllocator> positionAlloc = CreateObject<ListPositionAllocator> ();
+//  positionAlloc->Add (Vector (50.0, 50, 0.0));
+//  positionAlloc->Add (Vector (50+distance, 50, 0.0));
+//  mobility.SetPositionAllocator (positionAlloc);
+//  mobility.SetMobilityModel ("ns3::ConstantPositionMobilityModel");
+//  mobility.Install (nodes);
+
+// Install SUMO model
+//10 jiedian 50s
+//100 jiedian  1500s
+  Ns2MobilityHelper ns2 = Ns2MobilityHelper ("scratch/My_mobility100.tcl");
+  ns2.Install ();
+
+  InternetStackHelper stack;
+  stack.Install (nodes);
+
+  Ipv4AddressHelper address;
+  address.SetBase ("10.1.1.0", "255.255.255.0");
+
+  Ipv4InterfaceContainer interfaces = address.Assign (devices);
+
+
+ //Create by Ptr
+//  Ptr<UdpEchoServer1024>  app = CreateObject<UdpEchoServer1024> ();
+
+//Create by Factory
+  ObjectFactory m_factory_server;
+  m_factory_server.SetTypeId("ns3::UdpEchoServer1024");
+  m_factory_server.Set("Port",UintegerValue(port));
+  m_factory_server.Set("Number",UintegerValue(num_pk));
+  Ptr<Application> app_server = m_factory_server.Create<Application>();
+  nodes.Get(n_1)->AddApplication(app_server);
+  app_server->SetStartTime(Seconds (1490.0));
+  app_server->SetStopTime(Seconds(4000.0));
+
+
+  ObjectFactory m_factory_client;
+  m_factory_client.SetTypeId("ns3::UdpEchoClient1024");
+  m_factory_client.Set ("MaxPackets", UintegerValue (1));
+  m_factory_client.Set ("Interval", TimeValue (Seconds (1.0)));
+  m_factory_client.Set  ("PacketSize", UintegerValue (1024));
+  m_factory_client.Set("Number",UintegerValue(num_pk));
+  m_factory_client.Set ("RemoteAddress", AddressValue(interfaces.GetAddress (n_1)));
+  m_factory_client.Set ("RemotePort", UintegerValue (port));
+  Ptr<Application> app_client = m_factory_client.Create<Application>();
+  nodes.Get(n_2)->AddApplication(app_client);
+  app_client->SetStartTime(Seconds (1500.0));
+  app_client->SetStopTime(Seconds(4000.0));
+
+//  //Create by Helper
+//  UdpEchoServerHelper echoServer (9);
+//  ApplicationContainer serverApps = echoServer.Install (nodes.Get (1));
+//  serverApps.Start (Seconds (1.0));
+//  serverApps.Stop (Seconds (10.0));
+
+//  UdpEchoClientHelper echoClient (interfaces.GetAddress (1), 10);
+//  echoClient.SetAttribute ("MaxPackets", UintegerValue (1000));
+//  echoClient.SetAttribute ("Interval", TimeValue (Seconds (1.0)));
+//  echoClient.SetAttribute ("PacketSize", UintegerValue (1024));
+//  ApplicationContainer clientApps = echoClient.Install (nodes.Get (0));
+//  clientApps.Start (Seconds (46.0));
+//  clientApps.Stop (Seconds (1000.0));
+ //print();
+
+//  wifiPhy.EnablePcapAll ("ndn-ip");
+
+  Simulator::Stop (Seconds (4000));
+  Simulator::Run ();
+
+  Simulator::Destroy ();
+  return 0;
+}

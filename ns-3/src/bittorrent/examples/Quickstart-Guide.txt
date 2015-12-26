@@ -1,0 +1,43 @@
+BitTorrent Model Quickstart Guide
+
+We provide two examples to demonstrate how to run our BitTorrent model.
+Before you can use any of the examples you will have to go to the following folder and extract both tar.gz archives within it:
+input/bittorrent/torrent-data
+
+These archives contain files used as payload for the simulation with 10MB and 100MB in size. The matching torrent-files are already in the same folder.
+You can create torrent-files yourself with any suitable BitTorrent client or by using "mktorrent".
+
+
+
+The first example is called "bittorrent-no-story".
+It creates a small swarm interconnected by WiFi with one seeding node. This example shows how the BitTorrent model can be used without using the story files. The example program is well commented explaining each step necessary to setup a simple BitTorrent swarm.
+
+The example can be run by using the following command:
+./waf --run bittorrent-no-story
+
+
+
+The second exaple is called "vodsim".
+It reads a Story file which configures the whole BitTorrent and topology setup. More info on Story files can be found in:
+src/bittorrent/helper/Story-Reference.txt
+
+More info on the general structure and usage of the BitTorrent model can be found in the doxygen documentation of this ns-3 distribution. To build the doxygen documentation, run the following command:
+./waf doxygen
+This may take some considerable time. You can then find the documentation in the doc/html folder of this ns-3 distribution.
+
+We provide two pre-made Story files, one for each data file from the archives. These files are located in:
+input/bittorrent/stories
+
+Each story file configures the whole topology of the simulated network as well as the whole BitTorrent swarm. A toplogy is read from a BRITE topology file which are located in:
+input/bittorrent/topology
+
+This example uses point-to-point connections for interconnecting nodes. They can be changed to CSMA using the Story files command for it.
+
+The second example with 10MB payload is run using the following command:
+./waf --run "vodsim --story=input/bittorrent/stories/10MB-full --duration=2000"
+
+The simulation will stop when all clients have finished downloading the torrent data or when the duration (in seconds) value is reached.
+
+
+
+We highly recommend using the BitTorrent model with VODSim and the Story files, as it simplifies its usage a lot and nearly everything can be configured with a command in a Story file.  

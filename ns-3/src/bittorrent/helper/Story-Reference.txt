@@ -1,0 +1,502 @@
+/*
+ * Copyright (c) 2010-2014 ComSys, RWTH Aachen University
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation;
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ *
+ * Author: Rene Glebke
+ */
+
+Ns3 BitTorrent Model Scripting Language Reference
+=================================================
+*************************************************
+=================================================
+Last revision: 2014-01-31
+
+
+CONTENTS
+========
+I. Introduction
+Ia. Time Format
+Ib. Comments
+II. Language Reference
+IIa. "simulation" Section
+IIb. "topology" Section
+IIc. "tracker" Statements
+IId. "client" Statements
+IIe. "video" Statements
+IIf. "group" Statements
+
+
+I. Introduction
+===============
+This file provides an overview of the scripting language which may be used to
+set up and control BitTorrent simulation and emulation scenarios in ns3 using 
+the "Story" helper class provided by the ComSys BitTorrent model.
+All possible commands are listed according to their "section" within the Story
+model, together with a typical application and a short explanation if the usage
+is not directly visible from the name or the structure of the command.
+
+Ia. Time Format
+~~~~~~~~~~~~~~~
+All commands in the Story file format begin with a time value. This time value
+represents the time that has elapsed so far within the simulation when the command
+or event is meant to be triggered. The time format used in the Story files is
+<xx>h<yy>m<zz>s or <ww>h<xx>m<yy>s<zz>i, where <xx> through <zz> represent integer
+numbers in the range [0..inf), i.e., you may insert any non-negative integer in any
+location within a time stamp. h, m, s and u represent the notion of Hours, Minutes,
+Seconds and mIlli seconds, respectively. Notions for hours, minutes and seconds are
+mandatory; precede them with a "0" if the argument is not needed. The entered time 
+will be internally converted even if the typical ranges for the arguments are surpassed,
+i.e., 0h1m90s will be interpreted as 2 minutes and 30 seconds. 
+
+It is possible to add a "-" (minus) sign at the beginning of a time value to indicate 
+negative values e.g. for backward navigation within a video, but this will be either 
+indicated for the respective command or be implicitly clear. 
+
+You may, for events, also indicate a span in time in which the event(s) are supposed
+to happen. The Story file reader then chooses a point in time uniformly at random within
+the given time span. In the case of events affecting multiple entities, the events are 
+randomly distributed within the given time span. The format for such half-random events
+is "from <time value> until <time value>", where the second time value obviously has to
+be greater than or equal to the first time value.
+
+NOTE: Story files are checked for time order consistency, i.e., all commands have to be
+stated in ascending order of their time stamp within the Story file. In the case of time 
+spans, only the first (i.e., the lower bound) has to follow that order.
+
+
+Ib. Comments
+~~~~~~~~~~~~
+You may add comments to Story files by preceding a comment line with the C/C++ one-line
+comment token "//". Note that in contrast to C/C++, only lines beginning with such a token
+will be ignored, although parsing of statements may also allow comments at the end of a 
+statement if the number of arguments is clear. The latter behavior, however, is not guaranteed.
+
+
+II. Language Reference
+======================
+This section gives an overview of the commands possible within the BitTorrent scripting
+language. As stated before, not all commands/events or arguments are completely explained
+if the name of the command/event or the argument in the example shows the intended meaning.
+
+
+IIa. "simulation" Section
+~~~~~~~~~~~~~~~~~~~~~~~~~
+The "simulation" section is used to define the general settings for the simulation or
+emulation process. Although it may be possible for some commands to be used in latter
+parts of the Story files as well, for the sake of clarity, you should try to state all
+"simulation" commands at the beginning of the file. You may interpret this as a kind
+of mandatory header for scripts. The following commands are supported:
+
+
+simulation set id <id>
+----------------------
+Sets an ID for a simulation (run) to distinguish it from others and to produce different
+trace and PCAP files for different simulations/simulation runs. You may give a simulation
+an arbitrary ID without whitespace characters. If the supplied ID is "random", the simulation
+generates an unsigned random integer of 32 bits and uses its string representation as the ID.
+If you provide the id "time", then the framework will set the simulation ID to a date string
+of format "YYYY-MM-DD-HH-MM-SS", from a timestamp taken at the moment the ID is generated.
+Note that the "random" ID depends on the initialization of the random number generator by the 
+"simulation set random seed" command, which should be placed before this command with argument
+"time" if pseudo-random IDs should be generated; "simulation set random seed <number>" will
+produce deterministic IDs.
+
+simulation set logging <type>
+-----------------------------
+Configures the simulation to direct its output to the specified device. Currently supported 
+are "screen" for the standard output device (typically, the console device) and
+"file" for the generation of separate output files for each of the metrics that may be
+gathered during the simulation. The file names are prefixed with the simulation id (see above).
+By default, logging output is directed to the screen.
+
+simulation set random seed <arg>
+--------------------------------
+Use this setting at the very beginning, and only once. If <arg> is a positive integer,
+this integer will be used to initialize the ns3 random number generator and simulations
+set up using the Story files are deterministic. If <arg> is "time", the current system
+time will be used for initialization to generate pseudo-random behavior.
+
+simulation set folder input/bittorrent/torrent-data
+---------------------------------------------------
+Set the folder in which input payload data for the simulation (i.e., the location of
+the data referred to by the ".torrent" files). The folder is intended to be relative
+to the execution directory of the program.
+
+simulation set file input/bittorrent/torrent-data/test.torrent ["fake data"]
+----------------------------------------------------------------------------
+Sets the ".torrent" file used in the simulated swarm. Note that the BitTorrent model
+generally supports > 1 shared files at the same time, but the Story file format is
+in its present state not able to do so. If the "fake data" setting is used, the
+transmitted data will be replaced by zeroes within the simulation to speed up the
+simulation process and to help debugging. See the documentation of the StorageManager 
+class for further details.
+
+simulation set checkdata 1
+--------------------------
+Enables (1) or disables (0) checksum checks on received data. You should enable this
+for either emulation or simulation scenarios with non-perfect links, but may deactivate
+it in situations with perfect links (i.e., no transmission errors etc.) to speed up the
+simulation process.
+
+simulation set pcap enabled prefix /path/simulation123
+------------------------------------------------------
+Enables PCAP captures on all simulated nodes, if such nodes are declared using the Story
+file. The PCAP traces will be saved under the given path with the given prefix, with
+node IDs and IDs of the respective network device added to the file names after the prefix.
+
+simulation set variable a value123
+----------------------------------
+Declares a variable a of value "value123" which may be subsequently used within
+statements using "$a". Useful for scripting purposes. The variable may be assigned
+a new value at any time with another "simulation set variable" command.
+
+
+IIb. "topology" Section
+~~~~~~~~~~~~~~~~~~~~~~~
+Commands from the "topology" section may be used to declare the topology of the network on 
+which the simulation shall operate and to add nodes running BitTorrent clients 
+(and trackers) to the simulation.
+
+
+topology set file input/bittorrent/topology/test.brite
+------------------------------------------------------
+Instructs the simulation to use the topology declared within the given BRITE format file as
+the basic topology. If a node is added to this topology, it is added to those nodes declared
+as non-border routers within the topology format. See the documentation of the BRITE topology
+format for further information.
+
+topology set bandwidth samples file input/bittorrent/topology/test.dat
+----------------------------------------------------------------------
+Instructs the simulation to use the client bandwidth distributions given in the respective file.
+If any client is added using the "add client" command without a specified bandwidth, a bandwidth
+from the samples file according to the distribution given in the samples file is assigned.
+The format of the bandwidth samples files is fairly straightforward:
+<number of buckets>
+<number of entries in bucket 1>
+...
+<number of entries in bucket n>
+<bucket 1 entry 1 downlink in bps><tab><bucket 1 entry 1 uplink in bps>
+...
+<bucket n entry m downlink in bps><tab><bucket n entry m uplink in bps>
+
+topology set delays min 17 max 37
+---------------------------------
+Instructs the simulation to distribute connection delays of added nodes randomly between
+17 and 37 ms. You can use "min 0 max 0" to disable this feature.
+
+topology set node count 17
+---------------------------
+Adds 17 client nodes to the simulation, randomly attaching each node to the non-border routers
+with the settings as specified using the commands above.
+
+topology set other node count 37
+--------------------------------
+Adds 37 other nodes to the simulation. These nodes do not contain a BitTorrent model
+implementation instance and may be used for other purposes within the simulation.
+
+topology add tracker
+--------------------
+Adds a tracker node to the topology. The tracker is attached using a large up- and downlink
+with no link delay to some random non-border router within the network. Adding more than one
+tracker is not allowed.
+
+topology add clients count 2 type point-to-point uplink 448kbps downlink 2048kbps delay 0ms [to router 4]
+---------------------------------------------------------------------------------------------------------
+Add nodes with installed BitTorrent clients to the topology, with the given settings.
+The type of the connection may be "point-to-point" or "csma", where in the CSMA case the  
+uplink and downlink bandwidths are the same and defined via the "uplink" statement.
+Instead of "uplink [...] downlink [...]" you can also use the "using samples file" statement
+to add client nodes adhering to the registered bandwidth samples file to the topology.
+The optional argument "to router <id>" allows you to specify a specific router with
+the id read in from the topology file. If this is not given, the nodes are randomly attached
+to (non-border, non-backbone) routers.
+This statement may be used more than once to add nodes of different types and quantity.
+
+topology add background nodes count 2 type point-to-point uplink 448kbps downlink 2048kbps delay 0ms destination 10.3.0.1 [to router 4]
+------------------------------------------------------------------------------------------------------------------------------------------
+Adds "background noise" nodes to the simulation. These nodes have an application installed which, starting with the beginning of the simulation, sends a constant stream of UDP data towards the destination IP, at the data rate of their uplink. It is imperative that at the destination IP actually exists and is of type "sink" (see below) for the traffic to actually flow through the network; else, ICMP "destination unreachable" packets will occur.
+
+topology add sink nodes count 2 type point-to-point uplink 448kbps downlink 2048kbps delay 0ms ip 10.3.0.1 [to router 4]
+------------------------------------------------------------------------------------------------------------------------------------------
+Adds sink nodes for the background noise nodes, with IP addresses starting at the given address. 
+
+topology add other nodes type csma count 2 uplink 448kbps downlink 2048kbps delay 0ms [ip 10.4.0.1] [to router 4]
+-----------------------------------------------------------------------------------------------------------------
+Adds other nodes not containing an actual Application installed to the simulation.
+This statement may be used more than once to add nodes of different types.
+
+
+IIc. "tracker" Statements
+~~~~~~~~~~~~~~~~~~~~~~~~~
+These statements can be used to control the BitTorrent tracker model. Note that you
+have to issue a "topology add tracker" command before any of these statements have
+an effect.
+
+
+tracker set update interval <time value>
+----------------------------------------
+Sets the interval that the tracker model adds to its responses to client requests.
+BitTorrent clients are required to re-announce themselves as parts of the overlay swarm
+periodically, at least using the given frequency.
+
+
+IId. "client" Statements
+~~~~~~~~~~~~~~~~~~~~~~~~
+Statements from this section can be used to control the BitTorrent clients working within
+a simulation. The client model comes with a set of default settings adhering to the settings
+advised in the BitTorrent Protocol Specification 1.0 which can be found at 
+http://wiki.theory.org/BitTorrentSpecification, so you do NOT have to explicitly define
+every setting on your own and can simply use the provided statements to override the default
+settings.
+
+NOTE: Although the BitTorrent client model has been developed with in-operation changes of
+settings in mind, changing some settings during operation (i.e., after the "init" statement)
+may result in undefined behavior. Since the number of settings and possible side effects are 
+numerous, such effects are not covered in this documentation. You may want to have a look at 
+the implementation of certain strategies to make sure that changes are adopted correctly.
+
+
+client 1 init
+-------------
+The initialization of the client is scheduled for the given point in (simulated) time. The
+client model starts operating at this point and, if the autoconnect setting is set to "1",
+the client will try to join the overlay swarm at this time.
+
+client 1 set peers 17
+---------------------
+Client 1 shall try to initiatively establish connections to at most 17 peers. You can use the
+"all" keyword to denote that the limit shall be the number of client nodes announced within
+the (total) simulation.
+
+client 1 set max peers 37
+-------------------------
+Client 1 shall not allow more than 37 total connections, with both initiatively established
+connections ("client set peers") as well as ingoing connections counted. You can use the
+"all" keyword to denote that the limit shall be the number of client nodes announced within
+the (total) simulation.
+
+client 1 set unchoked peers 17
+------------------------------
+Client 1 shall at most unchoke 17 peers at once. Note that the actual number of unchoked peers
+depends on the implementation of the strategy responsible for choking and unchoking and may
+be considerably less. However, such strategies are required to unchoke at most this number of
+peers, probably with 1 additional optimistic unchoke.
+
+client 1 set autoconnect 1
+--------------------------
+When the autoconnect setting is set to "1", the client automatically connects to the overlay swarm
+upon initialization. Otherwise, it waits for the "join cloud" command to join.
+
+client 1 set leave after completed <time value>
+-----------------------------------------------
+If set to a non-negative value, the client will stay within the swarm after completing its
+download for the given time span and then leave. If a negative time value is given, the
+client will stay within the swarm indefinitely or until leaving the swarm was issued as
+a separate command ("leave cloud" command).
+
+client 1 set protocol rarest-first
+----------------------------------
+Sets the protocol implemented in the respective client. The BitTorrent standard is "rarest-first", 
+with another, sequential part selection implementation available using the "default" argument.
+It is not possible to change the implemented protocol during operation of a client.
+
+client 1 set protocol options parameter1=value1 parameter2=value2 [...]
+-----------------------------------------------------------------------
+Sets parameters specific to the respective protocol. You can use this statement to pass arguments
+through to specific strategies when the settings are not part of the default BitTorrent protocol.
+Note that both parameter names and values may not contain whitespace characters and that the values
+are passed as strings to the respective interested protocols for further parsing.
+
+client 1 set initial bitfield empty
+-----------------------------------
+With this setting, client 1 starts off as a complete leecher. Other possible settings are:
+* "full" to start off as a seeder, 
+* "gaussian mean <x> stddev <y>" (with <x> and <y> being positive floating-point numbers in the range 
+  (0..1)) for a bitfield filled from the left up to a specific point given by the gaussian distribution,
+* "gaussian mean <x> stddev <y> random tail" for a similar filling with a random filling of the bitfield
+  after the given fully-filled part,
+* "from left <x>" for a specific filling from the left up to the percentage given by <x> (0 <= <x> <= 1.0),
+* "from left <x> random tail" for a similar filling with a random tail,
+* "random <x>" for a random filling of a percentage given by <x> (0 <= <x> <= 1.0).
+
+This setting obviously has no effect after the client was initialized.
+
+client 1 set initial bitfield debug 17 37
+-----------------------------------------
+You can use this setting to further manipulate the bitfield. In this case, the 17th entry of the bitfield
+is filled with the number 37 (generally, any number between 0 and 255) interpreted as a sequence of bits, 
+where the highest bit corresponds to the first piece in the section covered by index 17 of the bitfield.
+This setting is applied after the general bitfield setting, so you may apply changes to the bitfield, e.g.,
+to produce a client that has almost completed download but is missing some specific parts ("client 1 set
+initial bitfield empty" followed by "client 1 set initial bitfield debug 4 254").
+
+client 1 set block size request 32768
+-------------------------------------
+Client 1 shall request pieces of at most 32768 bytes in length.
+
+client 1 set piece timeout <time value>
+---------------------------------------
+Client 1 shall consider a request for a piece sent to a peer as timed out if this request has not been
+answered within the given amount of time.
+
+client 1 set piece max requests 17
+----------------------------------
+Client 1 shall not send more than 17 requests for a piece concurrently to different peers.
+
+client 1 set concurrent requests 17
+-----------------------------------
+Client 1 shall not send more than 17 requests for different pieces to a single peer.
+
+client 1 connect 17
+-------------------
+Forces the client to connect to at most 17 other peers. The actual number of newly-established connections
+depends on the strategy responsible for peer selection. Note that the "max peers" setting also affects this
+method. You can use the "max" keyword instead of a number to connect to at most the number of peers specified 
+by the "max peers" setting.
+
+client 1 directconnect to 10.0.0.1 port 6881
+--------------------------------------------
+Forces the client to directly connect to a peer with IP address 10.0.0.1 on port 6881. This command is not
+affected by the "max peers" setting.
+
+client 1 disconnect 17
+----------------------
+Client 1 shall disconnect from 17 peers it is directly connected to. Which peers are chosen depends on the
+implementation of the strategy responsible for peer connection handling. You can use the "all" keyword to
+close all connections the client holds at the given moment.
+
+client 1 leave cloud
+--------------------
+Client 1 will issue a leave message to the peer discovery mechanism, close all current connections and
+not accept any incoming connections until the "rejoin cloud" command is given.
+
+client 1 rejoin cloud
+---------------------
+Client 1 will join the overlay cloud, actively search for peers and accept incoming connections again.
+
+
+IIe. "video" Statements
+-----------------------
+These statements relate to the Video-on-Demand simulation capability of the BitTorrentVideoClient class.
+For the sake of simplicity, all clients created by the Story files are automatically of this type and
+whenever a compatible ".torrent" file is used for simulation (see the Doxygen documentation of the Story
+class for details), Video-on-Demand simulation capability is enabled. See the documentation of the
+BitTorrentVideoClient class for further details on the given settings and methods.
+
+
+client 1 set prebuffering <time value>
+--------------------------------------
+Sets the pre-buffering time to the given value.
+
+client 1 set skip [in]active
+----------------------------
+Enables/disables skipping of non-downloaded parts during playback.
+
+client 1 set skip tolerance <time value>
+----------------------------------------
+Sets the tolerance value for skips.
+
+client 1 set skip afterwards <time value>
+-----------------------------------------
+Sets the tolerance value after skips.
+
+client 1 set autoplay [from right] 1
+------------------------------------
+When set to "1", the (Video-on-Demand) enabled client will start playing back the video when
+the client is initialized. When the "from right" statement is added, it will start at the
+rightmost continuously-reachable position. Else, it will start at the beginning.
+
+client 1 video play
+-------------------
+Client 1 will begin playback.
+
+client 1 video pause
+--------------------
+Client 1 will pause playback if no buffering takes place at that moment (if it does, the command
+is ignored). In paused mode, the client will continue to download the video if the piece selection
+strategy is programmed for this situation (which should usually be the case).
+
+client 1 video unpause
+----------------------
+The reverse of the "pause" statement. Playback is only unpaused if no buffering takes place at that
+moment (if it does, the command is ignored). It is safe to call this method for an already unpaused
+client, but calling this method too often in unpaused mode may cause slight deviations in total
+playback time due to the way the playback is implemented.
+
+client 1 video stop
+-------------------
+Client 1 will stop video playback and discontinue downloading parts of the video file. The effects of
+this command can only be reset by a subsequent "video play" command.
+
+client 1 video ff <time value>
+------------------------------
+Perform a fast-forward on the video, i.e., change playback position. If a sign (either "+" or "-") is
+added in front of the time value, a seek relative to the current playback position is performed. If no 
+sign is given, the time value is interpreted as the absolute position (from the beginning of the video).
+
+client 1 video skip left
+------------------------
+This statement causes client 1 to skip past the already-available parts of the video to the point where
+new parts of the video have to be downloaded in order to continue playback, safe for the pre-buffering
+margin set by the "set prebuffering" statement. This command may be necessary for some protocols or
+strategies to work correctly.
+
+client 1 video buffer for <time value>
+--------------------------------------
+Instructs the client to pause playback for the given time and continue thereafter.
+
+client 1 video buffer next <time value>
+---------------------------------------
+Client 1 will pause playback until a section of the video with a length of at least the time value given
+in the argument is available after the current playback position. Note that this means that the client
+does NOT pause playback if the required amount of data is already available.
+
+client 1 video buffer until <time value>
+----------------------------------------
+The client will pause playback as long as the download of the video file has not been completed from the
+beginning up to the point in (video) time indicated by the argument.
+
+
+IIf. "group" Statements
+-----------------------
+The Story file language allows you to apply certain settings or issue certain commands to more than one
+client at a time. For this, it has a notion of "groups" to which commands can be applied all at once.
+For a setting or command to be applied to a group of nodes, you may simply replace the "client <x>"
+identifier by the identifier "clients <x> to <y>" (where <x> and <y> represent the clients in the order
+they were added to the simulation using the "topology add clients" or "topology set node count" commands)
+or by using the special identifier "group <group name>". For the latter, the Story file language features 
+a small subset of set arithmetic functionality, which is explained below.
+
+
+clients 1 to 5 join group first
+-------------------------------
+Clients 1 to 5 shall join group "first". Clients can be members of an arbitrary number of groups.
+To add all clients announced to the simulation setup so far, you may use the "all clients" keyword.
+Also, you can use "clients <x> to max" to exclude only <x> clients from the process.
+Finally, "random <x> clients" can be used to randomly select <x> clients.
+
+clients 2 to 3 leave group first
+--------------------------------
+Clients 2 to 3 shall leave group first again. If one of the clients has not been in that group
+before, no error is thrown. You may also use the "all clients" keyword here.
+
+group first join group second
+-----------------------------
+All members of group "first" shall join group "second" as well.
+
+group first leave group second
+------------------------------
+All members of group "first" shall leave group "second" again. If one of the clients in group "first"
+has not been in that group before, no error is thrown.

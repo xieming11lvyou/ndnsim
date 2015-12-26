@@ -1,0 +1,34 @@
+## -*- Mode: python; py-indent-offset: 4; indent-tabs-mode: nil; coding: utf-8; -*-
+
+def build(bld):
+    obj = bld.create_ns3_module('vanet', ['network', 'propagation', 'core', 'wifi', 'mobility'])
+    obj.source = [
+        'model/controller.cc',
+        'model/highway.cc',
+        'model/lane-change.cc',
+        'model/model.cc',
+        'model/obstacle.cc',
+        'model/vehicle.cc',
+        ]
+
+    obj_test = bld.create_ns3_module_test_library('vanet')
+    obj_test.source = [
+        'test/vanet-temp-test.cc',
+        ] 
+
+    headers = bld (features=['ns3header'])
+    headers.module = 'vanet'
+    headers.source = [
+        'model/controller.h',
+        'model/highway.h',
+        'model/lane-change.h',
+        'model/model.h',
+        'model/obstacle.h',
+        'model/vehicle.h',
+        ]
+
+    if (bld.env['ENABLE_EXAMPLES']):
+        bld.recurse('examples')
+
+   bld.ns3_python_bindings()
+

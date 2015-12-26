@@ -1,0 +1,6 @@
+set term postscript eps color enh                      
+set out 'cdf.eps'
+set xlabel "X"
+set ylabel "Y (%)"
+set yrange [0:100]
+plot 'cdf.dat' using 1:(($0+1)*100/10) title "CDF" with line lt 3

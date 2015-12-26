@@ -1,0 +1,24 @@
+set terminal postscript portrait enhanced lw 2 "Helvetica" 14
+
+set size 2,1
+
+#-------------------------------------------------------
+#set terminal png  xC9C9C7
+#set output "node_100_0.99.png"
+set out "wifi-default_0.95.eps"
+#set title "Percentage over Time"
+set ylabel "Percentage (%)"
+set yrange [0:100]
+set xlabel "Time (s)"
+set xrange [1500:1800]
+set style data lines
+
+plot "node_100_n_4_0.95_21.txt" using 1:2 with lp lt 1 pt 4 lc 1 title "1 Producers",\
+ "node_100_n_4_0.95_41.txt" using 1:2 with lines lt 1 lc 2 title "2 Producer",\
+ "node_100_n_4_0.95_51.txt" using 1:2 with lines lt 1 lc 3 title  "3 Producers",\
+ "node_100_n_4_0.95_61.txt" using 1:2 with lines lt 1 lc 4 title "4 Producers",\
+ "node_100_n_4_0.95_71.txt" using 1:2 with lines lt 1 lc 5 title "5 Producers",\
+ "node_100_n_4_0.95_81.txt" using 1:2 with lines lt 1 lc 6 title "6 Producers",\
+ "node_100_ndn_n_4_0.95_21_0.01.txt" using 1:2 with lines lt 1 lc 7 title "7 Producers",\
+ "node_100_ndn_n_4_0.95_5_0.01.txt" using 1:2 with lines lt 1 lc 8 title "8 Producers",\
+  "nnode_100_ip_n_4_0.95_5_2000.txt" using 1:2 with lines lt 1 lc 9 title "9 Producers"
