@@ -163,7 +163,7 @@ main (int argc, char *argv[])
 
 
 
-////   // Install constant model
+ // Install constant model
 //     MobilityHelper mobility;
 ////     double distance =20.0;
 //     Ptr<ListPositionAllocator> positionAlloc = CreateObject<ListPositionAllocator> ();
