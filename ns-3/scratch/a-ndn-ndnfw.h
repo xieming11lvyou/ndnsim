@@ -25,6 +25,9 @@ public:
                                 Ptr<Interest> interest);
 	void OnData (Ptr<Face> inFace,Ptr<Data> data);
 	// void DoOnData (Ptr<Face> inFace,Ptr<Data> data);
+  void SatisfyPendingInterest (Ptr<Face> inFace,
+                                            Ptr<const Data> data,
+                                            Ptr<pit::Entry> pitEntry);
 
   bool DoPropagateInterest (Ptr<Face> inFace,
                        		  Ptr<const Interest> interest,
@@ -135,7 +138,7 @@ ndnFw::DoOnInterest (Ptr<Face> inFace,
       pitEntry->AddIncoming (inFace/*, Seconds (1.0)*/);
 
       // Do data plane performance measurements
-      WillSatisfyPendingInterest (0, pitEntry);
+   //   WillSatisfyPendingInterest (0, pitEntry);
 
       // Actually satisfy pending interest
       SatisfyPendingInterest (0, contentObject, pitEntry);
@@ -169,7 +172,37 @@ ndnFw::DoOnInterest (Ptr<Face> inFace,
 
 
 
+void
+ndnFw::SatisfyPendingInterest (Ptr<Face> inFace,
+                                            Ptr<const Data> data,
+                                            Ptr<pit::Entry> pitEntry)
+{
+  if (inFace != 0)
+    pitEntry->RemoveIncoming (inFace);
+  //satisfy all pending incoming Interests
+  BOOST_FOREACH (const pit::IncomingFace &incoming, pitEntry->GetIncoming ())
+    {
+      bool ok = incoming.m_face->SendData (data);
 
+      DidSendOutData (inFace, incoming.m_face, data, pitEntry);
+      NS_LOG_DEBUG ("Satisfy " << *incoming.m_face);
+
+      if (!ok)
+        {
+          m_dropData (data, incoming.m_face);
+          NS_LOG_DEBUG ("Cannot satisfy data to " << *incoming.m_face);
+        }
+    }
+
+  // All incoming interests are satisfied. Remove them
+  pitEntry->ClearIncoming ();
+
+  // Remove all outgoing faces
+  pitEntry->ClearOutgoing ();
+
+  // Set pruning timout on PIT entry (instead of deleting the record)
+//  m_pit->MarkErased (pitEntry);
+}
 
 
 void

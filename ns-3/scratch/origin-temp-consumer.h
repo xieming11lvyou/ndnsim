@@ -40,7 +40,7 @@ using namespace std;
 
 namespace ns3 {
 namespace ndn {
-
+uint32_t suijishu(int n);
 /**
  * @ingroup ndn-apps
  * \brief Ndn application for sending out Interest packets in batches
@@ -61,7 +61,7 @@ private:
 
   void
   AddBatch (uint32_t amount);
-
+  void RertransmitPacket();
   // void
   // JudgeFull ();
 protected:
@@ -154,10 +154,9 @@ OriginConsumer::ScheduleNextPacket ()
 }
 
 void
-OriginConsumer::SendPacket ()
+OriginConsumer::RertransmitPacket()
 {
-  seq++;
-  //
+  seq = suijishu(100);;
   Ptr<Name> nameWithSequence = Create<Name> (m_interestName);
   nameWithSequence->appendSeqNum (seq);
   //
@@ -198,7 +197,99 @@ OriginConsumer::SendPacket ()
   m_face->ReceiveInterest (interest);
   t1 = Simulator::Now().GetSeconds();
   cout<<"Send"<<"\t"<<t1<<"\t";
-//  m_reSendEvent = Simulator::Schedule (Seconds(1), &OriginConsumer::ScheduleNextPacket, this);
+  if(!m_reSendEvent.IsRunning())
+  m_reSendEvent = Simulator::Schedule (Seconds(5), &OriginConsumer::ScheduleNextPacket, this);
+}
+
+uint32_t suijishu(int n)
+{
+
+       RngSeedManager::SetSeed(n);
+      double min=0;
+      double max=9;
+      Ptr<UniformRandomVariable>uv=CreateObject<UniformRandomVariable>();
+      uv->SetAttribute("Min",DoubleValue(min));
+      uv->SetAttribute("Max",DoubleValue(max));
+      int a = uv->GetValue();
+      uint32_t b=1;
+      if(a<2)
+      {
+        RngSeedManager::SetSeed(n);
+        double min=201;
+        double max=1000;
+        Ptr<UniformRandomVariable>uv=CreateObject<UniformRandomVariable>();
+        uv->SetAttribute("Min",DoubleValue(min));
+        uv->SetAttribute("Max",DoubleValue(max));
+        b= uv->GetValue();
+    //    std::cout <<b << std::endl;
+
+      }
+      else
+      {
+
+        RngSeedManager::SetSeed(n);
+        double min=1;
+        double max=200;
+        Ptr<UniformRandomVariable>uv=CreateObject<UniformRandomVariable>();
+        uv->SetAttribute("Min",DoubleValue(min));
+        uv->SetAttribute("Max",DoubleValue(max));
+        b= uv->GetValue();
+    //    std::cout <<b << std::endl;
+      }
+
+      return b;
+ }
+
+
+void
+OriginConsumer::SendPacket ()
+{
+
+  int suiji = suijishu(100);
+  seq = suiji;
+
+  Ptr<Name> nameWithSequence = Create<Name> (m_interestName);
+  nameWithSequence->appendSeqNum (seq);
+  //
+
+  Ptr<Interest> interest = Create<Interest> ();
+  interest->SetNonce               (m_rand.GetValue ());
+  interest->SetName                (nameWithSequence);
+  interest->SetInterestLifetime    (m_interestLifeTime);
+
+  // NS_LOG_INFO ("Requesting Interest: \n" << *interest);
+  //cout<<"send a "<<interest<<endl;
+
+  WillSendOutInterest (seq);
+
+  // cout<<"real send ";
+  //nameWithSequence->Print(cout);
+  // cout<<"fubnk!!!!!!!";
+  //scout<<*nameWithSequence<<endl;
+  FwHopCountTag hopCountTag;
+  interest->GetPayload ()->AddPacketTag (hopCountTag);
+
+  HopTag hopTag;
+  hopTag.SetHop(0);
+  hopTag.SetOverHead(0);
+  interest->GetPayload ()->AddPacketTag (hopTag);
+
+  IndexTag indexTag;
+  indexTag.SetIndex(seq);
+//  cout<<"Index"<<indexTag.GetIndex()<<endl;
+  interest->GetPayload ()->AddPacketTag (indexTag);
+
+  SourceTag sourceTag;
+  sourceTag.SetSource(m_node->GetObject<MobilityModel>()->GetPosition().x);
+  interest->GetPayload ()->AddPacketTag (sourceTag);
+
+
+  m_transmittedInterests (interest, this, m_face);
+  m_face->ReceiveInterest (interest);
+  t1 = Simulator::Now().GetSeconds();
+  cout<<"Send"<<"\t"<<t1<<"\t";
+  if(!m_reSendEvent.IsRunning())
+  m_reSendEvent = Simulator::Schedule (Seconds(5), &OriginConsumer::ScheduleNextPacket, this);
 
 }
 
@@ -211,8 +302,10 @@ OriginConsumer::OnData (Ptr<const Data> data)
 
   if (!m_active) return;
 
-//  Simulator::Cancel (m_reSendEvent);
-
+ Simulator::Cancel (m_reSendEvent);
+  IndexTag indexTag;
+  data->GetPayload ()->PeekPacketTag (indexTag);
+  int receiveIndex = indexTag.GetIndex();
 //-----------------------
   t2 = Simulator::Now().GetSeconds();
   cout<<"Receive"<<"\t"<<t2<<"\t"<<"delay"<<"\t"<<(t2-t1)<<"\t";
@@ -222,13 +315,13 @@ OriginConsumer::OnData (Ptr<const Data> data)
   data->GetPayload ()->PeekPacketTag (hopCountTag);
   HopTag hopTag;
   data->GetPayload ()->PeekPacketTag (hopTag);
-  cout<<"OverHead"<<"\t"<<hopTag.GetOverHead()<<"\t";
-  cout<<"Hop"<<"\t"<<hopCountTag.Get()<<"\t"<<"total"<<"\t"<<hopTag.GetHop()<<"\t";
+  cout<<"OverHead"<<"\t";
+  cout<<"Hop"<<"\t"<<hopCountTag.Get()<<"\t";
 
 //  m_node->GetObject<ns3::ndn::MyNetDeviceFace>()->totalInterestNum = 0;
-  if(hopCountTag.Get()<hopTag.GetHop())
-    cout<<"Retransmit"<<"\t"<<(hopTag.GetHop()-hopCountTag.Get());
-  cout<<endl;
+  // if(hopCountTag.Get()<hopTag.GetHop())
+  //   cout<<"Retransmit"<<"\t"<<(hopTag.GetHop()-hopCountTag.Get());
+   cout<<endl;
 
 
 
@@ -242,8 +335,8 @@ if(m_numData<1000)
   ScheduleNextPacket ();
   //Simulator::Schedule (Seconds(1), &OriginConsumer::ScheduleNextPacket, this);
   }
-else
-  Simulator::Destroy();
+// else
+//   Simulator::Destroy();
 
 
 

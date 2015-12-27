@@ -64,8 +64,8 @@ MyNetDeviceFaceCallback (Ptr<Node> node, Ptr<ndn::L3Protocol> ndn, Ptr<NetDevice
 int
 main (int argc, char *argv[])
 {
-  double T=100;
-  nodeNumber = 10;
+  double T=5;
+  nodeNumber = 20;
 
   // disable fragmentation
   // Config::SetDefault ("ns3::WifiRemoteStationManager::FragmentationThreshold", StringValue ("2200"));
@@ -177,7 +177,7 @@ main (int argc, char *argv[])
   ndn::StackHelper ndnHelper;
   ndnHelper.AddNetDeviceFaceCreateCallback (WifiNetDevice::GetTypeId (), MakeCallback (MyNetDeviceFaceCallback));
   ndnHelper.SetForwardingStrategy ("ns3::ndn::fw::ndnFw","ID",a);
-  ndnHelper.SetContentStore ("ns3::ndn::cs::Lru", "MaxSize", "1000");
+  ndnHelper.SetContentStore ("ns3::ndn::cs::Lru", "MaxSize", "50");
   ndnHelper.SetDefaultRoutes (true);
   ndnHelper.Install (nodes);
 
