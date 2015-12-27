@@ -130,10 +130,23 @@ MyNetDeviceFace::Send (Ptr<Packet> packet)
 
 
 //INCREASE   FwHopTag
+   //   FwHopCountTag hopCountTag;
+
+   //   if (this->GetNode()->GetId() ==13) {
+   //         packet->PeekPacketTag (hopCountTag);
+   //   cout<<"Node--"<<this->GetNode()->GetId()<<"Send data hop--";
+   //   hopCountTag.Print(cout);
+   // }
+
   if (!Face::Send (packet))
     {
       return false;
     }
+   //   if (this->GetNode()->GetId() ==13) {
+   //         packet->PeekPacketTag (hopCountTag);
+   //   cout<<"Node--"<<this->GetNode()->GetId()<<"Send data hop--";
+   //   hopCountTag.Print(cout);
+   // }
 
   
   //NS_LOG_FUNCTION (this << packet);
@@ -376,10 +389,14 @@ MyNetDeviceFace::ReceiveFromNetDevice (Ptr<NetDevice> device,
                            NetDevice::PacketType packetType)
 { 
 
+
+
+
   double distance;
   //p ->PeekPacketTag
   //cout<<endl;
   //cout<<"fuck"<<endl;
+  //
   Ptr<Packet> packet = p->Copy();
   Ptr<Node> node = this->GetNode();
   uint32_t i = node->GetId();

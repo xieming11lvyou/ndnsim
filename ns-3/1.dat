@@ -93,908 +93,893 @@ Receive	27.055	delay	0.0878374	Index	92	OverHead	Hop	0
 Send	27.055	Send	27.055	Receive	27.1424	delay	0.0873921	Index	93	OverHead	Hop	16	
 Send	27.1424	Receive	27.2664	delay	0.123949	Index	94	OverHead	Hop	17	
 Receive	27.2664	delay	0.123949	Index	95	OverHead	Hop	0	
-Send	27.2664	Send	27.2664	Receive	27.4169	delay	0.15051	Index	96	OverHead	Hop	9	
-Send	27.4169	Receive	27.609	delay	0.192118	Index	97	OverHead	Hop	18	
-Send	27.609	Receive	27.8027	delay	0.193706	Index	98	OverHead	Hop	18	
-Send	27.8027	Receive	27.998	delay	0.19528	Index	99	OverHead	Hop	18	
-Send	27.998	Receive	28.1948	delay	0.196805	Index	100	OverHead	Hop	18	
-Receive	28.1948	delay	0.196805	Index	101	OverHead	Hop	0	
-Send	28.1948	Send	28.1948	Receive	28.3931	delay	0.198341	Index	102	OverHead	Hop	18	
-Send	28.3931	Receive	28.593	delay	0.199887	Index	103	OverHead	Hop	18	
-Send	28.593	Receive	28.7944	delay	0.201423	Index	104	OverHead	Hop	18	
-Send	28.7944	Receive	29.0595	delay	0.265071	Index	105	OverHead	Hop	20	
-Send	29.0595	Receive	29.323	delay	0.263535	Index	106	OverHead	Hop	20	
-Send	29.323	Receive	29.5851	delay	0.262017	Index	107	OverHead	Hop	20	
-Send	29.5851	Receive	29.8458	delay	0.260699	Index	108	OverHead	Hop	20	
-Receive	29.8458	delay	0.260699	Index	109	OverHead	Hop	0	
-Send	29.8458	Send	29.8458	Receive	30.0187	delay	0.172963	Index	110	OverHead	Hop	13	
-Send	30.0187	Receive	31.2843	delay	1.26556	Index	111	OverHead	Hop	20	
-Send	31.2843	Receive	31.4049	delay	0.120596	Index	112	OverHead	Hop	10	
-Send	31.4049	Receive	31.6834	delay	0.278559	Index	113	OverHead	Hop	20	
-Send	31.6834	Receive	31.9055	delay	0.222056	Index	114	OverHead	Hop	18	
-Send	31.9055	Receive	32.1268	delay	0.221287	Index	115	OverHead	Hop	18	
-Send	32.1268	Receive	32.247	delay	0.1202	Index	116	OverHead	Hop	12	
-Send	32.247	Receive	32.4305	delay	0.18355	Index	117	OverHead	Hop	18	
-Send	32.4305	Receive	32.6009	delay	0.170326	Index	118	OverHead	Hop	18	
-Send	32.6009	Receive	32.7725	delay	0.171637	Index	119	OverHead	Hop	18	
-Send	32.7725	Receive	32.8627	delay	0.0902412	Index	120	OverHead	Hop	10	
-Send	32.8627	Receive	33.0364	delay	0.173653	Index	121	OverHead	Hop	18	
-Send	33.0364	Receive	33.1298	delay	0.0933932	Index	122	OverHead	Hop	10	
-Send	33.1298	Receive	33.3059	delay	0.176157	Index	123	OverHead	Hop	18	
-Send	33.3059	Receive	33.4198	delay	0.113845	Index	124	OverHead	Hop	9	
-Send	33.4198	Receive	33.5982	delay	0.178421	Index	125	OverHead	Hop	18	
-Send	33.5982	Receive	33.728	delay	0.129783	Index	126	OverHead	Hop	17	
-Send	33.728	Receive	33.7892	delay	0.061245	Index	127	OverHead	Hop	8	
-Send	33.7892	Receive	33.8978	delay	0.108612	Index	128	OverHead	Hop	16	
-Send	33.8978	Receive	34.0059	delay	0.108106	Index	129	OverHead	Hop	16	
-Send	34.0059	Receive	34.1136	delay	0.107665	Index	130	OverHead	Hop	16	
-Send	34.1136	Receive	34.2209	delay	0.107284	Index	131	OverHead	Hop	16	
-Send	34.2209	Receive	34.3267	delay	0.105783	Index	132	OverHead	Hop	16	
-Send	34.3267	Receive	34.4807	delay	0.153996	Index	133	OverHead	Hop	17	
-Send	34.4807	Receive	34.5835	delay	0.10281	Index	134	OverHead	Hop	16	
-Send	34.5835	Receive	34.636	delay	0.0524813	Index	135	OverHead	Hop	8	
-Send	34.636	Receive	34.7369	delay	0.100904	Index	136	OverHead	Hop	16	
-Send	34.7369	Receive	34.8582	delay	0.121319	Index	137	OverHead	Hop	16	
-Send	34.8582	Receive	34.979	delay	0.120853	Index	138	OverHead	Hop	16	
-Send	34.979	Receive	35.0995	delay	0.120408	Index	139	OverHead	Hop	16	
-Send	35.0995	Receive	35.2194	delay	0.119974	Index	140	OverHead	Hop	16	
-Send	35.2194	Receive	35.3629	delay	0.143424	Index	141	OverHead	Hop	17	
-Send	35.3629	Receive	35.554	delay	0.19116	Index	142	OverHead	Hop	18	
-Receive	35.554	delay	0.19116	Index	143	OverHead	Hop	0	
-Send	35.554	Send	35.554	Receive	35.7381	delay	0.184102	Index	144	OverHead	Hop	18	
-Send	35.7381	Receive	35.922	delay	0.183877	Index	145	OverHead	Hop	18	
-Send	35.922	Receive	36.1058	delay	0.183785	Index	146	OverHead	Hop	18	
-Send	36.1058	Receive	36.2879	delay	0.182093	Index	147	OverHead	Hop	18	
-Send	36.2879	Receive	36.4676	delay	0.179768	Index	148	OverHead	Hop	18	
-Send	36.4676	Receive	36.6951	delay	0.227481	Index	149	OverHead	Hop	19	
-Send	36.6951	Receive	36.8704	delay	0.175317	Index	150	OverHead	Hop	18	
-Send	36.8704	Receive	37.0547	delay	0.184273	Index	151	OverHead	Hop	18	
-Send	37.0547	Receive	37.2389	delay	0.184189	Index	152	OverHead	Hop	18	
-Send	37.2389	Receive	37.423	delay	0.184103	Index	153	OverHead	Hop	18	
-Send	37.423	Receive	37.607	delay	0.184016	Index	154	OverHead	Hop	18	
-Send	37.607	Receive	37.8204	delay	0.21339	Index	155	OverHead	Hop	19	
-Send	37.8204	Receive	37.9771	delay	0.156733	Index	156	OverHead	Hop	13	
-Send	37.9771	Receive	38.169	delay	0.19187	Index	157	OverHead	Hop	18	
-Send	38.169	Receive	38.3602	delay	0.191183	Index	158	OverHead	Hop	18	
-Send	38.3602	Receive	38.5503	delay	0.190074	Index	159	OverHead	Hop	18	
-Receive	38.5503	delay	0.190074	Index	160	OverHead	Hop	0	
-Send	38.5503	Send	38.5503	Receive	38.6993	delay	0.149081	Index	161	OverHead	Hop	12	
-Send	38.6993	Receive	38.8381	delay	0.138745	Index	162	OverHead	Hop	17	
-Send	38.8381	Receive	39.1173	delay	0.279253	Index	163	OverHead	Hop	20	
-Send	39.1173	Receive	39.3954	delay	0.278033	Index	164	OverHead	Hop	20	
-Send	39.3954	Receive	39.6812	delay	0.285784	Index	165	OverHead	Hop	20	
-Receive	39.6812	delay	0.285784	Index	166	OverHead	Hop	0	
-Receive	39.6812	delay	0.285784	Index	167	OverHead	Hop	0	
-Send	39.6812	Send	39.6812	Send	39.6812	Send	44.6812	Receive	44.6841	delay	0.00291612	Index	168	OverHead	Hop	2	
-Send	44.6841	Receive	44.7975	delay	0.113389	Index	169	OverHead	Hop	16	
-Send	44.7975	Receive	44.9109	delay	0.113466	Index	170	OverHead	Hop	16	
-Send	44.9109	Receive	45.0898	delay	0.178912	Index	171	OverHead	Hop	12	
-Send	45.0898	Receive	45.2035	delay	0.113674	Index	172	OverHead	Hop	16	
-Send	45.2035	Receive	45.3164	delay	0.11287	Index	173	OverHead	Hop	16	
-Send	45.3164	Receive	45.4778	delay	0.16141	Index	174	OverHead	Hop	17	
-Send	45.4778	Receive	45.6869	delay	0.209067	Index	175	OverHead	Hop	18	
-Send	45.6869	Receive	45.8933	delay	0.206474	Index	176	OverHead	Hop	18	
-Send	45.8933	Receive	46.0938	delay	0.200471	Index	177	OverHead	Hop	18	
-Send	46.0938	Receive	46.0947	delay	0.000846933	Index	178	OverHead	Hop	2	
-Send	46.0947	Receive	46.295	delay	0.200311	Index	179	OverHead	Hop	18	
-Send	46.295	Receive	46.494	delay	0.198985	Index	180	OverHead	Hop	18	
-Send	46.494	Receive	46.6906	delay	0.196695	Index	181	OverHead	Hop	18	
-Receive	46.6906	delay	0.196695	Index	182	OverHead	Hop	0	
-Send	46.6906	Send	46.6906	Receive	46.8835	delay	0.192855	Index	183	OverHead	Hop	18	
-Receive	46.8835	delay	0.192855	Index	184	OverHead	Hop	0	
-Receive	46.8835	delay	0.192855	Index	185	OverHead	Hop	0	
-Send	46.8835	Send	46.8835	Send	46.8835	Receive	47.0758	delay	0.192325	Index	186	OverHead	Hop	18	
-Receive	47.0758	delay	0.192325	Index	187	OverHead	Hop	0	
-Send	47.0758	Send	47.0758	Receive	47.3149	delay	0.239078	Index	188	OverHead	Hop	19	
-Send	47.3149	Receive	47.502	delay	0.187059	Index	189	OverHead	Hop	18	
-Send	47.502	Receive	47.6866	delay	0.184665	Index	190	OverHead	Hop	18	
-Send	47.6866	Receive	47.869	delay	0.182386	Index	191	OverHead	Hop	18	
-Receive	47.869	delay	0.182386	Index	192	OverHead	Hop	0	
-Send	47.869	Send	47.869	Receive	48.049	delay	0.179985	Index	193	OverHead	Hop	18	
-Send	48.049	Receive	48.1771	delay	0.128136	Index	194	OverHead	Hop	17	
-Send	48.1771	Receive	48.2333	delay	0.0562098	Index	195	OverHead	Hop	6	
-Send	48.2333	Receive	48.4087	delay	0.175392	Index	196	OverHead	Hop	18	
-Send	48.4087	Receive	48.5819	delay	0.173165	Index	197	OverHead	Hop	18	
-Receive	48.5819	delay	0.173165	Index	198	OverHead	Hop	0	
-Send	48.5819	Send	48.5819	Receive	48.794	delay	0.212144	Index	199	OverHead	Hop	19	
-Send	48.794	Receive	49.0118	delay	0.217766	Index	200	OverHead	Hop	19	
-Send	49.0118	Receive	49.2766	delay	0.264822	Index	201	OverHead	Hop	20	
-Receive	49.2766	delay	0.264822	Index	202	OverHead	Hop	0	
-Send	49.2766	Send	49.2766	Receive	49.5381	delay	0.261417	Index	203	OverHead	Hop	20	
-Send	49.5381	Receive	53.1801	delay	3.64204	Index	204	OverHead	Hop	21	
-Send	53.1801	Receive	53.3246	delay	0.144469	Index	205	OverHead	Hop	10	
-Receive	53.3246	delay	0.144469	Index	206	OverHead	Hop	0	
-Receive	53.3246	delay	0.144469	Index	207	OverHead	Hop	0	
-Send	53.3246	Send	53.3246	Send	53.3246	Receive	53.5759	delay	0.251339	Index	208	OverHead	Hop	20	
-Send	53.5759	Receive	53.8304	delay	0.254523	Index	209	OverHead	Hop	20	
-Receive	53.8304	delay	0.254523	Index	210	OverHead	Hop	0	
-Send	53.8304	Send	53.8304	Receive	54.0687	delay	0.238227	Index	211	OverHead	Hop	19	
-Send	54.0687	Receive	54.2644	delay	0.195705	Index	212	OverHead	Hop	18	
-Send	54.2644	Receive	54.4602	delay	0.19588	Index	213	OverHead	Hop	18	
-Send	54.4602	Receive	54.6489	delay	0.188682	Index	214	OverHead	Hop	18	
-Send	54.6489	Receive	54.9219	delay	0.273012	Index	215	OverHead	Hop	19	
-Send	54.9219	Receive	55.1348	delay	0.212886	Index	216	OverHead	Hop	18	
-Send	55.1348	Receive	55.3523	delay	0.217526	Index	217	OverHead	Hop	18	
-Send	55.3523	Receive	55.5674	delay	0.215011	Index	218	OverHead	Hop	18	
-Send	55.5674	Receive	55.7799	delay	0.212567	Index	219	OverHead	Hop	18	
-Send	55.7799	Receive	55.9901	delay	0.21014	Index	220	OverHead	Hop	18	
-Send	55.9901	Receive	56.1881	delay	0.198029	Index	221	OverHead	Hop	18	
-Send	56.1881	Receive	56.3358	delay	0.147724	Index	222	OverHead	Hop	17	
-Receive	56.3358	delay	0.147724	Index	223	OverHead	Hop	0	
-Receive	56.3358	delay	0.147724	Index	224	OverHead	Hop	0	
-Send	56.3358	Send	56.3358	Send	56.3358	Receive	56.4307	delay	0.0949219	Index	225	OverHead	Hop	16	
-Send	56.4307	Receive	56.5268	delay	0.0960804	Index	226	OverHead	Hop	16	
-Send	56.5268	Receive	56.6241	delay	0.0972529	Index	227	OverHead	Hop	16	
-Send	56.6241	Receive	56.7723	delay	0.148194	Index	228	OverHead	Hop	17	
-Send	56.7723	Receive	56.9206	delay	0.148351	Index	229	OverHead	Hop	17	
-Send	56.9206	Receive	57.1173	delay	0.196683	Index	230	OverHead	Hop	18	
-Send	57.1173	Receive	57.3164	delay	0.199118	Index	231	OverHead	Hop	18	
-Send	57.3164	Receive	57.5157	delay	0.199254	Index	232	OverHead	Hop	18	
-Send	57.5157	Receive	57.5264	delay	0.0107392	Index	233	OverHead	Hop	2	
-Send	57.5264	Receive	57.7258	delay	0.199397	Index	234	OverHead	Hop	18	
-Send	57.7258	Receive	57.9179	delay	0.192079	Index	235	OverHead	Hop	18	
-Send	57.9179	Receive	58.1101	delay	0.192181	Index	236	OverHead	Hop	18	
-Send	58.1101	Receive	58.1471	delay	0.0369901	Index	237	OverHead	Hop	6	
-Send	58.1471	Receive	58.3394	delay	0.192328	Index	238	OverHead	Hop	18	
-Send	58.3394	Receive	58.5319	delay	0.192471	Index	239	OverHead	Hop	18	
-Send	58.5319	Receive	58.6241	delay	0.0922749	Index	240	OverHead	Hop	16	
-Send	58.6241	Receive	58.7165	delay	0.0923257	Index	241	OverHead	Hop	16	
-Send	58.7165	Receive	58.8088	delay	0.0923123	Index	242	OverHead	Hop	16	
-Send	58.8088	Receive	58.9012	delay	0.0924596	Index	243	OverHead	Hop	16	
-Send	58.9012	Receive	58.9938	delay	0.0925771	Index	244	OverHead	Hop	16	
-Receive	58.9938	delay	0.0925771	Index	245	OverHead	Hop	0	
-Receive	58.9938	delay	0.0925771	Index	246	OverHead	Hop	0	
-Send	58.9938	Send	58.9938	Send	58.9938	Receive	59.0941	delay	0.100314	Index	247	OverHead	Hop	16	
-Send	59.0941	Receive	59.2147	delay	0.120567	Index	248	OverHead	Hop	17	
-Send	59.2147	Receive	59.3832	delay	0.168524	Index	249	OverHead	Hop	18	
-Send	59.3832	Receive	59.5498	delay	0.16657	Index	250	OverHead	Hop	18	
-Send	59.5498	Receive	59.7142	delay	0.164405	Index	251	OverHead	Hop	18	
-Send	59.7142	Receive	59.8766	delay	0.162429	Index	252	OverHead	Hop	18	
-Receive	59.8766	delay	0.162429	Index	253	OverHead	Hop	0	
-Send	59.8766	Send	59.8766	Receive	60.0369	delay	0.160332	Index	254	OverHead	Hop	18	
-Send	60.0369	Receive	60.0721	delay	0.0352014	Index	255	OverHead	Hop	2	
-Send	60.0721	Receive	60.2798	delay	0.207623	Index	256	OverHead	Hop	19	
-Receive	60.2798	delay	0.207623	Index	257	OverHead	Hop	0	
-Send	60.2798	Send	60.2798	Receive	60.4848	delay	0.204999	Index	258	OverHead	Hop	19	
-Send	60.4848	Receive	63.2868	delay	2.80199	Index	259	OverHead	Hop	21	
-Send	63.2868	Receive	63.472	delay	0.185266	Index	260	OverHead	Hop	18	
-Send	63.472	Receive	63.6574	delay	0.185364	Index	261	OverHead	Hop	18	
-Send	63.6574	Receive	63.8428	delay	0.185391	Index	262	OverHead	Hop	18	
-Send	63.8428	Receive	68.0105	delay	4.16773	Index	263	OverHead	Hop	13	
-Send	68.0105	Receive	68.2162	delay	0.205701	Index	264	OverHead	Hop	18	
-Send	68.2162	Receive	72.8788	delay	4.66263	Index	265	OverHead	Hop	4	
-Send	72.8788	Receive	73.0637	delay	0.184814	Index	266	OverHead	Hop	18	
-Send	73.0637	Receive	73.3496	delay	0.285989	Index	267	OverHead	Hop	20	
-Receive	73.3496	delay	0.285989	Index	268	OverHead	Hop	0	
-Send	73.3496	Send	73.3496	Receive	73.3895	delay	0.0398623	Index	269	OverHead	Hop	2	
-Send	73.3895	Receive	73.9867	delay	0.5972	Index	270	OverHead	Hop	3	
-Send	73.9867	Receive	74.1201	delay	0.133363	Index	271	OverHead	Hop	12	
-Receive	74.1201	delay	0.133363	Index	272	OverHead	Hop	0	
-Send	74.1201	Send	74.1201	Receive	74.2866	delay	0.166485	Index	273	OverHead	Hop	17	
-Send	74.2866	Receive	74.4515	delay	0.164975	Index	274	OverHead	Hop	17	
-Send	74.4515	Receive	74.6638	delay	0.21231	Index	275	OverHead	Hop	18	
-Send	74.6638	Receive	74.8291	delay	0.165262	Index	276	OverHead	Hop	12	
-Send	74.8291	Receive	75.03	delay	0.2009	Index	277	OverHead	Hop	18	
-Send	75.03	Receive	77.4943	delay	2.46428	Index	278	OverHead	Hop	5	
-Send	77.4943	Receive	77.6838	delay	0.189556	Index	279	OverHead	Hop	18	
-Send	77.6838	Receive	77.874	delay	0.190162	Index	280	OverHead	Hop	18	
-Send	77.874	Receive	78.0642	delay	0.19023	Index	281	OverHead	Hop	18	
-Send	78.0642	Receive	78.073	delay	0.00877632	Index	282	OverHead	Hop	2	
-Send	78.073	Receive	78.2633	delay	0.190293	Index	283	OverHead	Hop	18	
-Send	78.2633	Receive	78.4539	delay	0.19057	Index	284	OverHead	Hop	18	
-Receive	78.4539	delay	0.19057	Index	285	OverHead	Hop	0	
-Send	78.4539	Send	78.4539	Receive	78.6446	delay	0.190747	Index	286	OverHead	Hop	18	
-Send	78.6446	Receive	78.8356	delay	0.191023	Index	287	OverHead	Hop	18	
-Send	78.8356	Receive	79.0269	delay	0.191273	Index	288	OverHead	Hop	18	
-Receive	79.0269	delay	0.191273	Index	289	OverHead	Hop	0	
-Send	79.0269	Send	79.0269	Receive	79.2182	delay	0.191238	Index	290	OverHead	Hop	18	
-Send	79.2182	Receive	79.2194	delay	0.00121568	Index	291	OverHead	Hop	2	
-Send	79.2194	Receive	79.4243	delay	0.204922	Index	292	OverHead	Hop	19	
-Send	79.4243	Receive	79.6758	delay	0.251507	Index	293	OverHead	Hop	20	
-Send	79.6758	Receive	79.9242	delay	0.248403	Index	294	OverHead	Hop	20	
-Receive	79.9242	delay	0.248403	Index	295	OverHead	Hop	0	
-Send	79.9242	Send	79.9242	Receive	80.1696	delay	0.245409	Index	296	OverHead	Hop	20	
-Receive	80.1696	delay	0.245409	Index	297	OverHead	Hop	0	
-Send	80.1696	Send	80.1696	Receive	80.211	delay	0.0414164	Index	298	OverHead	Hop	2	
-Send	80.211	Receive	80.3966	delay	0.185538	Index	299	OverHead	Hop	18	
-Send	80.3966	Receive	81.5814	delay	1.18488	Index	300	OverHead	Hop	19	
-Send	81.5814	Receive	83.1858	delay	1.6044	Index	301	OverHead	Hop	19	
-Receive	83.1858	delay	1.6044	Index	302	OverHead	Hop	0	
-Send	83.1858	Send	83.1858	Receive	83.3302	delay	0.144325	Index	303	OverHead	Hop	10	
-Send	83.3302	Receive	83.5319	delay	0.201783	Index	304	OverHead	Hop	18	
-Send	83.5319	Receive	83.712	delay	0.180052	Index	305	OverHead	Hop	16	
-Send	83.712	Receive	83.8585	delay	0.146524	Index	306	OverHead	Hop	17	
-Send	83.8585	Receive	83.9268	delay	0.0682266	Index	307	OverHead	Hop	12	
-Send	83.9268	Receive	84.0704	delay	0.143599	Index	308	OverHead	Hop	17	
-Send	84.0704	Receive	84.2615	delay	0.191179	Index	309	OverHead	Hop	18	
-Send	84.2615	Receive	84.4894	delay	0.227907	Index	310	OverHead	Hop	19	
-Send	84.4894	Receive	84.7676	delay	0.278126	Index	311	OverHead	Hop	20	
-Send	84.7676	Receive	85.0443	delay	0.276762	Index	312	OverHead	Hop	20	
-Receive	85.0443	delay	0.276762	Index	313	OverHead	Hop	0	
-Send	85.0443	Send	85.0443	Receive	85.1147	delay	0.0703323	Index	314	OverHead	Hop	4	
-Send	85.1147	Receive	85.3905	delay	0.275794	Index	315	OverHead	Hop	20	
-Send	85.3905	Receive	85.6389	delay	0.248451	Index	316	OverHead	Hop	19	
-Send	85.6389	Receive	85.64	delay	0.00106729	Index	317	OverHead	Hop	2	
-Send	85.64	Receive	85.7561	delay	0.116097	Index	318	OverHead	Hop	7	
-Send	85.7561	Receive	85.9018	delay	0.145773	Index	319	OverHead	Hop	12	
-Send	85.9018	Send	90.9018	Receive	91.1826	delay	0.280718	Index	320	OverHead	Hop	20	
-Send	91.1826	Receive	91.3988	delay	0.216224	Index	321	OverHead	Hop	11	
-Send	91.3988	Receive	93.3482	delay	1.94941	Index	322	OverHead	Hop	20	
-Send	93.3482	Receive	93.5475	delay	0.199311	Index	323	OverHead	Hop	18	
-Send	93.5475	Receive	93.5532	delay	0.00567346	Index	324	OverHead	Hop	2	
-Receive	93.5532	delay	0.00567346	Index	325	OverHead	Hop	0	
-Send	93.5532	Send	93.5532	Receive	93.877	delay	0.323859	Index	326	OverHead	Hop	14	
-Send	93.877	Receive	94.0691	delay	0.192111	Index	327	OverHead	Hop	18	
-Send	94.0691	Receive	94.2584	delay	0.189263	Index	328	OverHead	Hop	18	
-Send	94.2584	Receive	94.4689	delay	0.210517	Index	329	OverHead	Hop	19	
-Send	94.4689	Receive	94.4825	delay	0.0136029	Index	330	OverHead	Hop	2	
-Send	94.4825	Receive	94.4962	delay	0.0137113	Index	331	OverHead	Hop	2	
-Send	94.4962	Receive	94.5816	delay	0.085407	Index	332	OverHead	Hop	6	
-Send	94.5816	Receive	94.5962	delay	0.0145088	Index	333	OverHead	Hop	2	
-Send	94.5962	Receive	94.6108	delay	0.0146163	Index	334	OverHead	Hop	2	
-Send	94.6108	Receive	94.6255	delay	0.0147327	Index	335	OverHead	Hop	2	
-Send	94.6255	Receive	94.8861	delay	0.260601	Index	336	OverHead	Hop	20	
-Send	94.8861	Receive	95.1474	delay	0.26128	Index	337	OverHead	Hop	20	
-Send	95.1474	Receive	95.4085	delay	0.261098	Index	338	OverHead	Hop	20	
-Send	95.4085	Receive	95.6473	delay	0.238768	Index	339	OverHead	Hop	19	
-Send	95.6473	Receive	95.8381	delay	0.190866	Index	340	OverHead	Hop	18	
-Receive	95.8381	delay	0.190866	Index	341	OverHead	Hop	0	
-Send	95.8381	Send	95.8381	Receive	96.0991	delay	0.261018	Index	342	OverHead	Hop	20	
-Send	96.0991	Receive	98.8459	delay	2.74671	Index	343	OverHead	Hop	19	
-Send	98.8459	Receive	103.274	delay	4.42841	Index	344	OverHead	Hop	7	
-Receive	103.274	delay	4.42841	Index	345	OverHead	Hop	0	
-Send	103.274	Send	103.274	Receive	103.463	delay	0.188714	Index	346	OverHead	Hop	18	
-Receive	103.463	delay	0.188714	Index	347	OverHead	Hop	0	
-Send	103.463	Send	103.463	Receive	103.474	delay	0.0112361	Index	348	OverHead	Hop	2	
-Send	103.474	Receive	103.663	delay	0.189089	Index	349	OverHead	Hop	18	
-Send	103.663	Receive	103.853	delay	0.189515	Index	350	OverHead	Hop	18	
-Send	103.853	Receive	103.918	delay	0.0647268	Index	351	OverHead	Hop	6	
-Send	103.918	Receive	104.108	delay	0.190089	Index	352	OverHead	Hop	18	
-Send	104.108	Receive	104.298	delay	0.190295	Index	353	OverHead	Hop	18	
-Send	104.298	Receive	104.585	delay	0.287018	Index	354	OverHead	Hop	20	
-Send	104.585	Receive	104.838	delay	0.25348	Index	355	OverHead	Hop	20	
-Send	104.838	Receive	104.966	delay	0.12743	Index	356	OverHead	Hop	9	
-Send	104.966	Receive	105.219	delay	0.253255	Index	357	OverHead	Hop	20	
-Send	105.219	Receive	105.472	delay	0.253034	Index	358	OverHead	Hop	20	
-Send	105.472	Receive	105.63	delay	0.157935	Index	359	OverHead	Hop	11	
-Send	105.63	Receive	105.883	delay	0.253266	Index	360	OverHead	Hop	20	
-Send	105.883	Receive	106.108	delay	0.224368	Index	361	OverHead	Hop	19	
-Send	106.108	Receive	106.155	delay	0.0475741	Index	362	OverHead	Hop	4	
-Send	106.155	Receive	108.953	delay	2.79746	Index	363	OverHead	Hop	22	
-Send	108.953	Receive	109.021	delay	0.0685506	Index	364	OverHead	Hop	6	
-Send	109.021	Receive	109.225	delay	0.204101	Index	365	OverHead	Hop	18	
-Send	109.225	Receive	110.273	delay	1.04783	Index	366	OverHead	Hop	7	
-Receive	110.273	delay	1.04783	Index	367	OverHead	Hop	0	
-Send	110.273	Send	110.273	Receive	110.315	delay	0.0421793	Index	368	OverHead	Hop	6	
-Send	110.315	Receive	110.454	delay	0.138306	Index	369	OverHead	Hop	17	
-Send	110.454	Receive	113.844	delay	3.3905	Index	370	OverHead	Hop	22	
-Send	113.844	Receive	114.054	delay	0.209401	Index	371	OverHead	Hop	18	
-Send	114.054	Receive	114.265	delay	0.211113	Index	372	OverHead	Hop	18	
-Send	114.265	Receive	114.476	delay	0.210869	Index	373	OverHead	Hop	18	
-Send	114.476	Receive	114.686	delay	0.210392	Index	374	OverHead	Hop	18	
-Send	114.686	Receive	114.95	delay	0.264094	Index	375	OverHead	Hop	20	
-Send	114.95	Receive	117.675	delay	2.72444	Index	376	OverHead	Hop	21	
-Send	117.675	Receive	117.866	delay	0.191834	Index	377	OverHead	Hop	18	
-Send	117.866	Receive	118.157	delay	0.29067	Index	378	OverHead	Hop	20	
-Send	118.157	Receive	118.198	delay	0.0413729	Index	379	OverHead	Hop	4	
-Receive	118.198	delay	0.0413729	Index	380	OverHead	Hop	0	
-Receive	118.198	delay	0.0413729	Index	381	OverHead	Hop	0	
-Send	118.198	Send	118.198	Send	118.198	Receive	118.484	delay	0.286065	Index	382	OverHead	Hop	20	
-Send	118.484	Receive	118.767	delay	0.282882	Index	383	OverHead	Hop	20	
-Send	118.767	Receive	119.055	delay	0.287579	Index	384	OverHead	Hop	20	
-Send	119.055	Receive	119.245	delay	0.190513	Index	385	OverHead	Hop	12	
-Send	119.245	Receive	119.257	delay	0.0117381	Index	386	OverHead	Hop	2	
-Send	119.257	Receive	119.442	delay	0.184497	Index	387	OverHead	Hop	18	
-Send	119.442	Receive	119.679	delay	0.237761	Index	388	OverHead	Hop	19	
-Receive	119.679	delay	0.237761	Index	389	OverHead	Hop	0	
-Send	119.679	Send	119.679	Receive	119.87	delay	0.190339	Index	390	OverHead	Hop	18	
-Send	119.87	Receive	119.946	delay	0.0760154	Index	391	OverHead	Hop	5	
-Send	119.946	Receive	122.422	delay	2.47577	Index	392	OverHead	Hop	11	
-Send	122.422	Receive	122.536	delay	0.114106	Index	393	OverHead	Hop	5	
-Send	122.536	Receive	122.837	delay	0.300902	Index	394	OverHead	Hop	20	
-Send	122.837	Receive	122.948	delay	0.111927	Index	395	OverHead	Hop	5	
-Send	122.948	Receive	123.249	delay	0.300387	Index	396	OverHead	Hop	20	
-Send	123.249	Receive	123.549	delay	0.299896	Index	397	OverHead	Hop	20	
-Send	123.549	Receive	124.881	delay	1.332	Index	398	OverHead	Hop	20	
-Send	124.881	Receive	125.053	delay	0.17271	Index	399	OverHead	Hop	13	
-Send	125.053	Receive	125.229	delay	0.175181	Index	400	OverHead	Hop	18	
-Send	125.229	Receive	125.49	delay	0.26138	Index	401	OverHead	Hop	20	
-Send	125.49	Receive	125.751	delay	0.261099	Index	402	OverHead	Hop	20	
-Send	125.751	Receive	126.028	delay	0.276599	Index	403	OverHead	Hop	20	
-Send	126.028	Receive	126.076	delay	0.0486953	Index	404	OverHead	Hop	4	
-Receive	126.076	delay	0.0486953	Index	405	OverHead	Hop	0	
-Send	126.076	Send	126.076	Receive	126.305	delay	0.228493	Index	406	OverHead	Hop	19	
-Send	126.305	Receive	126.544	delay	0.239424	Index	407	OverHead	Hop	19	
-Send	126.544	Receive	126.722	delay	0.177495	Index	408	OverHead	Hop	18	
-Send	126.722	Receive	127.011	delay	0.289224	Index	409	OverHead	Hop	20	
-Receive	127.011	delay	0.289224	Index	410	OverHead	Hop	0	
-Send	127.011	Send	127.011	Receive	127.304	delay	0.292788	Index	411	OverHead	Hop	20	
-Send	127.304	Receive	127.6	delay	0.295732	Index	412	OverHead	Hop	20	
-Send	127.6	Receive	127.896	delay	0.296127	Index	413	OverHead	Hop	20	
-Send	127.896	Receive	128.141	delay	0.245456	Index	414	OverHead	Hop	19	
-Receive	128.141	delay	0.245456	Index	415	OverHead	Hop	0	
-Send	128.141	Send	128.141	Receive	128.337	delay	0.195462	Index	416	OverHead	Hop	18	
-Send	128.337	Receive	128.438	delay	0.101216	Index	417	OverHead	Hop	10	
-Send	128.438	Receive	128.633	delay	0.195208	Index	418	OverHead	Hop	18	
-Send	128.633	Receive	128.829	delay	0.195441	Index	419	OverHead	Hop	18	
-Send	128.829	Receive	129.044	delay	0.21557	Index	420	OverHead	Hop	17	
-Send	129.044	Receive	131.414	delay	2.37031	Index	421	OverHead	Hop	19	
-Send	131.414	Receive	131.606	delay	0.191592	Index	422	OverHead	Hop	18	
-Send	131.606	Receive	131.654	delay	0.048044	Index	423	OverHead	Hop	6	
-Send	131.654	Receive	131.665	delay	0.0108254	Index	424	OverHead	Hop	2	
-Send	131.665	Receive	131.809	delay	0.143747	Index	425	OverHead	Hop	11	
-Send	131.809	Receive	131.821	delay	0.0120578	Index	426	OverHead	Hop	2	
-Send	131.821	Receive	131.929	delay	0.108162	Index	427	OverHead	Hop	7	
-Send	131.929	Receive	132.221	delay	0.292068	Index	428	OverHead	Hop	20	
-Send	132.221	Receive	132.457	delay	0.23647	Index	429	OverHead	Hop	16	
-Receive	132.457	delay	0.23647	Index	430	OverHead	Hop	0	
-Receive	132.457	delay	0.23647	Index	431	OverHead	Hop	0	
-Send	132.457	Send	132.457	Send	132.457	Receive	132.501	delay	0.0431648	Index	432	OverHead	Hop	4	
-Send	132.501	Receive	132.765	delay	0.26421	Index	433	OverHead	Hop	20	
-Receive	132.765	delay	0.26421	Index	434	OverHead	Hop	0	
-Send	132.765	Send	132.765	Receive	133.029	delay	0.264391	Index	435	OverHead	Hop	20	
-Send	133.029	Receive	133.293	delay	0.264057	Index	436	OverHead	Hop	20	
-Send	133.293	Receive	133.557	delay	0.263587	Index	437	OverHead	Hop	20	
-Send	133.557	Receive	133.83	delay	0.273098	Index	438	OverHead	Hop	20	
-Receive	133.83	delay	0.273098	Index	439	OverHead	Hop	0	
-Receive	133.83	delay	0.273098	Index	440	OverHead	Hop	0	
-Send	133.83	Send	133.83	Send	133.83	Receive	133.841	delay	0.0112222	Index	441	OverHead	Hop	2	
-Receive	133.841	delay	0.0112222	Index	442	OverHead	Hop	0	
-Send	133.841	Send	133.841	Receive	134.08	delay	0.239138	Index	443	OverHead	Hop	19	
-Send	134.08	Receive	135.52	delay	1.4399	Index	444	OverHead	Hop	9	
-Receive	135.52	delay	1.4399	Index	445	OverHead	Hop	0	
-Receive	135.52	delay	1.4399	Index	446	OverHead	Hop	0	
-Send	135.52	Send	135.52	Send	135.52	Receive	136.436	delay	0.916091	Index	447	OverHead	Hop	17	
-Receive	136.436	delay	0.916091	Index	448	OverHead	Hop	0	
-Receive	136.436	delay	0.916091	Index	449	OverHead	Hop	0	
-Send	136.436	Send	136.436	Send	136.436	Receive	136.559	delay	0.122956	Index	450	OverHead	Hop	9	
-Send	136.559	Receive	136.667	delay	0.107492	Index	451	OverHead	Hop	16	
-Send	136.667	Receive	136.773	delay	0.105957	Index	452	OverHead	Hop	16	
-Receive	136.773	delay	0.105957	Index	453	OverHead	Hop	0	
-Send	136.773	Send	136.773	Receive	136.873	delay	0.100008	Index	454	OverHead	Hop	14	
-Send	136.873	Receive	136.976	delay	0.103094	Index	455	OverHead	Hop	16	
-Send	136.976	Receive	140.41	delay	3.4345	Index	456	OverHead	Hop	5	
-Send	140.41	Receive	140.418	delay	0.00795276	Index	457	OverHead	Hop	2	
-Send	140.418	Receive	140.861	delay	0.442898	Index	458	OverHead	Hop	12	
-Receive	140.861	delay	0.442898	Index	459	OverHead	Hop	0	
-Receive	140.861	delay	0.442898	Index	460	OverHead	Hop	0	
-Receive	140.861	delay	0.442898	Index	461	OverHead	Hop	0	
-Send	140.861	Send	140.861	Send	140.861	Send	140.861	Receive	140.97	delay	0.10893	Index	462	OverHead	Hop	16	
-Send	140.97	Receive	140.981	delay	0.0110038	Index	463	OverHead	Hop	2	
-Send	140.981	Receive	141.09	delay	0.109142	Index	464	OverHead	Hop	16	
-Receive	141.09	delay	0.109142	Index	465	OverHead	Hop	0	
-Receive	141.09	delay	0.109142	Index	466	OverHead	Hop	0	
-Send	141.09	Send	141.09	Send	141.09	Receive	141.199	delay	0.109108	Index	467	OverHead	Hop	16	
-Send	141.199	Receive	141.308	delay	0.109009	Index	468	OverHead	Hop	16	
-Send	141.308	Receive	141.417	delay	0.108975	Index	469	OverHead	Hop	16	
-Send	141.417	Receive	141.576	delay	0.159027	Index	470	OverHead	Hop	17	
-Send	141.576	Receive	141.786	delay	0.209538	Index	471	OverHead	Hop	18	
-Send	141.786	Receive	142.829	delay	1.0434	Index	472	OverHead	Hop	14	
-Send	142.829	Receive	142.963	delay	0.133697	Index	473	OverHead	Hop	17	
-Send	142.963	Receive	143.197	delay	0.233845	Index	474	OverHead	Hop	14	
-Send	143.197	Receive	143.428	delay	0.231247	Index	475	OverHead	Hop	14	
-Send	143.428	Receive	143.71	delay	0.281539	Index	476	OverHead	Hop	20	
-Send	143.71	Receive	143.987	delay	0.277213	Index	477	OverHead	Hop	20	
-Send	143.987	Receive	144.076	delay	0.0889284	Index	478	OverHead	Hop	5	
-Send	144.076	Receive	146.177	delay	2.10135	Index	479	OverHead	Hop	20	
-Send	146.177	Receive	149.761	delay	3.58354	Index	480	OverHead	Hop	6	
-Send	149.761	Receive	150.031	delay	0.270085	Index	481	OverHead	Hop	20	
-Send	150.031	Receive	150.223	delay	0.192797	Index	482	OverHead	Hop	18	
-Send	150.223	Receive	151.022	delay	0.798616	Index	483	OverHead	Hop	5	
-Send	151.022	Receive	151.026	delay	0.00349422	Index	484	OverHead	Hop	2	
-Send	151.026	Receive	151.204	delay	0.178629	Index	485	OverHead	Hop	14	
-Send	151.204	Receive	151.379	delay	0.174843	Index	486	OverHead	Hop	14	
-Send	151.379	Receive	151.575	delay	0.195684	Index	487	OverHead	Hop	18	
-Send	151.575	Receive	152.608	delay	1.03336	Index	488	OverHead	Hop	19	
-Send	152.608	Receive	155.093	delay	2.48522	Index	489	OverHead	Hop	19	
-Send	155.093	Receive	155.352	delay	0.258738	Index	490	OverHead	Hop	20	
-Send	155.352	Receive	155.712	delay	0.360425	Index	491	OverHead	Hop	22	
-Send	155.712	Receive	156.061	delay	0.348756	Index	492	OverHead	Hop	22	
-Receive	156.061	delay	0.348756	Index	493	OverHead	Hop	0	
-Send	156.061	Send	156.061	Receive	156.409	delay	0.348188	Index	494	OverHead	Hop	22	
-Send	156.409	Receive	158.263	delay	1.8539	Index	495	OverHead	Hop	19	
-Send	158.263	Receive	158.451	delay	0.188092	Index	496	OverHead	Hop	18	
-Send	158.451	Receive	158.642	delay	0.190471	Index	497	OverHead	Hop	18	
-Receive	158.642	delay	0.190471	Index	498	OverHead	Hop	0	
-Send	158.642	Send	158.642	Receive	158.835	delay	0.193221	Index	499	OverHead	Hop	18	
-Send	158.835	Receive	159.031	delay	0.195593	Index	500	OverHead	Hop	18	
-Send	159.031	Receive	162.964	delay	3.93286	Index	501	OverHead	Hop	12	
-Send	162.964	Receive	163.233	delay	0.269551	Index	502	OverHead	Hop	20	
-Send	163.233	Receive	163.241	delay	0.00824767	Index	503	OverHead	Hop	2	
-Receive	163.241	delay	0.00824767	Index	504	OverHead	Hop	0	
-Send	163.241	Send	163.241	Receive	163.507	delay	0.265627	Index	505	OverHead	Hop	20	
-Send	163.507	Receive	163.795	delay	0.287938	Index	506	OverHead	Hop	20	
-Send	163.795	Receive	163.828	delay	0.0327212	Index	507	OverHead	Hop	4	
-Send	163.828	Receive	164.061	delay	0.232946	Index	508	OverHead	Hop	19	
-Send	164.061	Receive	164.25	delay	0.189884	Index	509	OverHead	Hop	18	
-Send	164.25	Receive	168.121	delay	3.87027	Index	510	OverHead	Hop	19	
-Send	168.121	Receive	168.18	delay	0.0588624	Index	511	OverHead	Hop	8	
-Send	168.18	Receive	168.372	delay	0.19197	Index	512	OverHead	Hop	19	
-Send	168.372	Receive	168.661	delay	0.289409	Index	513	OverHead	Hop	20	
-Send	168.661	Receive	169.772	delay	1.11097	Index	514	OverHead	Hop	9	
-Send	169.772	Receive	173.882	delay	4.11042	Index	515	OverHead	Hop	20	
-Send	173.882	Receive	174.241	delay	0.359048	Index	516	OverHead	Hop	10	
-Send	174.241	Receive	174.249	delay	0.00735427	Index	517	OverHead	Hop	2	
-Send	174.249	Receive	179.08	delay	4.83139	Index	518	OverHead	Hop	13	
-Send	179.08	Receive	179.274	delay	0.193936	Index	519	OverHead	Hop	18	
-Send	179.274	Receive	179.302	delay	0.0274843	Index	520	OverHead	Hop	4	
-Send	179.302	Receive	179.304	delay	0.00237335	Index	521	OverHead	Hop	2	
-Send	179.304	Receive	179.498	delay	0.193667	Index	522	OverHead	Hop	18	
-Send	179.498	Receive	179.502	delay	0.00399617	Index	523	OverHead	Hop	2	
-Send	179.502	Receive	179.707	delay	0.205473	Index	524	OverHead	Hop	18	
-Send	179.707	Receive	179.797	delay	0.0901339	Index	525	OverHead	Hop	6	
-Send	179.797	Receive	180.057	delay	0.260136	Index	526	OverHead	Hop	19	
-Send	180.057	Receive	180.062	delay	0.00510233	Index	527	OverHead	Hop	2	
-Send	180.062	Receive	180.068	delay	0.00506863	Index	528	OverHead	Hop	2	
-Send	180.068	Receive	180.679	delay	0.611901	Index	529	OverHead	Hop	6	
-Send	180.679	Receive	180.749	delay	0.0697294	Index	530	OverHead	Hop	5	
-Receive	180.749	delay	0.0697294	Index	531	OverHead	Hop	0	
-Send	180.749	Send	180.749	Receive	180.772	delay	0.0227268	Index	532	OverHead	Hop	6	
-Send	180.772	Receive	180.977	delay	0.205345	Index	533	OverHead	Hop	18	
-Send	180.977	Receive	181.193	delay	0.21623	Index	534	OverHead	Hop	18	
-Receive	181.193	delay	0.21623	Index	535	OverHead	Hop	0	
-Send	181.193	Send	181.193	Receive	181.395	delay	0.20147	Index	536	OverHead	Hop	13	
-Receive	181.395	delay	0.20147	Index	537	OverHead	Hop	0	
-Send	181.395	Send	181.395	Receive	181.434	delay	0.0393368	Index	538	OverHead	Hop	6	
-Send	181.434	Receive	181.657	delay	0.222907	Index	539	OverHead	Hop	18	
-Send	181.657	Receive	181.883	delay	0.225848	Index	540	OverHead	Hop	18	
-Send	181.883	Receive	183.389	delay	1.50559	Index	541	OverHead	Hop	22	
-Send	183.389	Receive	183.424	delay	0.0351997	Index	542	OverHead	Hop	2	
-Receive	183.424	delay	0.0351997	Index	543	OverHead	Hop	0	
-Send	183.424	Send	183.424	Receive	183.579	delay	0.155309	Index	544	OverHead	Hop	18	
-Send	183.579	Receive	184.668	delay	1.08888	Index	545	OverHead	Hop	5	
-Send	184.668	Receive	184.76	delay	0.0919366	Index	546	OverHead	Hop	7	
-Send	184.76	Receive	185.797	delay	1.03743	Index	547	OverHead	Hop	4	
-Send	185.797	Receive	185.826	delay	0.0282062	Index	548	OverHead	Hop	2	
-Receive	185.826	delay	0.0282062	Index	549	OverHead	Hop	0	
-Send	185.826	Send	185.826	Receive	185.871	delay	0.0450584	Index	550	OverHead	Hop	4	
-Send	185.871	Receive	186.799	delay	0.928587	Index	551	OverHead	Hop	19	
-Receive	186.799	delay	0.928587	Index	552	OverHead	Hop	0	
-Send	186.799	Send	186.799	Receive	186.821	delay	0.0215548	Index	553	OverHead	Hop	2	
-Send	186.821	Receive	186.964	delay	0.143615	Index	554	OverHead	Hop	17	
-Send	186.964	Receive	187.058	delay	0.09338	Index	555	OverHead	Hop	16	
-Send	187.058	Receive	187.168	delay	0.109977	Index	556	OverHead	Hop	16	
-Send	187.168	Receive	187.209	delay	0.0411941	Index	557	OverHead	Hop	6	
-Send	187.209	Receive	187.212	delay	0.00282539	Index	558	OverHead	Hop	2	
-Send	187.212	Send	192.212	Receive	192.409	delay	0.19718	Index	559	OverHead	Hop	18	
-Send	192.409	Receive	192.456	delay	0.046947	Index	560	OverHead	Hop	8	
-Send	192.456	Receive	192.542	delay	0.0862153	Index	561	OverHead	Hop	12	
-Send	192.542	Receive	192.734	delay	0.191467	Index	562	OverHead	Hop	18	
-Receive	192.734	delay	0.191467	Index	563	OverHead	Hop	0	
-Send	192.734	Send	192.734	Receive	192.813	delay	0.0798335	Index	564	OverHead	Hop	12	
-Send	192.813	Receive	193	delay	0.186631	Index	565	OverHead	Hop	18	
-Send	193	Receive	193.022	delay	0.0216728	Index	566	OverHead	Hop	2	
-Receive	193.022	delay	0.0216728	Index	567	OverHead	Hop	0	
-Send	193.022	Send	193.022	Receive	193.255	delay	0.232961	Index	568	OverHead	Hop	19	
-Send	193.255	Receive	193.301	delay	0.0458696	Index	569	OverHead	Hop	6	
-Send	193.301	Receive	193.479	delay	0.178466	Index	570	OverHead	Hop	18	
-Send	193.479	Receive	193.504	delay	0.0253647	Index	571	OverHead	Hop	2	
-Send	193.504	Receive	193.679	delay	0.174873	Index	572	OverHead	Hop	18	
-Send	193.679	Receive	193.809	delay	0.129862	Index	573	OverHead	Hop	12	
-Send	193.809	Receive	194.078	delay	0.268977	Index	574	OverHead	Hop	20	
-Send	194.078	Receive	195.591	delay	1.51298	Index	575	OverHead	Hop	20	
-Send	195.591	Receive	200.45	delay	4.85906	Index	576	OverHead	Hop	20	
-Send	200.45	Receive	200.727	delay	0.277105	Index	577	OverHead	Hop	20	
-Receive	200.727	delay	0.277105	Index	578	OverHead	Hop	0	
-Receive	200.727	delay	0.277105	Index	579	OverHead	Hop	0	
-Send	200.727	Send	200.727	Send	200.727	Receive	200.944	delay	0.216317	Index	580	OverHead	Hop	18	
-Send	200.944	Receive	201.137	delay	0.193604	Index	581	OverHead	Hop	18	
-Send	201.137	Receive	201.377	delay	0.240242	Index	582	OverHead	Hop	19	
-Send	201.377	Receive	201.593	delay	0.215629	Index	583	OverHead	Hop	18	
-Send	201.593	Receive	201.787	delay	0.193589	Index	584	OverHead	Hop	18	
-Send	201.787	Receive	201.978	delay	0.191376	Index	585	OverHead	Hop	18	
-Send	201.978	Receive	201.996	delay	0.0181939	Index	586	OverHead	Hop	4	
-Send	201.996	Receive	202.184	delay	0.188174	Index	587	OverHead	Hop	18	
-Send	202.184	Receive	202.37	delay	0.18539	Index	588	OverHead	Hop	18	
-Send	202.37	Receive	205.945	delay	3.57577	Index	589	OverHead	Hop	20	
-Send	205.945	Receive	206.246	delay	0.300609	Index	590	OverHead	Hop	21	
-Send	206.246	Send	211.246	Receive	211.251	delay	0.00486493	Index	591	OverHead	Hop	2	
-Send	211.251	Receive	211.256	delay	0.00513059	Index	592	OverHead	Hop	2	
-Send	211.256	Receive	211.356	delay	0.100253	Index	593	OverHead	Hop	7	
-Send	211.356	Receive	211.361	delay	0.00417716	Index	594	OverHead	Hop	2	
-Send	211.361	Receive	211.365	delay	0.00414982	Index	595	OverHead	Hop	2	
-Send	211.365	Send	216.365	Send	221.365	Receive	221.37	delay	0.00577711	Index	596	OverHead	Hop	2	
-Send	221.37	Receive	222.116	delay	0.745711	Index	597	OverHead	Hop	18	
-Send	222.116	Receive	222.23	delay	0.114278	Index	598	OverHead	Hop	17	
-Receive	222.23	delay	0.114278	Index	599	OverHead	Hop	0	
-Send	222.23	Send	222.23	Receive	224.926	delay	2.69534	Index	600	OverHead	Hop	19	
-Send	224.926	Receive	225.122	delay	0.19615	Index	601	OverHead	Hop	19	
-Send	225.122	Receive	225.372	delay	0.25002	Index	602	OverHead	Hop	20	
-Receive	225.372	delay	0.25002	Index	603	OverHead	Hop	0	
-Send	225.372	Send	225.372	Receive	225.561	delay	0.188968	Index	604	OverHead	Hop	18	
-Receive	225.561	delay	0.188968	Index	605	OverHead	Hop	0	
-Receive	225.561	delay	0.188968	Index	606	OverHead	Hop	0	
-Send	225.561	Send	225.561	Send	225.561	Receive	225.699	delay	0.137861	Index	607	OverHead	Hop	8	
-Receive	225.699	delay	0.137861	Index	608	OverHead	Hop	0	
-Send	225.699	Send	225.699	Receive	225.943	delay	0.243954	Index	609	OverHead	Hop	19	
-Receive	225.943	delay	0.243954	Index	610	OverHead	Hop	0	
-Send	225.943	Send	225.943	Receive	226.233	delay	0.290455	Index	611	OverHead	Hop	20	
-Send	226.233	Receive	226.477	delay	0.244238	Index	612	OverHead	Hop	19	
-Send	226.477	Receive	226.622	delay	0.144704	Index	613	OverHead	Hop	17	
-Send	226.622	Receive	226.817	delay	0.194921	Index	614	OverHead	Hop	18	
-Send	226.817	Receive	227.012	delay	0.194917	Index	615	OverHead	Hop	18	
-Receive	227.012	delay	0.194917	Index	616	OverHead	Hop	0	
-Send	227.012	Send	227.012	Receive	227.04	delay	0.0275265	Index	617	OverHead	Hop	2	
-Send	227.04	Receive	227.234	delay	0.194651	Index	618	OverHead	Hop	18	
-Send	227.234	Receive	227.429	delay	0.194487	Index	619	OverHead	Hop	18	
-Send	227.429	Receive	228.866	delay	1.43725	Index	620	OverHead	Hop	7	
-Send	228.866	Send	233.866	Receive	237.65	delay	3.78413	Index	621	OverHead	Hop	18	
-Receive	237.65	delay	3.78413	Index	622	OverHead	Hop	0	
-Send	237.65	Send	237.65	Receive	237.861	delay	0.210505	Index	623	OverHead	Hop	18	
-Send	237.861	Receive	238.067	delay	0.206924	Index	624	OverHead	Hop	11	
-Receive	238.067	delay	0.206924	Index	625	OverHead	Hop	0	
-Send	238.067	Send	238.067	Send	243.067	Receive	243.172	delay	0.104201	Index	626	OverHead	Hop	16	
-Send	243.172	Receive	243.348	delay	0.17613	Index	627	OverHead	Hop	14	
-Send	243.348	Receive	243.448	delay	0.0998543	Index	628	OverHead	Hop	16	
-Send	243.448	Receive	243.546	delay	0.098136	Index	629	OverHead	Hop	16	
-Send	243.546	Receive	243.642	delay	0.0964056	Index	630	OverHead	Hop	16	
-Send	243.642	Receive	243.836	delay	0.193707	Index	631	OverHead	Hop	18	
-Send	243.836	Receive	243.927	delay	0.0915717	Index	632	OverHead	Hop	16	
-Send	243.927	Receive	244.011	delay	0.0836643	Index	633	OverHead	Hop	5	
-Send	244.011	Receive	244.1	delay	0.0884374	Index	634	OverHead	Hop	16	
-Send	244.1	Send	249.1	Receive	250.795	delay	1.69572	Index	635	OverHead	Hop	11	
-Send	250.795	Receive	251.024	delay	0.22872	Index	636	OverHead	Hop	19	
-Send	251.024	Receive	251.084	delay	0.060392	Index	637	OverHead	Hop	4	
-Send	251.084	Receive	251.262	delay	0.177589	Index	638	OverHead	Hop	18	
-Send	251.262	Receive	251.455	delay	0.193381	Index	639	OverHead	Hop	18	
-Send	251.455	Receive	251.649	delay	0.193261	Index	640	OverHead	Hop	18	
-Send	251.649	Receive	251.842	delay	0.192998	Index	641	OverHead	Hop	18	
-Receive	251.842	delay	0.192998	Index	642	OverHead	Hop	0	
-Send	251.842	Send	251.842	Receive	252.005	delay	0.163689	Index	643	OverHead	Hop	10	
-Send	252.005	Receive	252.248	delay	0.242381	Index	644	OverHead	Hop	19	
-Receive	252.248	delay	0.242381	Index	645	OverHead	Hop	0	
-Send	252.248	Send	252.248	Receive	252.435	delay	0.187613	Index	646	OverHead	Hop	18	
-Send	252.435	Receive	252.509	delay	0.0740971	Index	647	OverHead	Hop	8	
-Send	252.509	Receive	252.698	delay	0.188142	Index	648	OverHead	Hop	18	
-Receive	252.698	delay	0.188142	Index	649	OverHead	Hop	0	
-Send	252.698	Send	252.698	Receive	252.918	delay	0.220213	Index	650	OverHead	Hop	18	
-Send	252.918	Receive	255.759	delay	2.84091	Index	651	OverHead	Hop	20	
-Send	255.759	Receive	255.93	delay	0.171585	Index	652	OverHead	Hop	18	
-Send	255.93	Receive	256.101	delay	0.171083	Index	653	OverHead	Hop	18	
-Send	256.101	Receive	256.265	delay	0.163268	Index	654	OverHead	Hop	18	
-Send	256.265	Receive	256.467	delay	0.202798	Index	655	OverHead	Hop	19	
-Send	256.467	Receive	256.731	delay	0.263278	Index	656	OverHead	Hop	20	
-Send	256.731	Receive	256.788	delay	0.0574615	Index	657	OverHead	Hop	4	
-Send	256.788	Receive	256.821	delay	0.0325031	Index	658	OverHead	Hop	2	
-Receive	256.821	delay	0.0325031	Index	659	OverHead	Hop	0	
-Send	256.821	Send	256.821	Receive	257.159	delay	0.33801	Index	660	OverHead	Hop	21	
-Send	257.159	Receive	259.597	delay	2.43832	Index	661	OverHead	Hop	9	
-Send	259.597	Receive	259.652	delay	0.0550821	Index	662	OverHead	Hop	8	
-Send	259.652	Receive	259.666	delay	0.013563	Index	663	OverHead	Hop	2	
-Receive	259.666	delay	0.013563	Index	664	OverHead	Hop	0	
-Receive	259.666	delay	0.013563	Index	665	OverHead	Hop	0	
-Send	259.666	Send	259.666	Send	259.666	Receive	259.679	delay	0.0134738	Index	666	OverHead	Hop	2	
-Send	259.679	Receive	259.692	delay	0.0133852	Index	667	OverHead	Hop	2	
-Receive	259.692	delay	0.0133852	Index	668	OverHead	Hop	0	
-Send	259.692	Send	259.692	Send	264.692	Receive	264.778	delay	0.0860083	Index	669	OverHead	Hop	6	
-Receive	264.778	delay	0.0860083	Index	670	OverHead	Hop	0	
-Send	264.778	Send	264.778	Send	269.778	Receive	272.573	delay	2.7941	Index	671	OverHead	Hop	18	
-Send	272.573	Receive	272.68	delay	0.107883	Index	672	OverHead	Hop	16	
-Send	272.68	Receive	272.788	delay	0.107698	Index	673	OverHead	Hop	16	
-Send	272.788	Receive	272.814	delay	0.026244	Index	674	OverHead	Hop	4	
-Send	272.814	Receive	272.889	delay	0.0748893	Index	675	OverHead	Hop	8	
-Send	272.889	Receive	276.271	delay	3.38128	Index	676	OverHead	Hop	22	
-Send	276.271	Receive	276.565	delay	0.294423	Index	677	OverHead	Hop	20	
-Send	276.565	Receive	276.855	delay	0.290486	Index	678	OverHead	Hop	20	
-Send	276.855	Receive	277.099	delay	0.243364	Index	679	OverHead	Hop	19	
-Send	277.099	Receive	277.292	delay	0.193283	Index	680	OverHead	Hop	18	
-Send	277.292	Receive	277.317	delay	0.0249664	Index	681	OverHead	Hop	4	
-Receive	277.317	delay	0.0249664	Index	682	OverHead	Hop	0	
-Receive	277.317	delay	0.0249664	Index	683	OverHead	Hop	0	
-Send	277.317	Send	277.317	Send	277.317	Receive	277.538	delay	0.220756	Index	684	OverHead	Hop	18	
-Send	277.538	Receive	277.755	delay	0.217044	Index	685	OverHead	Hop	18	
-Send	277.755	Receive	277.968	delay	0.213512	Index	686	OverHead	Hop	18	
-Send	277.968	Receive	281.342	delay	3.37354	Index	687	OverHead	Hop	20	
-Send	281.342	Receive	281.463	delay	0.1214	Index	688	OverHead	Hop	16	
-Send	281.463	Receive	281.586	delay	0.122888	Index	689	OverHead	Hop	16	
-Send	281.586	Receive	281.709	delay	0.123044	Index	690	OverHead	Hop	16	
-Send	281.709	Receive	282.223	delay	0.513455	Index	691	OverHead	Hop	6	
-Send	282.223	Receive	282.397	delay	0.174304	Index	692	OverHead	Hop	18	
-Receive	282.397	delay	0.174304	Index	693	OverHead	Hop	0	
-Send	282.397	Send	282.397	Receive	282.571	delay	0.174358	Index	694	OverHead	Hop	18	
-Send	282.571	Receive	282.666	delay	0.0950665	Index	695	OverHead	Hop	11	
-Receive	282.666	delay	0.0950665	Index	696	OverHead	Hop	0	
-Send	282.666	Send	282.666	Receive	282.89	delay	0.223525	Index	697	OverHead	Hop	19	
-Receive	282.89	delay	0.223525	Index	698	OverHead	Hop	0	
-Send	282.89	Send	282.89	Receive	283.126	delay	0.235701	Index	699	OverHead	Hop	19	
-Send	283.126	Receive	287.951	delay	4.82575	Index	700	OverHead	Hop	20	
-Send	287.951	Receive	288.216	delay	0.26424	Index	701	OverHead	Hop	19	
-Send	288.216	Receive	288.428	delay	0.211832	Index	702	OverHead	Hop	18	
-Send	288.428	Receive	288.636	delay	0.208863	Index	703	OverHead	Hop	18	
-Send	288.636	Receive	288.64	delay	0.00387054	Index	704	OverHead	Hop	2	
-Send	288.64	Receive	288.796	delay	0.156049	Index	705	OverHead	Hop	17	
-Send	288.796	Receive	288.801	delay	0.00493262	Index	706	OverHead	Hop	2	
-Send	288.801	Receive	293.155	delay	4.35383	Index	707	OverHead	Hop	15	
-Send	293.155	Receive	293.328	delay	0.172977	Index	708	OverHead	Hop	18	
-Receive	293.328	delay	0.172977	Index	709	OverHead	Hop	0	
-Send	293.328	Send	293.328	Receive	293.499	delay	0.171406	Index	710	OverHead	Hop	18	
-Send	293.499	Receive	293.502	delay	0.00259076	Index	711	OverHead	Hop	2	
-Send	293.502	Receive	293.617	delay	0.114695	Index	712	OverHead	Hop	16	
-Receive	293.617	delay	0.114695	Index	713	OverHead	Hop	0	
-Send	293.617	Send	293.617	Receive	293.73	delay	0.112937	Index	714	OverHead	Hop	16	
-Send	293.73	Receive	293.754	delay	0.0238657	Index	715	OverHead	Hop	4	
-Send	293.754	Receive	293.798	delay	0.0449377	Index	716	OverHead	Hop	8	
-Send	293.798	Receive	293.908	delay	0.110002	Index	717	OverHead	Hop	16	
-Send	293.908	Receive	294.017	delay	0.108092	Index	718	OverHead	Hop	16	
-Send	294.017	Receive	294.042	delay	0.0253155	Index	719	OverHead	Hop	4	
-Send	294.042	Receive	294.198	delay	0.156033	Index	720	OverHead	Hop	17	
-Send	294.198	Receive	294.35	delay	0.152476	Index	721	OverHead	Hop	17	
-Send	294.35	Receive	294.451	delay	0.100662	Index	722	OverHead	Hop	16	
-Receive	294.451	delay	0.100662	Index	723	OverHead	Hop	0	
-Send	294.451	Send	294.451	Receive	294.649	delay	0.198021	Index	724	OverHead	Hop	18	
-Send	294.649	Send	299.649	Receive	299.685	delay	0.0354949	Index	725	OverHead	Hop	4	
-Receive	299.685	delay	0.0354949	Index	726	OverHead	Hop	0	
-Send	299.685	Send	299.685	Receive	300.174	delay	0.489375	Index	727	OverHead	Hop	13	
-Receive	300.174	delay	0.489375	Index	728	OverHead	Hop	0	
-Receive	300.174	delay	0.489375	Index	729	OverHead	Hop	0	
-Send	300.174	Send	300.174	Send	300.174	Receive	301.601	delay	1.42746	Index	730	OverHead	Hop	19	
-Send	301.601	Receive	302.943	delay	1.3419	Index	731	OverHead	Hop	15	
-Send	302.943	Receive	303.132	delay	0.188919	Index	732	OverHead	Hop	18	
-Receive	303.132	delay	0.188919	Index	733	OverHead	Hop	0	
-Send	303.132	Send	303.132	Receive	303.321	delay	0.188962	Index	734	OverHead	Hop	18	
-Send	303.321	Receive	306.179	delay	2.85739	Index	735	OverHead	Hop	11	
-Send	306.179	Receive	306.627	delay	0.448679	Index	736	OverHead	Hop	20	
-Send	306.627	Receive	306.882	delay	0.255061	Index	737	OverHead	Hop	20	
-Send	306.882	Send	311.882	Send	316.882	Send	321.882	Receive	321.893	delay	0.0103361	Index	738	OverHead	Hop	2	
-Receive	321.893	delay	0.0103361	Index	739	OverHead	Hop	0	
-Receive	321.893	delay	0.0103361	Index	740	OverHead	Hop	0	
-Send	321.893	Send	321.893	Send	321.893	Send	326.893	Receive	327.622	delay	0.729254	Index	741	OverHead	Hop	20	
-Receive	327.622	delay	0.729254	Index	742	OverHead	Hop	0	
-Send	327.622	Send	327.622	Receive	327.766	delay	0.143593	Index	743	OverHead	Hop	17	
-Receive	327.766	delay	0.143593	Index	744	OverHead	Hop	0	
-Send	327.766	Send	327.766	Receive	327.86	delay	0.0944679	Index	745	OverHead	Hop	16	
-Receive	327.86	delay	0.0944679	Index	746	OverHead	Hop	0	
-Send	327.86	Send	327.86	Receive	328.055	delay	0.194856	Index	747	OverHead	Hop	18	
-Send	328.055	Receive	328.249	delay	0.194579	Index	748	OverHead	Hop	18	
-Send	328.249	Receive	328.278	delay	0.0281916	Index	749	OverHead	Hop	2	
-Send	328.278	Receive	328.422	delay	0.144571	Index	750	OverHead	Hop	17	
-Send	328.422	Receive	328.596	delay	0.173799	Index	751	OverHead	Hop	18	
-Send	328.596	Send	333.596	Send	338.596	Receive	338.602	delay	0.0064275	Index	752	OverHead	Hop	2	
-Send	338.602	Receive	338.677	delay	0.0748035	Index	753	OverHead	Hop	8	
-Receive	338.677	delay	0.0748035	Index	754	OverHead	Hop	0	
-Send	338.677	Send	338.677	Receive	338.802	delay	0.124624	Index	755	OverHead	Hop	16	
-Receive	338.802	delay	0.124624	Index	756	OverHead	Hop	0	
-Send	338.802	Send	338.802	Receive	338.927	delay	0.124813	Index	757	OverHead	Hop	16	
-Send	338.927	Send	343.927	Receive	344.096	delay	0.168941	Index	758	OverHead	Hop	18	
-Send	344.096	Receive	344.26	delay	0.164666	Index	759	OverHead	Hop	17	
-Send	344.26	Receive	344.262	delay	0.00144293	Index	760	OverHead	Hop	2	
-Send	344.262	Receive	344.263	delay	0.00145511	Index	761	OverHead	Hop	2	
-Send	344.263	Receive	344.265	delay	0.00146739	Index	762	OverHead	Hop	2	
-Send	344.265	Receive	344.377	delay	0.112193	Index	763	OverHead	Hop	16	
-Send	344.377	Receive	344.487	delay	0.110355	Index	764	OverHead	Hop	16	
-Send	344.487	Receive	344.491	delay	0.00335763	Index	765	OverHead	Hop	2	
-Send	344.491	Receive	344.494	delay	0.00338596	Index	766	OverHead	Hop	2	
-Send	344.494	Receive	344.602	delay	0.108289	Index	767	OverHead	Hop	16	
-Send	344.602	Receive	344.808	delay	0.205954	Index	768	OverHead	Hop	18	
-Send	344.808	Receive	344.89	delay	0.082135	Index	769	OverHead	Hop	6	
-Send	344.89	Receive	345.091	delay	0.201096	Index	770	OverHead	Hop	18	
-Send	345.091	Receive	345.289	delay	0.197566	Index	771	OverHead	Hop	18	
-Send	345.289	Receive	345.299	delay	0.0101395	Index	772	OverHead	Hop	2	
-Send	345.299	Receive	345.309	delay	0.0102256	Index	773	OverHead	Hop	2	
-Send	345.309	Receive	345.504	delay	0.194346	Index	774	OverHead	Hop	18	
-Send	345.504	Receive	345.695	delay	0.190948	Index	775	OverHead	Hop	18	
-Send	345.695	Receive	345.883	delay	0.188039	Index	776	OverHead	Hop	18	
-Send	345.883	Receive	346.067	delay	0.184801	Index	777	OverHead	Hop	18	
-Send	346.067	Send	351.067	Receive	352.252	delay	1.18505	Index	778	OverHead	Hop	17	
-Send	352.252	Receive	354.051	delay	1.79818	Index	779	OverHead	Hop	5	
-Send	354.051	Receive	354.262	delay	0.211082	Index	780	OverHead	Hop	18	
-Receive	354.262	delay	0.211082	Index	781	OverHead	Hop	0	
-Send	354.262	Send	354.262	Receive	357.152	delay	2.89041	Index	782	OverHead	Hop	20	
-Receive	357.152	delay	2.89041	Index	783	OverHead	Hop	0	
-Send	357.152	Send	357.152	Receive	357.413	delay	0.260922	Index	784	OverHead	Hop	20	
-Receive	357.413	delay	0.260922	Index	785	OverHead	Hop	0	
-Send	357.413	Send	357.413	Receive	357.665	delay	0.252349	Index	786	OverHead	Hop	20	
-Send	357.665	Receive	357.917	delay	0.251497	Index	787	OverHead	Hop	20	
-Send	357.917	Receive	357.95	delay	0.0330094	Index	788	OverHead	Hop	2	
-Send	357.95	Receive	358.302	delay	0.352203	Index	789	OverHead	Hop	22	
-Receive	358.302	delay	0.352203	Index	790	OverHead	Hop	0	
-Send	358.302	Send	358.302	Receive	358.638	delay	0.336328	Index	791	OverHead	Hop	21	
-Send	358.638	Receive	358.92	delay	0.28151	Index	792	OverHead	Hop	20	
-Send	358.92	Send	363.92	Receive	364.75	delay	0.830493	Index	793	OverHead	Hop	9	
-Send	364.75	Receive	366.375	delay	1.62456	Index	794	OverHead	Hop	14	
-Send	366.375	Send	371.375	Send	376.375	Receive	376.733	delay	0.358345	Index	795	OverHead	Hop	22	
-Receive	376.733	delay	0.358345	Index	796	OverHead	Hop	0	
-Send	376.733	Send	376.733	Receive	376.777	delay	0.0436592	Index	797	OverHead	Hop	4	
-Send	376.777	Receive	377.475	delay	0.697725	Index	798	OverHead	Hop	5	
-Send	377.475	Receive	377.63	delay	0.155325	Index	799	OverHead	Hop	14	
-Send	377.63	Receive	377.84	delay	0.21033	Index	800	OverHead	Hop	15	
-Receive	377.84	delay	0.21033	Index	801	OverHead	Hop	0	
-Send	377.84	Send	377.84	Receive	378.332	delay	0.491634	Index	802	OverHead	Hop	19	
-Send	378.332	Receive	378.423	delay	0.0912274	Index	803	OverHead	Hop	11	
-Send	378.423	Receive	378.567	delay	0.143457	Index	804	OverHead	Hop	17	
-Send	378.567	Receive	378.76	delay	0.193328	Index	805	OverHead	Hop	18	
-Send	378.76	Receive	378.953	delay	0.193097	Index	806	OverHead	Hop	18	
-Send	378.953	Receive	379.146	delay	0.193225	Index	807	OverHead	Hop	18	
-Send	379.146	Receive	379.189	delay	0.0423314	Index	808	OverHead	Hop	4	
-Send	379.189	Receive	379.382	delay	0.193054	Index	809	OverHead	Hop	18	
-Send	379.382	Receive	380.943	delay	1.56109	Index	810	OverHead	Hop	11	
-Send	380.943	Receive	382.144	delay	1.20068	Index	811	OverHead	Hop	18	
-Send	382.144	Receive	382.221	delay	0.0773083	Index	812	OverHead	Hop	6	
-Send	382.221	Receive	382.299	delay	0.0778206	Index	813	OverHead	Hop	6	
-Send	382.299	Receive	382.492	delay	0.193582	Index	814	OverHead	Hop	18	
-Send	382.492	Receive	382.662	delay	0.16981	Index	815	OverHead	Hop	17	
-Send	382.662	Receive	382.784	delay	0.121593	Index	816	OverHead	Hop	16	
-Send	382.784	Receive	382.906	delay	0.122838	Index	817	OverHead	Hop	16	
-Send	382.906	Receive	383.081	delay	0.174237	Index	818	OverHead	Hop	17	
-Send	383.081	Receive	383.095	delay	0.0137858	Index	819	OverHead	Hop	4	
-Send	383.095	Send	388.095	Receive	389.361	delay	1.26668	Index	820	OverHead	Hop	20	
-Send	389.361	Receive	389.485	delay	0.123795	Index	821	OverHead	Hop	16	
-Send	389.485	Receive	389.531	delay	0.0456261	Index	822	OverHead	Hop	6	
-Send	389.531	Receive	389.739	delay	0.208871	Index	823	OverHead	Hop	18	
-Send	389.739	Receive	389.779	delay	0.0399679	Index	824	OverHead	Hop	6	
-Receive	389.779	delay	0.0399679	Index	825	OverHead	Hop	0	
-Send	389.779	Send	389.779	Receive	389.889	delay	0.109451	Index	826	OverHead	Hop	8	
-Send	389.889	Receive	390.145	delay	0.255726	Index	827	OverHead	Hop	19	
-Send	390.145	Receive	390.348	delay	0.203036	Index	828	OverHead	Hop	18	
-Send	390.348	Receive	390.355	delay	0.00687211	Index	829	OverHead	Hop	2	
-Send	390.355	Receive	390.554	delay	0.199925	Index	830	OverHead	Hop	18	
-Receive	390.554	delay	0.199925	Index	831	OverHead	Hop	0	
-Receive	390.554	delay	0.199925	Index	832	OverHead	Hop	0	
-Send	390.554	Send	390.554	Send	390.554	Receive	390.671	delay	0.117007	Index	833	OverHead	Hop	8	
-Send	390.671	Receive	394.329	delay	3.65781	Index	834	OverHead	Hop	16	
-Send	394.329	Receive	394.348	delay	0.0185052	Index	835	OverHead	Hop	4	
-Receive	394.348	delay	0.0185052	Index	836	OverHead	Hop	0	
-Send	394.348	Send	394.348	Receive	394.398	delay	0.0504352	Index	837	OverHead	Hop	8	
-Send	394.398	Receive	394.515	delay	0.117028	Index	838	OverHead	Hop	16	
-Send	394.515	Receive	394.63	delay	0.115135	Index	839	OverHead	Hop	16	
-Send	394.63	Receive	394.684	delay	0.0532699	Index	840	OverHead	Hop	8	
-Send	394.684	Receive	394.754	delay	0.070605	Index	841	OverHead	Hop	5	
-Send	394.754	Receive	394.865	delay	0.110906	Index	842	OverHead	Hop	16	
-Send	394.865	Receive	394.913	delay	0.0478982	Index	843	OverHead	Hop	8	
-Receive	394.913	delay	0.0478982	Index	844	OverHead	Hop	0	
-Send	394.913	Send	394.913	Receive	395.021	delay	0.108323	Index	845	OverHead	Hop	16	
-Send	395.021	Receive	395.038	delay	0.0162512	Index	846	OverHead	Hop	2	
-Send	395.038	Receive	395.11	delay	0.0723378	Index	847	OverHead	Hop	5	
-Receive	395.11	delay	0.0723378	Index	848	OverHead	Hop	0	
-Send	395.11	Send	395.11	Receive	395.265	delay	0.155125	Index	849	OverHead	Hop	17	
-Send	395.265	Receive	395.467	delay	0.201684	Index	850	OverHead	Hop	18	
-Send	395.467	Receive	395.665	delay	0.198336	Index	851	OverHead	Hop	18	
-Receive	395.665	delay	0.198336	Index	852	OverHead	Hop	0	
-Receive	395.665	delay	0.198336	Index	853	OverHead	Hop	0	
-Send	395.665	Send	395.665	Send	395.665	Receive	395.849	delay	0.183523	Index	854	OverHead	Hop	16	
-Send	395.849	Receive	396.041	delay	0.192127	Index	855	OverHead	Hop	18	
-Receive	396.041	delay	0.192127	Index	856	OverHead	Hop	0	
-Receive	396.041	delay	0.192127	Index	857	OverHead	Hop	0	
-Send	396.041	Send	396.041	Send	396.041	Receive	396.23	delay	0.188929	Index	858	OverHead	Hop	18	
-Send	396.23	Receive	396.415	delay	0.185784	Index	859	OverHead	Hop	18	
-Send	396.415	Receive	396.598	delay	0.182542	Index	860	OverHead	Hop	18	
-Send	396.598	Receive	396.703	delay	0.105439	Index	861	OverHead	Hop	10	
-Send	396.703	Send	401.703	Receive	402.892	delay	1.18822	Index	862	OverHead	Hop	19	
-Send	402.892	Receive	402.963	delay	0.0714786	Index	863	OverHead	Hop	4	
-Send	402.963	Receive	403.247	delay	0.283507	Index	864	OverHead	Hop	20	
-Send	403.247	Receive	403.49	delay	0.243698	Index	865	OverHead	Hop	19	
-Send	403.49	Receive	403.684	delay	0.193656	Index	866	OverHead	Hop	18	
-Send	403.684	Receive	403.699	delay	0.0152849	Index	867	OverHead	Hop	4	
-Send	403.699	Receive	403.804	delay	0.104971	Index	868	OverHead	Hop	10	
-Send	403.804	Receive	403.994	delay	0.189864	Index	869	OverHead	Hop	18	
-Send	403.994	Receive	404.226	delay	0.232155	Index	870	OverHead	Hop	19	
-Receive	404.226	delay	0.232155	Index	871	OverHead	Hop	0	
-Send	404.226	Send	404.226	Receive	404.416	delay	0.189306	Index	872	OverHead	Hop	18	
-Send	404.416	Receive	404.653	delay	0.237248	Index	873	OverHead	Hop	19	
-Send	404.653	Receive	404.861	delay	0.208624	Index	874	OverHead	Hop	18	
-Receive	404.861	delay	0.208624	Index	875	OverHead	Hop	0	
-Send	404.861	Send	404.861	Receive	405.769	delay	0.907594	Index	876	OverHead	Hop	19	
-Send	405.769	Receive	405.789	delay	0.019434	Index	877	OverHead	Hop	2	
-Send	405.789	Receive	405.866	delay	0.0773751	Index	878	OverHead	Hop	5	
-Send	405.866	Receive	407.881	delay	2.01479	Index	879	OverHead	Hop	18	
-Send	407.881	Receive	408.137	delay	0.25585	Index	880	OverHead	Hop	20	
-Receive	408.137	delay	0.25585	Index	881	OverHead	Hop	0	
-Send	408.137	Send	408.137	Receive	408.434	delay	0.29744	Index	882	OverHead	Hop	21	
-Send	408.434	Receive	408.781	delay	0.346897	Index	883	OverHead	Hop	22	
-Send	408.781	Receive	409.137	delay	0.355779	Index	884	OverHead	Hop	22	
-Send	409.137	Receive	409.418	delay	0.281561	Index	885	OverHead	Hop	20	
-Send	409.418	Send	414.418	Send	419.418	Send	424.418	Receive	424.967	delay	0.549074	Index	886	OverHead	Hop	24	
-Send	424.967	Receive	424.979	delay	0.0115092	Index	887	OverHead	Hop	2	
-Send	424.979	Receive	428.635	delay	3.65648	Index	888	OverHead	Hop	21	
-Receive	428.635	delay	3.65648	Index	889	OverHead	Hop	0	
-Send	428.635	Send	428.635	Receive	428.83	delay	0.194762	Index	890	OverHead	Hop	18	
-Receive	428.83	delay	0.194762	Index	891	OverHead	Hop	0	
-Send	428.83	Send	428.83	Receive	428.972	delay	0.141917	Index	892	OverHead	Hop	17	
-Send	428.972	Receive	429.076	delay	0.103563	Index	893	OverHead	Hop	7	
-Receive	429.076	delay	0.103563	Index	894	OverHead	Hop	0	
-Send	429.076	Send	429.076	Receive	429.271	delay	0.195412	Index	895	OverHead	Hop	18	
-Send	429.271	Receive	429.465	delay	0.193795	Index	896	OverHead	Hop	18	
-Send	429.465	Receive	429.658	delay	0.193562	Index	897	OverHead	Hop	18	
-Send	429.658	Receive	429.775	delay	0.116958	Index	898	OverHead	Hop	7	
-Receive	429.775	delay	0.116958	Index	899	OverHead	Hop	0	
-Send	429.775	Send	429.775	Receive	430.013	delay	0.23727	Index	900	OverHead	Hop	14	
-Receive	430.013	delay	0.23727	Index	901	OverHead	Hop	0	
-Send	430.013	Send	430.013	Receive	432.757	delay	2.74481	Index	902	OverHead	Hop	20	
-Send	432.757	Receive	432.952	delay	0.194548	Index	903	OverHead	Hop	18	
-Receive	432.952	delay	0.194548	Index	904	OverHead	Hop	0	
-Send	432.952	Send	432.952	Receive	433.146	delay	0.194353	Index	905	OverHead	Hop	18	
-Send	433.146	Receive	433.34	delay	0.194142	Index	906	OverHead	Hop	18	
-Send	433.34	Receive	433.484	delay	0.143903	Index	907	OverHead	Hop	17	
-Send	433.484	Receive	433.683	delay	0.19919	Index	908	OverHead	Hop	16	
-Send	433.683	Receive	433.808	delay	0.124842	Index	909	OverHead	Hop	16	
-Receive	433.808	delay	0.124842	Index	910	OverHead	Hop	0	
-Send	433.808	Send	433.808	Receive	433.947	delay	0.139062	Index	911	OverHead	Hop	17	
-Send	433.947	Receive	434.126	delay	0.178268	Index	912	OverHead	Hop	18	
-Send	434.126	Receive	434.268	delay	0.142305	Index	913	OverHead	Hop	10	
-Send	434.268	Receive	434.445	delay	0.1768	Index	914	OverHead	Hop	18	
-Send	434.445	Receive	434.612	delay	0.167527	Index	915	OverHead	Hop	16	
-Send	434.612	Send	439.612	Receive	440.18	delay	0.568024	Index	916	OverHead	Hop	19	
-Send	440.18	Receive	440.474	delay	0.293506	Index	917	OverHead	Hop	20	
-Send	440.474	Receive	440.718	delay	0.243828	Index	918	OverHead	Hop	19	
-Send	440.718	Receive	440.823	delay	0.104983	Index	919	OverHead	Hop	16	
-Receive	440.823	delay	0.104983	Index	920	OverHead	Hop	0	
-Send	440.823	Send	440.823	Receive	440.926	delay	0.10344	Index	921	OverHead	Hop	16	
-Send	440.926	Receive	440.946	delay	0.0204021	Index	922	OverHead	Hop	2	
-Send	440.946	Receive	445.036	delay	4.08919	Index	923	OverHead	Hop	4	
-Send	445.036	Receive	445.153	delay	0.117535	Index	924	OverHead	Hop	16	
-Send	445.153	Receive	445.269	delay	0.115511	Index	925	OverHead	Hop	16	
-Send	445.269	Receive	446.131	delay	0.861999	Index	926	OverHead	Hop	8	
-Send	446.131	Receive	446.14	delay	0.00973041	Index	927	OverHead	Hop	2	
-Receive	446.14	delay	0.00973041	Index	928	OverHead	Hop	0	
-Send	446.14	Send	446.14	Receive	446.339	delay	0.198349	Index	929	OverHead	Hop	18	
-Send	446.339	Receive	446.534	delay	0.19493	Index	930	OverHead	Hop	18	
-Send	446.534	Receive	447.117	delay	0.583499	Index	931	OverHead	Hop	4	
-Send	447.117	Send	452.117	Receive	453.495	delay	1.37824	Index	932	OverHead	Hop	19	
-Send	453.495	Receive	453.766	delay	0.271063	Index	933	OverHead	Hop	20	
-Send	453.766	Receive	454.034	delay	0.267709	Index	934	OverHead	Hop	20	
-Send	454.034	Receive	454.228	delay	0.194091	Index	935	OverHead	Hop	18	
-Send	454.228	Receive	454.408	delay	0.179271	Index	936	OverHead	Hop	14	
-Send	454.408	Receive	454.601	delay	0.193575	Index	937	OverHead	Hop	18	
-Send	454.601	Receive	454.793	delay	0.191852	Index	938	OverHead	Hop	18	
-Send	454.793	Receive	454.883	delay	0.089995	Index	939	OverHead	Hop	16	
-Send	454.883	Receive	455.024	delay	0.140904	Index	940	OverHead	Hop	9	
-Send	455.024	Receive	455.034	delay	0.0105807	Index	941	OverHead	Hop	2	
-Receive	455.034	delay	0.0105807	Index	942	OverHead	Hop	0	
-Send	455.034	Send	455.034	Receive	455.244	delay	0.20983	Index	943	OverHead	Hop	18	
-Receive	455.244	delay	0.20983	Index	944	OverHead	Hop	0	
-Receive	455.244	delay	0.20983	Index	945	OverHead	Hop	0	
-Send	455.244	Send	455.244	Send	455.244	Receive	455.457	delay	0.213184	Index	946	OverHead	Hop	18	
-Send	455.457	Receive	455.671	delay	0.213498	Index	947	OverHead	Hop	18	
-Send	455.671	Receive	456.197	delay	0.526155	Index	948	OverHead	Hop	20	
-Send	456.197	Receive	456.371	delay	0.174182	Index	949	OverHead	Hop	10	
-Send	456.371	Receive	456.587	delay	0.215448	Index	950	OverHead	Hop	19	
-Receive	456.587	delay	0.215448	Index	951	OverHead	Hop	0	
-Send	456.587	Send	456.587	Receive	460.64	delay	4.05282	Index	952	OverHead	Hop	9	
-Send	460.64	Send	465.64	Receive	465.648	delay	0.00829046	Index	953	OverHead	Hop	2	
-Receive	465.648	delay	0.00829046	Index	954	OverHead	Hop	0	
-Send	465.648	Send	465.648	Receive	465.656	delay	0.00837909	Index	955	OverHead	Hop	2	
-Receive	465.656	delay	0.00837909	Index	956	OverHead	Hop	0	
-Send	465.656	Send	465.656	Send	470.656	Send	475.656	Receive	475.921	delay	0.265138	Index	957	OverHead	Hop	20	
-Send	475.921	Receive	476.057	delay	0.135264	Index	958	OverHead	Hop	10	
-Send	476.057	Receive	476.315	delay	0.258331	Index	959	OverHead	Hop	20	
-Send	476.315	Receive	476.512	delay	0.197395	Index	960	OverHead	Hop	18	
-Receive	476.512	delay	0.197395	Index	961	OverHead	Hop	0	
-Send	476.512	Send	476.512	Receive	476.71	delay	0.197352	Index	962	OverHead	Hop	18	
-Receive	476.71	delay	0.197352	Index	963	OverHead	Hop	0	
-Send	476.71	Send	476.71	Receive	476.907	delay	0.197166	Index	964	OverHead	Hop	18	
-Send	476.907	Receive	476.994	delay	0.0872372	Index	965	OverHead	Hop	8	
-Send	476.994	Receive	477.243	delay	0.248771	Index	966	OverHead	Hop	17	
-Receive	477.243	delay	0.248771	Index	967	OverHead	Hop	0	
-Send	477.243	Send	477.243	Receive	479.286	delay	2.04295	Index	968	OverHead	Hop	19	
-Send	479.286	Receive	479.345	delay	0.0596368	Index	969	OverHead	Hop	5	
-Send	479.345	Receive	479.406	delay	0.0603001	Index	970	OverHead	Hop	5	
-Send	479.406	Receive	479.547	delay	0.14101	Index	971	OverHead	Hop	17	
-Send	479.547	Receive	479.66	delay	0.112717	Index	972	OverHead	Hop	10	
-Send	479.66	Receive	479.753	delay	0.0931792	Index	973	OverHead	Hop	16	
-Receive	479.753	delay	0.0931792	Index	974	OverHead	Hop	0	
-Send	479.753	Send	479.753	Receive	479.846	delay	0.0930537	Index	975	OverHead	Hop	16	
-Send	479.846	Receive	479.85	delay	0.00374739	Index	976	OverHead	Hop	2	
-Send	479.85	Receive	479.993	delay	0.143157	Index	977	OverHead	Hop	17	
-Send	479.993	Receive	480.186	delay	0.193507	Index	978	OverHead	Hop	18	
-Receive	480.186	delay	0.193507	Index	979	OverHead	Hop	0	
-Send	480.186	Send	480.186	Receive	480.429	delay	0.243137	Index	980	OverHead	Hop	19	
-Send	480.429	Receive	480.622	delay	0.193149	Index	981	OverHead	Hop	18	
-Receive	480.622	delay	0.193149	Index	982	OverHead	Hop	0	
-Receive	480.622	delay	0.193149	Index	983	OverHead	Hop	0	
-Receive	480.622	delay	0.193149	Index	984	OverHead	Hop	0	
-Send	480.622	Send	480.622	Send	480.622	Send	480.622	Receive	480.697	delay	0.0746243	Index	985	OverHead	Hop	5	
-Send	480.697	Receive	480.914	delay	0.216429	Index	986	OverHead	Hop	18	
-Receive	480.914	delay	0.216429	Index	987	OverHead	Hop	0	
-Receive	480.914	delay	0.216429	Index	988	OverHead	Hop	0	
-Send	480.914	Send	480.914	Send	480.914	Receive	481.126	delay	0.212668	Index	989	OverHead	Hop	18	
-Send	481.126	Receive	481.314	delay	0.187989	Index	990	OverHead	Hop	18	
-Send	481.314	Receive	481.502	delay	0.187355	Index	991	OverHead	Hop	18	
-Send	481.502	Receive	481.688	delay	0.18687	Index	992	OverHead	Hop	18	
-Send	481.688	Send	486.688	Receive	486.957	delay	0.268332	Index	993	OverHead	Hop	20	
-Send	486.957	Receive	490.711	delay	3.75386	Index	994	OverHead	Hop	21	
-Send	490.711	Receive	490.937	delay	0.226845	Index	995	OverHead	Hop	18	
-Send	490.937	Receive	490.98	delay	0.0421174	Index	996	OverHead	Hop	6	
-Send	490.98	Send	495.98	Receive	496.088	delay	0.10816	Index	997	OverHead	Hop	16	
-Send	496.088	Receive	496.194	delay	0.106459	Index	998	OverHead	Hop	16	
-Send	496.194	Receive	496.349	delay	0.154841	Index	999	OverHead	Hop	17	
-Send	496.349	Receive	496.55	delay	0.201295	Index	1000	OverHead	Hop	18	
+Send	27.2664	Send	27.2664	Receive	27.3668	delay	0.100445	Index	96	OverHead	Hop	8	
+Send	27.3668	Receive	27.5396	delay	0.172748	Index	97	OverHead	Hop	18	
+Send	27.5396	Receive	27.7327	delay	0.193168	Index	98	OverHead	Hop	18	
+Send	27.7327	Receive	27.9275	delay	0.194737	Index	99	OverHead	Hop	18	
+Send	27.9275	Receive	28.1237	delay	0.19625	Index	100	OverHead	Hop	18	
+Receive	28.1237	delay	0.19625	Index	101	OverHead	Hop	0	
+Send	28.1237	Send	28.1237	Receive	28.3215	delay	0.197786	Index	102	OverHead	Hop	18	
+Send	28.3215	Receive	28.5208	delay	0.19933	Index	103	OverHead	Hop	18	
+Send	28.5208	Receive	28.7217	delay	0.200868	Index	104	OverHead	Hop	18	
+Send	28.7217	Receive	28.9869	delay	0.265177	Index	105	OverHead	Hop	20	
+Send	28.9869	Receive	29.2508	delay	0.263952	Index	106	OverHead	Hop	20	
+Send	29.2508	Receive	29.5133	delay	0.262433	Index	107	OverHead	Hop	20	
+Send	29.5133	Receive	29.7745	delay	0.261279	Index	108	OverHead	Hop	20	
+Receive	29.7745	delay	0.261279	Index	109	OverHead	Hop	0	
+Send	29.7745	Send	29.7745	Receive	29.898	delay	0.123458	Index	110	OverHead	Hop	12	
+Send	29.898	Receive	31.2622	delay	1.36423	Index	111	OverHead	Hop	21	
+Send	31.2622	Receive	31.3303	delay	0.0680663	Index	112	OverHead	Hop	10	
+Send	31.3303	Receive	31.6083	delay	0.27799	Index	113	OverHead	Hop	20	
+Send	31.6083	Receive	31.8886	delay	0.280303	Index	114	OverHead	Hop	20	
+Send	31.8886	Receive	32.1099	delay	0.22135	Index	115	OverHead	Hop	18	
+Send	32.1099	Receive	32.2303	delay	0.120332	Index	116	OverHead	Hop	12	
+Send	32.2303	Receive	32.4138	delay	0.18356	Index	117	OverHead	Hop	18	
+Send	32.4138	Receive	32.584	delay	0.170197	Index	118	OverHead	Hop	18	
+Send	32.584	Receive	32.7555	delay	0.171507	Index	119	OverHead	Hop	18	
+Send	32.7555	Receive	32.8455	delay	0.0899922	Index	120	OverHead	Hop	10	
+Send	32.8455	Receive	33.0191	delay	0.17352	Index	121	OverHead	Hop	18	
+Send	33.0191	Receive	33.0665	delay	0.0474338	Index	122	OverHead	Hop	6	
+Send	33.0665	Receive	33.2421	delay	0.175663	Index	123	OverHead	Hop	18	
+Send	33.2421	Receive	33.2584	delay	0.0162888	Index	124	OverHead	Hop	4	
+Send	33.2584	Receive	33.4356	delay	0.177162	Index	125	OverHead	Hop	18	
+Send	33.4356	Receive	33.6142	delay	0.178617	Index	126	OverHead	Hop	18	
+Send	33.6142	Receive	33.6707	delay	0.0565193	Index	127	OverHead	Hop	6	
+Send	33.6707	Receive	33.7796	delay	0.108886	Index	128	OverHead	Hop	16	
+Send	33.7796	Receive	33.8881	delay	0.108477	Index	129	OverHead	Hop	16	
+Send	33.8881	Receive	33.9962	delay	0.108146	Index	130	OverHead	Hop	16	
+Send	33.9962	Receive	34.104	delay	0.107769	Index	131	OverHead	Hop	16	
+Send	34.104	Receive	34.2113	delay	0.10726	Index	132	OverHead	Hop	16	
+Send	34.2113	Receive	34.299	delay	0.0876903	Index	133	OverHead	Hop	12	
+Send	34.299	Receive	34.404	delay	0.104999	Index	134	OverHead	Hop	16	
+Send	34.404	Receive	34.4591	delay	0.0550981	Index	135	OverHead	Hop	8	
+Send	34.4591	Receive	34.5623	delay	0.103225	Index	136	OverHead	Hop	16	
+Send	34.5623	Receive	34.664	delay	0.101762	Index	137	OverHead	Hop	16	
+Send	34.664	Receive	34.7444	delay	0.0803685	Index	138	OverHead	Hop	12	
+Send	34.7444	Receive	34.8657	delay	0.12129	Index	139	OverHead	Hop	16	
+Send	34.8657	Receive	34.9865	delay	0.120831	Index	140	OverHead	Hop	16	
+Send	34.9865	Receive	35.1069	delay	0.120381	Index	141	OverHead	Hop	16	
+Send	35.1069	Receive	35.2048	delay	0.0978884	Index	142	OverHead	Hop	12	
+Receive	35.2048	delay	0.0978884	Index	143	OverHead	Hop	0	
+Send	35.2048	Send	35.2048	Receive	35.3485	delay	0.143672	Index	144	OverHead	Hop	17	
+Send	35.3485	Receive	35.5398	delay	0.191339	Index	145	OverHead	Hop	18	
+Send	35.5398	Receive	35.7238	delay	0.18396	Index	146	OverHead	Hop	18	
+Send	35.7238	Receive	35.8923	delay	0.168561	Index	147	OverHead	Hop	16	
+Send	35.8923	Receive	36.0761	delay	0.183799	Index	148	OverHead	Hop	18	
+Send	36.0761	Receive	36.2324	delay	0.156292	Index	149	OverHead	Hop	14	
+Send	36.2324	Receive	36.413	delay	0.180547	Index	150	OverHead	Hop	18	
+Send	36.413	Receive	36.4768	delay	0.0638143	Index	151	OverHead	Hop	6	
+Send	36.4768	Receive	36.6544	delay	0.177597	Index	152	OverHead	Hop	18	
+Send	36.6544	Receive	36.8301	delay	0.175763	Index	153	OverHead	Hop	18	
+Send	36.8301	Receive	37.0037	delay	0.173529	Index	154	OverHead	Hop	18	
+Send	37.0037	Receive	37.175	delay	0.171342	Index	155	OverHead	Hop	18	
+Send	37.175	Receive	37.3135	delay	0.138443	Index	156	OverHead	Hop	12	
+Send	37.3135	Receive	37.4975	delay	0.184067	Index	157	OverHead	Hop	18	
+Send	37.4975	Receive	37.6816	delay	0.184054	Index	158	OverHead	Hop	18	
+Send	37.6816	Receive	37.8655	delay	0.183916	Index	159	OverHead	Hop	18	
+Receive	37.8655	delay	0.183916	Index	160	OverHead	Hop	0	
+Send	37.8655	Send	37.8655	Receive	37.9925	delay	0.126987	Index	161	OverHead	Hop	14	
+Send	37.9925	Receive	38.1844	delay	0.191877	Index	162	OverHead	Hop	18	
+Send	38.1844	Receive	38.3755	delay	0.191117	Index	163	OverHead	Hop	18	
+Send	38.3755	Receive	38.471	delay	0.0955589	Index	164	OverHead	Hop	11	
+Send	38.471	Receive	38.5606	delay	0.0895744	Index	165	OverHead	Hop	16	
+Receive	38.5606	delay	0.0895744	Index	166	OverHead	Hop	0	
+Receive	38.5606	delay	0.0895744	Index	167	OverHead	Hop	0	
+Send	38.5606	Send	38.5606	Send	38.5606	Receive	38.5748	delay	0.0142237	Index	168	OverHead	Hop	4	
+Send	38.5748	Receive	38.5893	delay	0.0144373	Index	169	OverHead	Hop	4	
+Send	38.5893	Receive	38.6783	delay	0.0890549	Index	170	OverHead	Hop	16	
+Send	38.6783	Receive	38.8171	delay	0.138767	Index	171	OverHead	Hop	17	
+Send	38.8171	Receive	38.8978	delay	0.0807462	Index	172	OverHead	Hop	8	
+Send	38.8978	Receive	39.1768	delay	0.278917	Index	173	OverHead	Hop	20	
+Send	39.1768	Receive	39.4545	delay	0.277722	Index	174	OverHead	Hop	20	
+Send	39.4545	Receive	39.7401	delay	0.285638	Index	175	OverHead	Hop	20	
+Send	39.7401	Receive	40.0248	delay	0.284632	Index	176	OverHead	Hop	20	
+Send	40.0248	Receive	40.3087	delay	0.283919	Index	177	OverHead	Hop	20	
+Send	40.3087	Receive	40.5914	delay	0.282736	Index	178	OverHead	Hop	20	
+Send	40.5914	Receive	40.6591	delay	0.0677368	Index	179	OverHead	Hop	6	
+Send	40.6591	Receive	40.941	delay	0.281859	Index	180	OverHead	Hop	20	
+Send	40.941	Receive	41.2216	delay	0.280635	Index	181	OverHead	Hop	20	
+Send	41.2216	Receive	41.4758	delay	0.254183	Index	182	OverHead	Hop	20	
+Receive	41.4758	delay	0.254183	Index	183	OverHead	Hop	0	
+Send	41.4758	Send	41.4758	Receive	41.4962	delay	0.0204151	Index	184	OverHead	Hop	6	
+Receive	41.4962	delay	0.0204151	Index	185	OverHead	Hop	0	
+Receive	41.4962	delay	0.0204151	Index	186	OverHead	Hop	0	
+Send	41.4962	Send	41.4962	Send	41.4962	Receive	41.7751	delay	0.278889	Index	187	OverHead	Hop	20	
+Receive	41.7751	delay	0.278889	Index	188	OverHead	Hop	0	
+Send	41.7751	Send	41.7751	Receive	41.8001	delay	0.0250007	Index	189	OverHead	Hop	6	
+Send	41.8001	Receive	41.8255	delay	0.0253837	Index	190	OverHead	Hop	6	
+Send	41.8255	Receive	42.0526	delay	0.227123	Index	191	OverHead	Hop	19	
+Send	42.0526	Receive	42.238	delay	0.185361	Index	192	OverHead	Hop	18	
+Receive	42.238	delay	0.185361	Index	193	OverHead	Hop	0	
+Send	42.238	Send	42.238	Receive	42.4247	delay	0.186685	Index	194	OverHead	Hop	18	
+Send	42.4247	Receive	42.6133	delay	0.188616	Index	195	OverHead	Hop	18	
+Send	42.6133	Receive	42.6276	delay	0.0143185	Index	196	OverHead	Hop	4	
+Send	42.6276	Receive	42.8097	delay	0.182049	Index	197	OverHead	Hop	18	
+Send	42.8097	Receive	42.9931	delay	0.183409	Index	198	OverHead	Hop	18	
+Receive	42.9931	delay	0.183409	Index	199	OverHead	Hop	0	
+Send	42.9931	Send	42.9931	Receive	43.0944	delay	0.101367	Index	200	OverHead	Hop	10	
+Send	43.0944	Receive	43.2793	delay	0.184903	Index	201	OverHead	Hop	18	
+Send	43.2793	Receive	43.4658	delay	0.186411	Index	202	OverHead	Hop	18	
+Receive	43.4658	delay	0.186411	Index	203	OverHead	Hop	0	
+Send	43.4658	Send	43.4658	Receive	43.6035	delay	0.137765	Index	204	OverHead	Hop	17	
+Send	43.6035	Receive	43.7041	delay	0.100532	Index	205	OverHead	Hop	12	
+Send	43.7041	Receive	43.7569	delay	0.0528417	Index	206	OverHead	Hop	6	
+Receive	43.7569	delay	0.0528417	Index	207	OverHead	Hop	0	
+Receive	43.7569	delay	0.0528417	Index	208	OverHead	Hop	0	
+Send	43.7569	Send	43.7569	Send	43.7569	Receive	43.8758	delay	0.118899	Index	209	OverHead	Hop	16	
+Send	43.8758	Receive	44.0301	delay	0.154272	Index	210	OverHead	Hop	17	
+Receive	44.0301	delay	0.154272	Index	211	OverHead	Hop	0	
+Send	44.0301	Send	44.0301	Receive	44.143	delay	0.112895	Index	212	OverHead	Hop	16	
+Send	44.143	Receive	44.2559	delay	0.112964	Index	213	OverHead	Hop	16	
+Send	44.2559	Receive	44.369	delay	0.113032	Index	214	OverHead	Hop	16	
+Send	44.369	Receive	44.4822	delay	0.113274	Index	215	OverHead	Hop	16	
+Send	44.4822	Receive	44.5956	delay	0.113349	Index	216	OverHead	Hop	16	
+Send	44.5956	Receive	44.709	delay	0.113424	Index	217	OverHead	Hop	16	
+Send	44.709	Receive	44.8224	delay	0.113404	Index	218	OverHead	Hop	16	
+Send	44.8224	Receive	44.9359	delay	0.113484	Index	219	OverHead	Hop	16	
+Send	44.9359	Receive	45.0495	delay	0.113629	Index	220	OverHead	Hop	16	
+Send	45.0495	Receive	45.0549	delay	0.00537485	Index	221	OverHead	Hop	2	
+Send	45.0549	Receive	45.1685	delay	0.11365	Index	222	OverHead	Hop	16	
+Send	45.1685	Receive	45.2818	delay	0.113305	Index	223	OverHead	Hop	16	
+Receive	45.2818	delay	0.113305	Index	224	OverHead	Hop	0	
+Receive	45.2818	delay	0.113305	Index	225	OverHead	Hop	0	
+Send	45.2818	Send	45.2818	Send	45.2818	Receive	45.4437	delay	0.161823	Index	226	OverHead	Hop	17	
+Send	45.4437	Receive	45.6532	delay	0.209491	Index	227	OverHead	Hop	18	
+Send	45.6532	Receive	45.8601	delay	0.206892	Index	228	OverHead	Hop	18	
+Send	45.8601	Receive	45.8624	delay	0.00239214	Index	229	OverHead	Hop	2	
+Send	45.8624	Receive	46.0667	delay	0.204293	Index	230	OverHead	Hop	18	
+Send	46.0667	Receive	46.2471	delay	0.180314	Index	231	OverHead	Hop	14	
+Send	46.2471	Receive	46.4466	delay	0.199583	Index	232	OverHead	Hop	18	
+Send	46.4466	Receive	46.6438	delay	0.197185	Index	233	OverHead	Hop	18	
+Send	46.6438	Receive	46.6597	delay	0.0158439	Index	234	OverHead	Hop	2	
+Send	46.6597	Receive	46.8524	delay	0.192768	Index	235	OverHead	Hop	18	
+Send	46.8524	Receive	47.0451	delay	0.192644	Index	236	OverHead	Hop	18	
+Send	47.0451	Receive	47.2353	delay	0.190218	Index	237	OverHead	Hop	18	
+Send	47.2353	Receive	47.256	delay	0.0207482	Index	238	OverHead	Hop	4	
+Send	47.256	Receive	47.4436	delay	0.187598	Index	239	OverHead	Hop	18	
+Send	47.4436	Receive	47.629	delay	0.185407	Index	240	OverHead	Hop	18	
+Send	47.629	Receive	47.8122	delay	0.183119	Index	241	OverHead	Hop	18	
+Send	47.8122	Receive	47.993	delay	0.180787	Index	242	OverHead	Hop	18	
+Send	47.993	Receive	48.1217	delay	0.128756	Index	243	OverHead	Hop	17	
+Send	48.1217	Receive	48.2986	delay	0.176872	Index	244	OverHead	Hop	18	
+Send	48.2986	Receive	48.3532	delay	0.054595	Index	245	OverHead	Hop	6	
+Receive	48.3532	delay	0.054595	Index	246	OverHead	Hop	0	
+Receive	48.3532	delay	0.054595	Index	247	OverHead	Hop	0	
+Send	48.3532	Send	48.3532	Send	48.3532	Receive	48.5271	delay	0.173951	Index	248	OverHead	Hop	18	
+Send	48.5271	Receive	48.5787	delay	0.0515562	Index	249	OverHead	Hop	6	
+Send	48.5787	Receive	48.7497	delay	0.171028	Index	250	OverHead	Hop	18	
+Send	48.7497	Receive	48.9187	delay	0.168954	Index	251	OverHead	Hop	18	
+Send	48.9187	Receive	49.1352	delay	0.21649	Index	252	OverHead	Hop	19	
+Send	49.1352	Receive	49.3984	delay	0.263229	Index	253	OverHead	Hop	20	
+Receive	49.3984	delay	0.263229	Index	254	OverHead	Hop	0	
+Send	49.3984	Send	49.3984	Receive	49.5655	delay	0.167086	Index	255	OverHead	Hop	10	
+Send	49.5655	Receive	49.6007	delay	0.035226	Index	256	OverHead	Hop	2	
+Send	49.6007	Receive	49.6916	delay	0.0908947	Index	257	OverHead	Hop	6	
+Receive	49.6916	delay	0.0908947	Index	258	OverHead	Hop	0	
+Send	49.6916	Send	49.6916	Receive	53.1489	delay	3.45732	Index	259	OverHead	Hop	21	
+Send	53.1489	Receive	53.3978	delay	0.248866	Index	260	OverHead	Hop	20	
+Send	53.3978	Receive	53.6501	delay	0.252315	Index	261	OverHead	Hop	20	
+Send	53.6501	Receive	53.9055	delay	0.255427	Index	262	OverHead	Hop	20	
+Send	53.9055	Receive	54.1011	delay	0.195555	Index	263	OverHead	Hop	18	
+Send	54.1011	Receive	54.2106	delay	0.109482	Index	264	OverHead	Hop	8	
+Send	54.2106	Receive	54.4065	delay	0.195922	Index	265	OverHead	Hop	18	
+Send	54.4065	Receive	54.4724	delay	0.0659745	Index	266	OverHead	Hop	4	
+Send	54.4724	Receive	54.6611	delay	0.188636	Index	267	OverHead	Hop	18	
+Send	54.6611	Receive	54.7811	delay	0.120022	Index	268	OverHead	Hop	6	
+Receive	54.7811	delay	0.120022	Index	269	OverHead	Hop	0	
+Send	54.7811	Send	54.7811	Receive	54.8529	delay	0.0718359	Index	270	OverHead	Hop	6	
+Send	54.8529	Receive	55.0013	delay	0.148327	Index	271	OverHead	Hop	10	
+Send	55.0013	Receive	55.2132	delay	0.211891	Index	272	OverHead	Hop	18	
+Receive	55.2132	delay	0.211891	Index	273	OverHead	Hop	0	
+Send	55.2132	Send	55.2132	Receive	55.4112	delay	0.198014	Index	274	OverHead	Hop	14	
+Send	55.4112	Receive	55.6257	delay	0.214494	Index	275	OverHead	Hop	18	
+Send	55.6257	Receive	55.8375	delay	0.211783	Index	276	OverHead	Hop	18	
+Send	55.8375	Receive	55.8722	delay	0.0346991	Index	277	OverHead	Hop	4	
+Send	55.8722	Receive	56.0702	delay	0.19801	Index	278	OverHead	Hop	18	
+Send	56.0702	Receive	56.2373	delay	0.167177	Index	279	OverHead	Hop	12	
+Send	56.2373	Receive	56.382	delay	0.144661	Index	280	OverHead	Hop	17	
+Send	56.382	Receive	56.4776	delay	0.0955501	Index	281	OverHead	Hop	16	
+Send	56.4776	Receive	56.5743	delay	0.0967162	Index	282	OverHead	Hop	16	
+Send	56.5743	Receive	56.5955	delay	0.021258	Index	283	OverHead	Hop	4	
+Send	56.5955	Receive	56.6934	delay	0.0978759	Index	284	OverHead	Hop	16	
+Send	56.6934	Receive	56.7913	delay	0.0979349	Index	285	OverHead	Hop	16	
+Receive	56.7913	delay	0.0979349	Index	286	OverHead	Hop	0	
+Send	56.7913	Send	56.7913	Receive	56.8893	delay	0.0979938	Index	287	OverHead	Hop	16	
+Send	56.8893	Receive	56.9837	delay	0.0943241	Index	288	OverHead	Hop	16	
+Send	56.9837	Receive	57.1279	delay	0.144204	Index	289	OverHead	Hop	17	
+Receive	57.1279	delay	0.144204	Index	290	OverHead	Hop	0	
+Send	57.1279	Send	57.1279	Receive	57.1412	delay	0.0132974	Index	291	OverHead	Hop	2	
+Send	57.1412	Receive	57.2044	delay	0.0632213	Index	292	OverHead	Hop	8	
+Send	57.2044	Receive	57.4036	delay	0.19925	Index	293	OverHead	Hop	18	
+Send	57.4036	Receive	57.6029	delay	0.199313	Index	294	OverHead	Hop	18	
+Send	57.6029	Receive	57.8024	delay	0.199449	Index	295	OverHead	Hop	18	
+Receive	57.8024	delay	0.199449	Index	296	OverHead	Hop	0	
+Send	57.8024	Send	57.8024	Receive	57.9945	delay	0.192113	Index	297	OverHead	Hop	18	
+Receive	57.9945	delay	0.192113	Index	298	OverHead	Hop	0	
+Send	57.9945	Send	57.9945	Receive	58.0785	delay	0.0839484	Index	299	OverHead	Hop	8	
+Send	58.0785	Receive	58.2708	delay	0.192372	Index	300	OverHead	Hop	18	
+Send	58.2708	Receive	58.4633	delay	0.192514	Index	301	OverHead	Hop	18	
+Send	58.4633	Receive	58.6056	delay	0.142231	Index	302	OverHead	Hop	17	
+Receive	58.6056	delay	0.142231	Index	303	OverHead	Hop	0	
+Send	58.6056	Send	58.6056	Receive	58.6639	delay	0.0583623	Index	304	OverHead	Hop	14	
+Send	58.6639	Receive	58.7562	delay	0.0922834	Index	305	OverHead	Hop	16	
+Send	58.7562	Receive	58.7588	delay	0.00256237	Index	306	OverHead	Hop	2	
+Send	58.7588	Receive	58.8513	delay	0.0925288	Index	307	OverHead	Hop	16	
+Send	58.8513	Receive	58.8853	delay	0.0339637	Index	308	OverHead	Hop	8	
+Send	58.8853	Receive	58.9779	delay	0.0926346	Index	309	OverHead	Hop	16	
+Send	58.9779	Receive	59.0781	delay	0.100173	Index	310	OverHead	Hop	16	
+Send	59.0781	Receive	59.1988	delay	0.120733	Index	311	OverHead	Hop	17	
+Send	59.1988	Receive	59.3675	delay	0.168723	Index	312	OverHead	Hop	18	
+Send	59.3675	Receive	59.5343	delay	0.166767	Index	313	OverHead	Hop	18	
+Receive	59.5343	delay	0.166767	Index	314	OverHead	Hop	0	
+Send	59.5343	Send	59.5343	Receive	59.6989	delay	0.164626	Index	315	OverHead	Hop	18	
+Send	59.6989	Receive	59.8615	delay	0.162619	Index	316	OverHead	Hop	18	
+Send	59.8615	Receive	60.0221	delay	0.160519	Index	317	OverHead	Hop	18	
+Send	60.0221	Receive	60.1472	delay	0.125145	Index	318	OverHead	Hop	8	
+Send	60.1472	Receive	60.2279	delay	0.0806803	Index	319	OverHead	Hop	6	
+Send	60.2279	Receive	60.3075	delay	0.0796452	Index	320	OverHead	Hop	6	
+Send	60.3075	Receive	60.3914	delay	0.0838704	Index	321	OverHead	Hop	8	
+Send	60.3914	Receive	60.6446	delay	0.253201	Index	322	OverHead	Hop	20	
+Send	60.6446	Receive	60.6838	delay	0.0392402	Index	323	OverHead	Hop	2	
+Send	60.6838	Receive	63.4163	delay	2.73242	Index	324	OverHead	Hop	18	
+Send	63.4163	Receive	63.5949	delay	0.178586	Index	325	OverHead	Hop	14	
+Send	63.5949	Receive	63.7802	delay	0.185357	Index	326	OverHead	Hop	18	
+Receive	63.7802	delay	0.185357	Index	327	OverHead	Hop	0	
+Send	63.7802	Send	63.7802	Receive	63.8186	delay	0.0384043	Index	328	OverHead	Hop	2	
+Send	63.8186	Receive	64.0545	delay	0.235845	Index	329	OverHead	Hop	19	
+Send	64.0545	Receive	64.333	delay	0.278587	Index	330	OverHead	Hop	20	
+Send	64.333	Receive	64.3977	delay	0.0646483	Index	331	OverHead	Hop	4	
+Send	64.3977	Receive	64.5588	delay	0.161073	Index	332	OverHead	Hop	17	
+Send	64.5588	Receive	64.5868	delay	0.0279939	Index	333	OverHead	Hop	4	
+Send	64.5868	Receive	64.5875	delay	0.000691748	Index	334	OverHead	Hop	2	
+Send	64.5875	Receive	64.616	delay	0.0285871	Index	335	OverHead	Hop	6	
+Send	64.616	Receive	64.6537	delay	0.0377049	Index	336	OverHead	Hop	8	
+Send	64.6537	Receive	64.6814	delay	0.0276397	Index	337	OverHead	Hop	6	
+Send	64.6814	Receive	64.7969	delay	0.115488	Index	338	OverHead	Hop	16	
+Send	64.7969	Receive	64.911	delay	0.114098	Index	339	OverHead	Hop	16	
+Send	64.911	Receive	65.0237	delay	0.112722	Index	340	OverHead	Hop	16	
+Send	65.0237	Receive	65.135	delay	0.111304	Index	341	OverHead	Hop	16	
+Send	65.135	Receive	65.2449	delay	0.109902	Index	342	OverHead	Hop	16	
+Receive	65.2449	delay	0.109902	Index	343	OverHead	Hop	0	
+Send	65.2449	Send	65.2449	Receive	65.3181	delay	0.0731526	Index	344	OverHead	Hop	10	
+Send	65.3181	Receive	67.9808	delay	2.66271	Index	345	OverHead	Hop	17	
+Send	67.9808	Receive	67.9914	delay	0.0106376	Index	346	OverHead	Hop	2	
+Receive	67.9914	delay	0.0106376	Index	347	OverHead	Hop	0	
+Send	67.9914	Send	67.9914	Receive	68.1968	delay	0.205391	Index	348	OverHead	Hop	18	
+Receive	68.1968	delay	0.205391	Index	349	OverHead	Hop	0	
+Send	68.1968	Send	68.1968	Receive	68.2991	delay	0.102346	Index	350	OverHead	Hop	10	
+Send	68.2991	Receive	68.5087	delay	0.209573	Index	351	OverHead	Hop	18	
+Send	68.5087	Receive	68.7207	delay	0.211985	Index	352	OverHead	Hop	18	
+Send	68.7207	Receive	68.7949	delay	0.0742448	Index	353	OverHead	Hop	8	
+Send	68.7949	Receive	69.0108	delay	0.215888	Index	354	OverHead	Hop	18	
+Send	69.0108	Receive	69.2294	delay	0.218562	Index	355	OverHead	Hop	18	
+Send	69.2294	Receive	69.4507	delay	0.221322	Index	356	OverHead	Hop	18	
+Send	69.4507	Receive	69.6901	delay	0.239383	Index	357	OverHead	Hop	19	
+Send	69.6901	Receive	69.8905	delay	0.200364	Index	358	OverHead	Hop	14	
+Send	69.8905	Receive	70.1799	delay	0.289426	Index	359	OverHead	Hop	20	
+Send	70.1799	Receive	72.9261	delay	2.74626	Index	360	OverHead	Hop	22	
+Send	72.9261	Receive	73.0406	delay	0.114418	Index	361	OverHead	Hop	6	
+Send	73.0406	Receive	73.2254	delay	0.184813	Index	362	OverHead	Hop	18	
+Send	73.2254	Receive	73.5115	delay	0.286147	Index	363	OverHead	Hop	20	
+Send	73.5115	Receive	73.6843	delay	0.172745	Index	364	OverHead	Hop	10	
+Send	73.6843	Receive	73.9198	delay	0.235582	Index	365	OverHead	Hop	19	
+Send	73.9198	Receive	74.0181	delay	0.0982828	Index	366	OverHead	Hop	7	
+Send	74.0181	Receive	74.1366	delay	0.11848	Index	367	OverHead	Hop	16	
+Send	74.1366	Receive	74.2143	delay	0.0777183	Index	368	OverHead	Hop	12	
+Receive	74.2143	delay	0.0777183	Index	369	OverHead	Hop	0	
+Send	74.2143	Send	74.2143	Receive	74.2516	delay	0.0372513	Index	370	OverHead	Hop	4	
+Send	74.2516	Receive	74.3672	delay	0.115604	Index	371	OverHead	Hop	16	
+Send	74.3672	Receive	74.5806	delay	0.213401	Index	372	OverHead	Hop	18	
+Send	74.5806	Receive	74.7912	delay	0.210641	Index	373	OverHead	Hop	18	
+Send	74.7912	Receive	74.9922	delay	0.200959	Index	374	OverHead	Hop	18	
+Send	74.9922	Receive	75.1928	delay	0.200654	Index	375	OverHead	Hop	18	
+Send	75.1928	Receive	75.3932	delay	0.200387	Index	376	OverHead	Hop	18	
+Send	75.3932	Receive	77.4871	delay	2.09383	Index	377	OverHead	Hop	19	
+Send	77.4871	Receive	77.6766	delay	0.189553	Index	378	OverHead	Hop	18	
+Send	77.6766	Receive	77.8668	delay	0.190159	Index	379	OverHead	Hop	18	
+Send	77.8668	Receive	78.0569	delay	0.190156	Index	380	OverHead	Hop	18	
+Send	78.0569	Receive	78.1375	delay	0.080581	Index	381	OverHead	Hop	6	
+Receive	78.1375	delay	0.080581	Index	382	OverHead	Hop	0	
+Receive	78.1375	delay	0.080581	Index	383	OverHead	Hop	0	
+Send	78.1375	Send	78.1375	Send	78.1375	Receive	78.1458	delay	0.00829614	Index	384	OverHead	Hop	2	
+Send	78.1458	Receive	78.3364	delay	0.190552	Index	385	OverHead	Hop	18	
+Send	78.3364	Receive	78.527	delay	0.190644	Index	386	OverHead	Hop	18	
+Send	78.527	Receive	78.5642	delay	0.0372389	Index	387	OverHead	Hop	4	
+Send	78.5642	Receive	78.6481	delay	0.0838236	Index	388	OverHead	Hop	8	
+Send	78.6481	Receive	78.8391	delay	0.191023	Index	389	OverHead	Hop	18	
+Send	78.8391	Receive	79.0304	delay	0.191345	Index	390	OverHead	Hop	18	
+Receive	79.0304	delay	0.191345	Index	391	OverHead	Hop	0	
+Send	79.0304	Send	79.0304	Receive	79.2217	delay	0.191309	Index	392	OverHead	Hop	18	
+Send	79.2217	Receive	79.3046	delay	0.0828692	Index	393	OverHead	Hop	8	
+Send	79.3046	Receive	79.3053	delay	0.000649557	Index	394	OverHead	Hop	2	
+Send	79.3053	Receive	79.4299	delay	0.124615	Index	395	OverHead	Hop	11	
+Send	79.4299	Receive	79.6177	delay	0.187805	Index	396	OverHead	Hop	14	
+Send	79.6177	Receive	79.6554	delay	0.0377494	Index	397	OverHead	Hop	2	
+Send	79.6554	Receive	79.6934	delay	0.0380008	Index	398	OverHead	Hop	2	
+Send	79.6934	Receive	79.9416	delay	0.248172	Index	399	OverHead	Hop	20	
+Send	79.9416	Receive	80.1868	delay	0.245182	Index	400	OverHead	Hop	20	
+Send	80.1868	Receive	80.3726	delay	0.185773	Index	401	OverHead	Hop	18	
+Send	80.3726	Receive	81.607	delay	1.23442	Index	402	OverHead	Hop	19	
+Send	81.607	Receive	83.2108	delay	1.60378	Index	403	OverHead	Hop	19	
+Send	83.2108	Receive	83.3547	delay	0.143906	Index	404	OverHead	Hop	10	
+Send	83.3547	Receive	83.5561	delay	0.20143	Index	405	OverHead	Hop	18	
+Send	83.5561	Receive	83.5667	delay	0.0106464	Index	406	OverHead	Hop	2	
+Receive	83.5667	delay	0.0106464	Index	407	OverHead	Hop	0	
+Send	83.5667	Send	83.5667	Receive	83.7653	delay	0.198543	Index	408	OverHead	Hop	18	
+Send	83.7653	Receive	83.8499	delay	0.0846345	Index	409	OverHead	Hop	9	
+Send	83.8499	Receive	83.9448	delay	0.0949263	Index	410	OverHead	Hop	16	
+Send	83.9448	Receive	84.0882	delay	0.143339	Index	411	OverHead	Hop	17	
+Receive	84.0882	delay	0.143339	Index	412	OverHead	Hop	0	
+Send	84.0882	Send	84.0882	Receive	84.2792	delay	0.190991	Index	413	OverHead	Hop	18	
+Send	84.2792	Receive	84.5071	delay	0.227905	Index	414	OverHead	Hop	19	
+Send	84.5071	Receive	84.7852	delay	0.278146	Index	415	OverHead	Hop	20	
+Send	84.7852	Receive	85.0623	delay	0.2771	Index	416	OverHead	Hop	20	
+Receive	85.0623	delay	0.2771	Index	417	OverHead	Hop	0	
+Send	85.0623	Send	85.0623	Receive	85.3388	delay	0.27647	Index	418	OverHead	Hop	20	
+Send	85.3388	Receive	85.3617	delay	0.0228637	Index	419	OverHead	Hop	2	
+Send	85.3617	Receive	85.6103	delay	0.248675	Index	420	OverHead	Hop	19	
+Send	85.6103	Receive	85.7589	delay	0.148521	Index	421	OverHead	Hop	12	
+Send	85.7589	Receive	85.8437	delay	0.0848413	Index	422	OverHead	Hop	8	
+Send	85.8437	Receive	86.0374	delay	0.193749	Index	423	OverHead	Hop	18	
+Send	86.0374	Receive	86.2286	delay	0.191153	Index	424	OverHead	Hop	18	
+Send	86.2286	Receive	87.4692	delay	1.24062	Index	425	OverHead	Hop	19	
+Send	87.4692	Receive	87.4793	delay	0.0100651	Index	426	OverHead	Hop	4	
+Send	87.4793	Receive	87.488	delay	0.00868389	Index	427	OverHead	Hop	2	
+Send	87.488	Receive	88.7752	delay	1.2872	Index	428	OverHead	Hop	18	
+Send	88.7752	Receive	88.9358	delay	0.160613	Index	429	OverHead	Hop	12	
+Send	88.9358	Receive	89.1201	delay	0.184269	Index	430	OverHead	Hop	18	
+Send	89.1201	Receive	89.2829	delay	0.162854	Index	431	OverHead	Hop	14	
+Receive	89.2829	delay	0.162854	Index	432	OverHead	Hop	0	
+Receive	89.2829	delay	0.162854	Index	433	OverHead	Hop	0	
+Send	89.2829	Send	89.2829	Send	89.2829	Receive	89.335	delay	0.0521115	Index	434	OverHead	Hop	4	
+Send	89.335	Receive	89.5221	delay	0.187114	Index	435	OverHead	Hop	18	
+Receive	89.5221	delay	0.187114	Index	436	OverHead	Hop	0	
+Send	89.5221	Send	89.5221	Receive	89.7097	delay	0.187567	Index	437	OverHead	Hop	18	
+Send	89.7097	Receive	89.8976	delay	0.187945	Index	438	OverHead	Hop	18	
+Send	89.8976	Receive	90.086	delay	0.188325	Index	439	OverHead	Hop	18	
+Send	90.086	Receive	90.275	delay	0.189013	Index	440	OverHead	Hop	18	
+Receive	90.275	delay	0.189013	Index	441	OverHead	Hop	0	
+Receive	90.275	delay	0.189013	Index	442	OverHead	Hop	0	
+Send	90.275	Send	90.275	Send	90.275	Receive	90.3221	delay	0.0471185	Index	443	OverHead	Hop	4	
+Receive	90.3221	delay	0.0471185	Index	444	OverHead	Hop	0	
+Send	90.3221	Send	90.3221	Receive	90.6088	delay	0.286704	Index	445	OverHead	Hop	20	
+Send	90.6088	Receive	90.6392	delay	0.0303755	Index	446	OverHead	Hop	2	
+Receive	90.6392	delay	0.0303755	Index	447	OverHead	Hop	0	
+Receive	90.6392	delay	0.0303755	Index	448	OverHead	Hop	0	
+Send	90.6392	Send	90.6392	Send	90.6392	Receive	90.6773	delay	0.0381647	Index	449	OverHead	Hop	4	
+Receive	90.6773	delay	0.0381647	Index	450	OverHead	Hop	0	
+Receive	90.6773	delay	0.0381647	Index	451	OverHead	Hop	0	
+Send	90.6773	Send	90.6773	Send	90.6773	Receive	90.9692	delay	0.291809	Index	452	OverHead	Hop	20	
+Send	90.9692	Receive	91.2489	delay	0.279753	Index	453	OverHead	Hop	20	
+Send	91.2489	Receive	91.2917	delay	0.0427818	Index	454	OverHead	Hop	4	
+Receive	91.2917	delay	0.0427818	Index	455	OverHead	Hop	0	
+Send	91.2917	Send	91.2917	Receive	93.1489	delay	1.85716	Index	456	OverHead	Hop	20	
+Send	93.1489	Receive	93.348	delay	0.199193	Index	457	OverHead	Hop	18	
+Send	93.348	Receive	93.3874	delay	0.0393187	Index	458	OverHead	Hop	6	
+Send	93.3874	Receive	93.5439	delay	0.156562	Index	459	OverHead	Hop	12	
+Send	93.5439	Receive	93.5496	delay	0.00570374	Index	460	OverHead	Hop	2	
+Receive	93.5496	delay	0.00570374	Index	461	OverHead	Hop	0	
+Receive	93.5496	delay	0.00570374	Index	462	OverHead	Hop	0	
+Receive	93.5496	delay	0.00570374	Index	463	OverHead	Hop	0	
+Send	93.5496	Send	93.5496	Send	93.5496	Send	93.5496	Receive	93.7461	delay	0.196501	Index	464	OverHead	Hop	18	
+Send	93.7461	Receive	93.91	delay	0.163884	Index	465	OverHead	Hop	14	
+Send	93.91	Receive	94.1017	delay	0.191637	Index	466	OverHead	Hop	18	
+Receive	94.1017	delay	0.191637	Index	467	OverHead	Hop	0	
+Receive	94.1017	delay	0.191637	Index	468	OverHead	Hop	0	
+Send	94.1017	Send	94.1017	Send	94.1017	Receive	94.2905	delay	0.188864	Index	469	OverHead	Hop	18	
+Send	94.2905	Receive	94.501	delay	0.210517	Index	470	OverHead	Hop	19	
+Send	94.501	Receive	94.7616	delay	0.2606	Index	471	OverHead	Hop	20	
+Send	94.7616	Receive	95.0224	delay	0.260814	Index	472	OverHead	Hop	20	
+Send	95.0224	Receive	95.2837	delay	0.261228	Index	473	OverHead	Hop	20	
+Send	95.2837	Receive	95.3643	delay	0.0806493	Index	474	OverHead	Hop	6	
+Send	95.3643	Receive	95.4112	delay	0.0469181	Index	475	OverHead	Hop	4	
+Send	95.4112	Receive	95.4324	delay	0.0211219	Index	476	OverHead	Hop	2	
+Send	95.4324	Receive	95.4537	delay	0.0212908	Index	477	OverHead	Hop	2	
+Send	95.4537	Receive	95.4996	delay	0.0459649	Index	478	OverHead	Hop	4	
+Send	95.4996	Receive	95.6887	delay	0.189103	Index	479	OverHead	Hop	18	
+Send	95.6887	Receive	95.7121	delay	0.0233412	Index	480	OverHead	Hop	2	
+Send	95.7121	Receive	95.9322	delay	0.220121	Index	481	OverHead	Hop	18	
+Send	95.9322	Receive	96.1039	delay	0.17171	Index	482	OverHead	Hop	11	
+Send	96.1039	Receive	98.8506	delay	2.74674	Index	483	OverHead	Hop	19	
+Send	98.8506	Receive	99.0448	delay	0.194165	Index	484	OverHead	Hop	18	
+Send	99.0448	Receive	99.0659	delay	0.0211457	Index	485	OverHead	Hop	4	
+Send	99.0659	Receive	99.1217	delay	0.0557466	Index	486	OverHead	Hop	6	
+Send	99.1217	Receive	99.3156	delay	0.19386	Index	487	OverHead	Hop	18	
+Send	99.3156	Receive	99.3695	delay	0.0539934	Index	488	OverHead	Hop	6	
+Send	99.3695	Receive	99.5631	delay	0.193579	Index	489	OverHead	Hop	18	
+Send	99.5631	Receive	99.7571	delay	0.193958	Index	490	OverHead	Hop	18	
+Send	99.7571	Receive	99.9731	delay	0.216068	Index	491	OverHead	Hop	18	
+Send	99.9731	Receive	100.189	delay	0.216052	Index	492	OverHead	Hop	18	
+Send	100.189	Receive	100.419	delay	0.229558	Index	493	OverHead	Hop	19	
+Send	100.419	Receive	100.699	delay	0.280144	Index	494	OverHead	Hop	20	
+Receive	100.699	delay	0.280144	Index	495	OverHead	Hop	0	
+Send	100.699	Send	100.699	Receive	100.977	delay	0.278139	Index	496	OverHead	Hop	20	
+Send	100.977	Receive	101.035	delay	0.0576398	Index	497	OverHead	Hop	4	
+Send	101.035	Receive	103.427	delay	2.39236	Index	498	OverHead	Hop	20	
+Send	103.427	Receive	103.616	delay	0.189	Index	499	OverHead	Hop	18	
+Receive	103.616	delay	0.189	Index	500	OverHead	Hop	0	
+Send	103.616	Send	103.616	Receive	103.805	delay	0.189427	Index	501	OverHead	Hop	18	
+Send	103.805	Receive	103.995	delay	0.189684	Index	502	OverHead	Hop	18	
+Send	103.995	Receive	104.147	delay	0.152093	Index	503	OverHead	Hop	14	
+Send	104.147	Receive	104.385	delay	0.238215	Index	504	OverHead	Hop	19	
+Send	104.385	Receive	104.441	delay	0.0554432	Index	505	OverHead	Hop	6	
+Receive	104.441	delay	0.0554432	Index	506	OverHead	Hop	0	
+Send	104.441	Send	104.441	Receive	104.694	delay	0.253541	Index	507	OverHead	Hop	20	
+Send	104.694	Receive	104.948	delay	0.253434	Index	508	OverHead	Hop	20	
+Send	104.948	Receive	105.024	delay	0.0758161	Index	509	OverHead	Hop	8	
+Send	105.024	Receive	105.277	delay	0.253118	Index	510	OverHead	Hop	20	
+Send	105.277	Receive	105.53	delay	0.253001	Index	511	OverHead	Hop	20	
+Send	105.53	Receive	105.833	delay	0.303402	Index	512	OverHead	Hop	21	
+Send	105.833	Receive	105.904	delay	0.0705176	Index	513	OverHead	Hop	6	
+Send	105.904	Receive	106.078	delay	0.174215	Index	514	OverHead	Hop	18	
+Send	106.078	Receive	108.975	delay	2.89697	Index	515	OverHead	Hop	22	
+Send	108.975	Receive	108.992	delay	0.0172966	Index	516	OverHead	Hop	4	
+Send	108.992	Receive	109.197	delay	0.204488	Index	517	OverHead	Hop	18	
+Send	109.197	Receive	109.212	delay	0.0151081	Index	518	OverHead	Hop	4	
+Send	109.212	Receive	109.275	delay	0.0634376	Index	519	OverHead	Hop	6	
+Send	109.275	Receive	109.337	delay	0.0621796	Index	520	OverHead	Hop	6	
+Send	109.337	Receive	109.537	delay	0.199988	Index	521	OverHead	Hop	18	
+Send	109.537	Receive	109.64	delay	0.102947	Index	522	OverHead	Hop	10	
+Send	109.64	Receive	109.651	delay	0.0101446	Index	523	OverHead	Hop	4	
+Send	109.651	Receive	109.846	delay	0.195919	Index	524	OverHead	Hop	18	
+Send	109.846	Receive	109.852	delay	0.00533144	Index	525	OverHead	Hop	2	
+Send	109.852	Receive	110.045	delay	0.19344	Index	526	OverHead	Hop	18	
+Send	110.045	Receive	110.051	delay	0.00578608	Index	527	OverHead	Hop	4	
+Send	110.051	Receive	110.242	delay	0.191089	Index	528	OverHead	Hop	18	
+Send	110.242	Receive	110.247	delay	0.00444813	Index	529	OverHead	Hop	6	
+Send	110.247	Receive	110.334	delay	0.0872966	Index	530	OverHead	Hop	10	
+Send	110.334	Receive	110.336	delay	0.00264641	Index	531	OverHead	Hop	4	
+Send	110.336	Receive	110.339	delay	0.00209056	Index	532	OverHead	Hop	2	
+Receive	110.339	delay	0.00209056	Index	533	OverHead	Hop	0	
+Send	110.339	Send	110.339	Receive	110.351	delay	0.0126868	Index	534	OverHead	Hop	8	
+Send	110.351	Receive	113.86	delay	3.50906	Index	535	OverHead	Hop	19	
+Send	113.86	Receive	114.07	delay	0.209615	Index	536	OverHead	Hop	18	
+Receive	114.07	delay	0.209615	Index	537	OverHead	Hop	0	
+Send	114.07	Send	114.07	Receive	114.084	delay	0.0136268	Index	538	OverHead	Hop	2	
+Receive	114.084	delay	0.0136268	Index	539	OverHead	Hop	0	
+Send	114.084	Send	114.084	Receive	114.123	delay	0.0395768	Index	540	OverHead	Hop	4	
+Send	114.123	Receive	114.173	delay	0.049461	Index	541	OverHead	Hop	6	
+Send	114.173	Receive	114.187	delay	0.0144394	Index	542	OverHead	Hop	2	
+Send	114.187	Receive	114.202	delay	0.0146629	Index	543	OverHead	Hop	2	
+Send	114.202	Receive	114.334	delay	0.132512	Index	544	OverHead	Hop	12	
+Receive	114.334	delay	0.132512	Index	545	OverHead	Hop	0	
+Send	114.334	Send	114.334	Receive	114.545	delay	0.210601	Index	546	OverHead	Hop	18	
+Send	114.545	Receive	114.64	delay	0.0954493	Index	547	OverHead	Hop	8	
+Send	114.64	Receive	114.651	delay	0.0107241	Index	548	OverHead	Hop	2	
+Send	114.651	Receive	114.662	delay	0.0106357	Index	549	OverHead	Hop	2	
+Send	114.662	Receive	114.791	delay	0.129318	Index	550	OverHead	Hop	10	
+Receive	114.791	delay	0.129318	Index	551	OverHead	Hop	0	
+Send	114.791	Send	114.791	Receive	114.881	delay	0.0901833	Index	552	OverHead	Hop	8	
+Send	114.881	Receive	115.158	delay	0.277039	Index	553	OverHead	Hop	20	
+Receive	115.158	delay	0.277039	Index	554	OverHead	Hop	0	
+Send	115.158	Send	115.158	Receive	117.704	delay	2.54619	Index	555	OverHead	Hop	13	
+Send	117.704	Receive	117.896	delay	0.191805	Index	556	OverHead	Hop	18	
+Send	117.896	Receive	118.147	delay	0.251302	Index	557	OverHead	Hop	16	
+Send	118.147	Receive	118.434	delay	0.286779	Index	558	OverHead	Hop	20	
+Send	118.434	Receive	118.57	delay	0.135626	Index	559	OverHead	Hop	10	
+Send	118.57	Receive	118.586	delay	0.0162278	Index	560	OverHead	Hop	2	
+Send	118.586	Receive	118.879	delay	0.292947	Index	561	OverHead	Hop	20	
+Send	118.879	Receive	119.117	delay	0.238274	Index	562	OverHead	Hop	19	
+Send	119.117	Receive	119.308	delay	0.190276	Index	563	OverHead	Hop	18	
+Send	119.308	Receive	119.44	delay	0.132738	Index	564	OverHead	Hop	10	
+Send	119.44	Receive	119.678	delay	0.237668	Index	565	OverHead	Hop	19	
+Receive	119.678	delay	0.237668	Index	566	OverHead	Hop	0	
+Send	119.678	Send	119.678	Receive	119.706	delay	0.0282611	Index	567	OverHead	Hop	4	
+Send	119.706	Receive	119.897	delay	0.190581	Index	568	OverHead	Hop	18	
+Send	119.897	Receive	120.14	delay	0.242846	Index	569	OverHead	Hop	19	
+Receive	120.14	delay	0.242846	Index	570	OverHead	Hop	0	
+Send	120.14	Send	120.14	Receive	120.343	delay	0.203293	Index	571	OverHead	Hop	18	
+Send	120.343	Receive	120.387	delay	0.0441847	Index	572	OverHead	Hop	6	
+Receive	120.387	delay	0.0441847	Index	573	OverHead	Hop	0	
+Send	120.387	Send	120.387	Receive	120.52	delay	0.132423	Index	574	OverHead	Hop	10	
+Send	120.52	Receive	120.627	delay	0.107251	Index	575	OverHead	Hop	16	
+Send	120.627	Receive	120.629	delay	0.00256569	Index	576	OverHead	Hop	2	
+Send	120.629	Receive	120.738	delay	0.108554	Index	577	OverHead	Hop	16	
+Send	120.738	Receive	120.81	delay	0.0724563	Index	578	OverHead	Hop	10	
+Send	120.81	Receive	120.888	delay	0.0772803	Index	579	OverHead	Hop	14	
+Send	120.888	Receive	122.433	delay	1.54526	Index	580	OverHead	Hop	19	
+Receive	122.433	delay	1.54526	Index	581	OverHead	Hop	0	
+Receive	122.433	delay	1.54526	Index	582	OverHead	Hop	0	
+Send	122.433	Send	122.433	Send	122.433	Receive	122.673	delay	0.240219	Index	583	OverHead	Hop	16	
+Send	122.673	Receive	122.974	delay	0.3006	Index	584	OverHead	Hop	20	
+Send	122.974	Receive	123.274	delay	0.300349	Index	585	OverHead	Hop	20	
+Send	123.274	Receive	124.867	delay	1.59265	Index	586	OverHead	Hop	20	
+Send	124.867	Receive	125.045	delay	0.178681	Index	587	OverHead	Hop	18	
+Send	125.045	Receive	125.221	delay	0.175394	Index	588	OverHead	Hop	18	
+Send	125.221	Receive	125.482	delay	0.261405	Index	589	OverHead	Hop	20	
+Send	125.482	Receive	125.743	delay	0.261125	Index	590	OverHead	Hop	20	
+Send	125.743	Receive	126.02	delay	0.276585	Index	591	OverHead	Hop	20	
+Send	126.02	Receive	126.298	delay	0.278315	Index	592	OverHead	Hop	20	
+Send	126.298	Receive	126.476	delay	0.178166	Index	593	OverHead	Hop	18	
+Send	126.476	Receive	126.654	delay	0.177661	Index	594	OverHead	Hop	18	
+Send	126.654	Receive	126.891	delay	0.237147	Index	595	OverHead	Hop	19	
+Send	126.891	Receive	126.919	delay	0.0280049	Index	596	OverHead	Hop	4	
+Send	126.919	Receive	127.01	delay	0.0911857	Index	597	OverHead	Hop	8	
+Send	127.01	Receive	127.254	delay	0.243768	Index	598	OverHead	Hop	16	
+Send	127.254	Receive	127.531	delay	0.276465	Index	599	OverHead	Hop	18	
+Send	127.531	Receive	127.827	delay	0.296191	Index	600	OverHead	Hop	20	
+Send	127.827	Receive	128.072	delay	0.245434	Index	601	OverHead	Hop	19	
+Send	128.072	Receive	128.243	delay	0.170875	Index	602	OverHead	Hop	16	
+Send	128.243	Receive	128.439	delay	0.195447	Index	603	OverHead	Hop	18	
+Send	128.439	Receive	128.634	delay	0.195208	Index	604	OverHead	Hop	18	
+Receive	128.634	delay	0.195208	Index	605	OverHead	Hop	0	
+Send	128.634	Send	128.634	Receive	128.689	delay	0.0551967	Index	606	OverHead	Hop	8	
+Send	128.689	Receive	128.882	delay	0.193132	Index	607	OverHead	Hop	18	
+Send	128.882	Receive	129.078	delay	0.195353	Index	608	OverHead	Hop	18	
+Receive	129.078	delay	0.195353	Index	609	OverHead	Hop	0	
+Send	129.078	Send	129.078	Receive	129.195	delay	0.117443	Index	610	OverHead	Hop	12	
+Receive	129.195	delay	0.117443	Index	611	OverHead	Hop	0	
+Receive	129.195	delay	0.117443	Index	612	OverHead	Hop	0	
+Send	129.195	Send	129.195	Send	129.195	Receive	131.439	delay	2.24392	Index	613	OverHead	Hop	13	
+Receive	131.439	delay	2.24392	Index	614	OverHead	Hop	0	
+Send	131.439	Send	131.439	Receive	131.63	delay	0.191543	Index	615	OverHead	Hop	18	
+Receive	131.63	delay	0.191543	Index	616	OverHead	Hop	0	
+Send	131.63	Send	131.63	Receive	131.822	delay	0.191134	Index	617	OverHead	Hop	18	
+Send	131.822	Receive	132.063	delay	0.241726	Index	618	OverHead	Hop	19	
+Send	132.063	Receive	132.355	delay	0.291787	Index	619	OverHead	Hop	20	
+Send	132.355	Receive	132.399	delay	0.0436691	Index	620	OverHead	Hop	4	
+Send	132.399	Receive	132.662	delay	0.262889	Index	621	OverHead	Hop	20	
+Receive	132.662	delay	0.262889	Index	622	OverHead	Hop	0	
+Send	132.662	Send	132.662	Receive	132.926	delay	0.264578	Index	623	OverHead	Hop	20	
+Send	132.926	Receive	133.04	delay	0.113649	Index	624	OverHead	Hop	8	
+Send	133.04	Receive	133.304	delay	0.26403	Index	625	OverHead	Hop	20	
+Send	133.304	Receive	133.386	delay	0.0825012	Index	626	OverHead	Hop	6	
+Send	133.386	Receive	133.401	delay	0.0149407	Index	627	OverHead	Hop	2	
+Send	133.401	Receive	133.665	delay	0.263841	Index	628	OverHead	Hop	20	
+Receive	133.665	delay	0.263841	Index	629	OverHead	Hop	0	
+Send	133.665	Send	133.665	Receive	133.915	delay	0.249639	Index	630	OverHead	Hop	19	
+Send	133.915	Receive	136.397	delay	2.48229	Index	631	OverHead	Hop	19	
+Receive	136.397	delay	2.48229	Index	632	OverHead	Hop	0	
+Send	136.397	Send	136.397	Receive	136.481	delay	0.0841149	Index	633	OverHead	Hop	12	
+Send	136.481	Receive	136.59	delay	0.108521	Index	634	OverHead	Hop	16	
+Send	136.59	Receive	136.676	delay	0.0861635	Index	635	OverHead	Hop	12	
+Send	136.676	Receive	136.782	delay	0.105794	Index	636	OverHead	Hop	16	
+Send	136.782	Receive	136.886	delay	0.104417	Index	637	OverHead	Hop	16	
+Send	136.886	Receive	136.989	delay	0.102969	Index	638	OverHead	Hop	16	
+Send	136.989	Receive	137.14	delay	0.151334	Index	639	OverHead	Hop	17	
+Send	137.14	Receive	138.027	delay	0.88649	Index	640	OverHead	Hop	19	
+Send	138.027	Receive	138.155	delay	0.127664	Index	641	OverHead	Hop	10	
+Send	138.155	Receive	138.444	delay	0.28989	Index	642	OverHead	Hop	20	
+Receive	138.444	delay	0.28989	Index	643	OverHead	Hop	0	
+Send	138.444	Send	138.444	Receive	138.498	delay	0.0537409	Index	644	OverHead	Hop	4	
+Send	138.498	Receive	138.529	delay	0.0307751	Index	645	OverHead	Hop	2	
+Receive	138.529	delay	0.0307751	Index	646	OverHead	Hop	0	
+Send	138.529	Send	138.529	Receive	138.792	delay	0.263037	Index	647	OverHead	Hop	16	
+Send	138.792	Receive	140.838	delay	2.04561	Index	648	OverHead	Hop	20	
+Send	140.838	Receive	140.947	delay	0.108998	Index	649	OverHead	Hop	16	
+Send	140.947	Receive	141.056	delay	0.10909	Index	650	OverHead	Hop	16	
+Receive	141.056	delay	0.10909	Index	651	OverHead	Hop	0	
+Send	141.056	Send	141.056	Receive	141.104	delay	0.047974	Index	652	OverHead	Hop	8	
+Send	141.104	Receive	141.213	delay	0.10904	Index	653	OverHead	Hop	16	
+Receive	141.213	delay	0.10904	Index	654	OverHead	Hop	0	
+Send	141.213	Send	141.213	Receive	141.262	delay	0.0488925	Index	655	OverHead	Hop	8	
+Send	141.262	Receive	141.371	delay	0.108989	Index	656	OverHead	Hop	16	
+Send	141.371	Receive	141.432	delay	0.0617995	Index	657	OverHead	Hop	10	
+Receive	141.432	delay	0.0617995	Index	658	OverHead	Hop	0	
+Send	141.432	Send	141.432	Receive	141.591	delay	0.159022	Index	659	OverHead	Hop	17	
+Send	141.591	Receive	141.801	delay	0.209533	Index	660	OverHead	Hop	18	
+Send	141.801	Receive	142.04	delay	0.238953	Index	661	OverHead	Hop	19	
+Send	142.04	Receive	142.042	delay	0.00190876	Index	662	OverHead	Hop	2	
+Send	142.042	Receive	142.842	delay	0.800188	Index	663	OverHead	Hop	17	
+Send	142.842	Receive	142.869	delay	0.0273562	Index	664	OverHead	Hop	2	
+Send	142.869	Receive	143.053	delay	0.183389	Index	665	OverHead	Hop	18	
+Send	143.053	Receive	143.092	delay	0.039012	Index	666	OverHead	Hop	4	
+Send	143.092	Receive	143.327	delay	0.235125	Index	667	OverHead	Hop	16	
+Receive	143.327	delay	0.235125	Index	668	OverHead	Hop	0	
+Send	143.327	Send	143.327	Receive	143.467	delay	0.140142	Index	669	OverHead	Hop	10	
+Send	143.467	Receive	143.506	delay	0.0390477	Index	670	OverHead	Hop	4	
+Send	143.506	Receive	143.546	delay	0.0398195	Index	671	OverHead	Hop	4	
+Send	143.546	Receive	143.647	delay	0.100704	Index	672	OverHead	Hop	6	
+Receive	143.647	delay	0.100704	Index	673	OverHead	Hop	0	
+Send	143.647	Send	143.647	Receive	143.979	delay	0.33231	Index	674	OverHead	Hop	20	
+Send	143.979	Receive	146.178	delay	2.19922	Index	675	OverHead	Hop	16	
+Send	146.178	Receive	146.304	delay	0.12573	Index	676	OverHead	Hop	14	
+Receive	146.304	delay	0.12573	Index	677	OverHead	Hop	0	
+Send	146.304	Send	146.304	Receive	146.488	delay	0.184346	Index	678	OverHead	Hop	18	
+Send	146.488	Receive	146.509	delay	0.0204011	Index	679	OverHead	Hop	4	
+Receive	146.509	delay	0.0204011	Index	680	OverHead	Hop	0	
+Send	146.509	Send	146.509	Receive	146.629	delay	0.120561	Index	681	OverHead	Hop	16	
+Send	146.629	Receive	146.748	delay	0.118945	Index	682	OverHead	Hop	16	
+Send	146.748	Receive	146.865	delay	0.117261	Index	683	OverHead	Hop	16	
+Send	146.865	Receive	146.977	delay	0.111255	Index	684	OverHead	Hop	13	
+Send	146.977	Receive	147.165	delay	0.188727	Index	685	OverHead	Hop	18	
+Send	147.165	Receive	147.176	delay	0.0106799	Index	686	OverHead	Hop	2	
+Send	147.176	Receive	149.763	delay	2.58674	Index	687	OverHead	Hop	20	
+Send	149.763	Receive	150.033	delay	0.270086	Index	688	OverHead	Hop	20	
+Send	150.033	Receive	150.226	delay	0.192794	Index	689	OverHead	Hop	18	
+Send	150.226	Receive	150.468	delay	0.242689	Index	690	OverHead	Hop	19	
+Send	150.468	Receive	150.761	delay	0.29253	Index	691	OverHead	Hop	20	
+Send	150.761	Receive	150.8	delay	0.038858	Index	692	OverHead	Hop	4	
+Receive	150.8	delay	0.038858	Index	693	OverHead	Hop	0	
+Receive	150.8	delay	0.038858	Index	694	OverHead	Hop	0	
+Send	150.8	Send	150.8	Send	150.8	Receive	151.005	delay	0.205499	Index	695	OverHead	Hop	18	
+Send	151.005	Receive	151.207	delay	0.202054	Index	696	OverHead	Hop	18	
+Send	151.207	Receive	151.406	delay	0.198588	Index	697	OverHead	Hop	18	
+Send	151.406	Receive	151.601	delay	0.195178	Index	698	OverHead	Hop	18	
+Send	151.601	Receive	152.615	delay	1.01385	Index	699	OverHead	Hop	15	
+Send	152.615	Receive	152.702	delay	0.0866716	Index	700	OverHead	Hop	10	
+Send	152.702	Receive	155.086	delay	2.38446	Index	701	OverHead	Hop	19	
+Send	155.086	Receive	155.308	delay	0.221859	Index	702	OverHead	Hop	18	
+Send	155.308	Receive	155.668	delay	0.360439	Index	703	OverHead	Hop	22	
+Receive	155.668	delay	0.360439	Index	704	OverHead	Hop	0	
+Send	155.668	Send	155.668	Receive	156.017	delay	0.348744	Index	705	OverHead	Hop	22	
+Send	156.017	Receive	156.063	delay	0.0463713	Index	706	OverHead	Hop	4	
+Receive	156.063	delay	0.0463713	Index	707	OverHead	Hop	0	
+Send	156.063	Send	156.063	Receive	156.128	delay	0.0647149	Index	708	OverHead	Hop	6	
+Receive	156.128	delay	0.0647149	Index	709	OverHead	Hop	0	
+Send	156.128	Send	156.128	Receive	156.373	delay	0.244502	Index	710	OverHead	Hop	16	
+Send	156.373	Receive	156.681	delay	0.308244	Index	711	OverHead	Hop	21	
+Send	156.681	Receive	156.887	delay	0.206163	Index	712	OverHead	Hop	18	
+Send	156.887	Receive	157.093	delay	0.206279	Index	713	OverHead	Hop	18	
+Send	157.093	Receive	157.249	delay	0.155958	Index	714	OverHead	Hop	17	
+Send	157.249	Receive	157.337	delay	0.0872243	Index	715	OverHead	Hop	8	
+Send	157.337	Receive	157.533	delay	0.196066	Index	716	OverHead	Hop	18	
+Send	157.533	Receive	157.632	delay	0.0992258	Index	717	OverHead	Hop	10	
+Send	157.632	Receive	157.828	delay	0.196093	Index	718	OverHead	Hop	18	
+Send	157.828	Receive	158.075	delay	0.246988	Index	719	OverHead	Hop	19	
+Receive	158.075	delay	0.246988	Index	720	OverHead	Hop	0	
+Send	158.075	Send	158.075	Receive	158.31	delay	0.235471	Index	721	OverHead	Hop	19	
+Send	158.31	Receive	158.401	delay	0.0904214	Index	722	OverHead	Hop	10	
+Send	158.401	Receive	158.59	delay	0.189677	Index	723	OverHead	Hop	18	
+Receive	158.59	delay	0.189677	Index	724	OverHead	Hop	0	
+Send	158.59	Send	158.59	Receive	158.766	delay	0.175289	Index	725	OverHead	Hop	16	
+Send	158.766	Receive	158.851	delay	0.0852253	Index	726	OverHead	Hop	10	
+Send	158.851	Receive	158.935	delay	0.0841767	Index	727	OverHead	Hop	10	
+Send	158.935	Receive	159.133	delay	0.197387	Index	728	OverHead	Hop	18	
+Send	159.133	Receive	159.229	delay	0.0961325	Index	729	OverHead	Hop	12	
+Send	159.229	Receive	159.272	delay	0.0435257	Index	730	OverHead	Hop	4	
+Send	159.272	Receive	159.467	delay	0.194447	Index	731	OverHead	Hop	18	
+Send	159.467	Receive	159.555	delay	0.0879718	Index	732	OverHead	Hop	8	
+Send	159.555	Receive	163.099	delay	3.54415	Index	733	OverHead	Hop	20	
+Send	163.099	Receive	163.144	delay	0.0457188	Index	734	OverHead	Hop	4	
+Send	163.144	Receive	163.411	delay	0.266903	Index	735	OverHead	Hop	20	
+Send	163.411	Receive	163.675	delay	0.263878	Index	736	OverHead	Hop	20	
+Send	163.675	Receive	163.687	delay	0.0112661	Index	737	OverHead	Hop	2	
+Receive	163.687	delay	0.0112661	Index	738	OverHead	Hop	0	
+Send	163.687	Send	163.687	Receive	163.972	delay	0.285009	Index	739	OverHead	Hop	20	
+Receive	163.972	delay	0.285009	Index	740	OverHead	Hop	0	
+Receive	163.972	delay	0.285009	Index	741	OverHead	Hop	0	
+Send	163.972	Send	163.972	Send	163.972	Receive	164.145	delay	0.173045	Index	742	OverHead	Hop	15	
+Send	164.145	Receive	164.278	delay	0.132968	Index	743	OverHead	Hop	14	
+Send	164.278	Receive	164.293	delay	0.0153651	Index	744	OverHead	Hop	2	
+Receive	164.293	delay	0.0153651	Index	745	OverHead	Hop	0	
+Send	164.293	Send	164.293	Receive	168.103	delay	3.81055	Index	746	OverHead	Hop	19	
+Send	168.103	Receive	168.294	delay	0.190926	Index	747	OverHead	Hop	19	
+Send	168.294	Receive	168.582	delay	0.287644	Index	748	OverHead	Hop	20	
+Send	168.582	Receive	168.873	delay	0.291112	Index	749	OverHead	Hop	20	
+Send	168.873	Receive	168.875	delay	0.00154041	Index	750	OverHead	Hop	2	
+Send	168.875	Send	173.875	Receive	173.879	delay	0.00467641	Index	751	OverHead	Hop	22	
+Send	173.879	Receive	173.924	delay	0.0444008	Index	752	OverHead	Hop	4	
+Receive	173.924	delay	0.0444008	Index	753	OverHead	Hop	0	
+Receive	173.924	delay	0.0444008	Index	754	OverHead	Hop	0	
+Send	173.924	Send	173.924	Send	173.924	Receive	174.254	delay	0.330457	Index	755	OverHead	Hop	21	
+Send	174.254	Receive	174.449	delay	0.194975	Index	756	OverHead	Hop	19	
+Receive	174.449	delay	0.194975	Index	757	OverHead	Hop	0	
+Send	174.449	Send	174.449	Receive	174.695	delay	0.245914	Index	758	OverHead	Hop	20	
+Receive	174.695	delay	0.245914	Index	759	OverHead	Hop	0	
+Send	174.695	Send	174.695	Receive	174.977	delay	0.281684	Index	760	OverHead	Hop	20	
+Receive	174.977	delay	0.281684	Index	761	OverHead	Hop	0	
+Send	174.977	Send	174.977	Receive	175.161	delay	0.184706	Index	762	OverHead	Hop	18	
+Send	175.161	Receive	175.265	delay	0.103829	Index	763	OverHead	Hop	10	
+Send	175.265	Receive	175.266	delay	0.000582318	Index	764	OverHead	Hop	2	
+Send	175.266	Receive	175.454	delay	0.188377	Index	765	OverHead	Hop	18	
+Send	175.454	Receive	175.564	delay	0.109624	Index	766	OverHead	Hop	10	
+Send	175.564	Receive	175.756	delay	0.19214	Index	767	OverHead	Hop	18	
+Send	175.756	Receive	175.896	delay	0.1395	Index	768	OverHead	Hop	12	
+Send	175.896	Receive	175.967	delay	0.0715173	Index	769	OverHead	Hop	8	
+Send	175.967	Receive	176.161	delay	0.193484	Index	770	OverHead	Hop	18	
+Receive	176.161	delay	0.193484	Index	771	OverHead	Hop	0	
+Send	176.161	Send	176.161	Receive	176.354	delay	0.193282	Index	772	OverHead	Hop	18	
+Receive	176.354	delay	0.193282	Index	773	OverHead	Hop	0	
+Receive	176.354	delay	0.193282	Index	774	OverHead	Hop	0	
+Send	176.354	Send	176.354	Send	176.354	Receive	176.401	delay	0.0468228	Index	775	OverHead	Hop	4	
+Send	176.401	Receive	176.401	delay	0.000585942	Index	776	OverHead	Hop	2	
+Send	176.401	Receive	176.561	delay	0.160227	Index	777	OverHead	Hop	18	
+Send	176.561	Receive	176.599	delay	0.037756	Index	778	OverHead	Hop	8	
+Send	176.599	Receive	176.723	delay	0.123583	Index	779	OverHead	Hop	16	
+Send	176.723	Receive	176.733	delay	0.0102427	Index	780	OverHead	Hop	2	
+Send	176.733	Receive	176.768	delay	0.0347336	Index	781	OverHead	Hop	4	
+Send	176.768	Receive	179.165	delay	2.39706	Index	782	OverHead	Hop	19	
+Send	179.165	Receive	179.337	delay	0.172086	Index	783	OverHead	Hop	14	
+Send	179.337	Receive	179.364	delay	0.0271019	Index	784	OverHead	Hop	4	
+Receive	179.364	delay	0.0271019	Index	785	OverHead	Hop	0	
+Send	179.364	Send	179.364	Receive	179.568	delay	0.203628	Index	786	OverHead	Hop	18	
+Send	179.568	Receive	179.572	delay	0.00457604	Index	787	OverHead	Hop	2	
+Send	179.572	Receive	179.767	delay	0.194961	Index	788	OverHead	Hop	18	
+Send	179.767	Receive	180.027	delay	0.259749	Index	789	OverHead	Hop	19	
+Send	180.027	Receive	180.032	delay	0.00530314	Index	790	OverHead	Hop	2	
+Send	180.032	Receive	180.038	delay	0.00600645	Index	791	OverHead	Hop	4	
+Send	180.038	Receive	180.201	delay	0.162261	Index	792	OverHead	Hop	17	
+Send	180.201	Receive	180.314	delay	0.113388	Index	793	OverHead	Hop	16	
+Send	180.314	Receive	180.429	delay	0.11488	Index	794	OverHead	Hop	16	
+Send	180.429	Receive	180.453	delay	0.0246445	Index	795	OverHead	Hop	6	
+Send	180.453	Receive	180.57	delay	0.116865	Index	796	OverHead	Hop	16	
+Send	180.57	Receive	180.676	delay	0.105945	Index	797	OverHead	Hop	16	
+Send	180.676	Receive	180.677	delay	0.00101473	Index	798	OverHead	Hop	2	
+Send	180.677	Receive	180.838	delay	0.1608	Index	799	OverHead	Hop	17	
+Receive	180.838	delay	0.1608	Index	800	OverHead	Hop	0	
+Send	180.838	Send	180.838	Receive	180.863	delay	0.0251168	Index	801	OverHead	Hop	6	
+Send	180.863	Receive	180.873	delay	0.0094407	Index	802	OverHead	Hop	2	
+Send	180.873	Receive	181.078	delay	0.205783	Index	803	OverHead	Hop	18	
+Receive	181.078	delay	0.205783	Index	804	OverHead	Hop	0	
+Send	181.078	Send	181.078	Receive	181.086	delay	0.00786094	Index	805	OverHead	Hop	2	
+Send	181.086	Receive	181.304	delay	0.217872	Index	806	OverHead	Hop	18	
+Send	181.304	Receive	181.525	delay	0.220922	Index	807	OverHead	Hop	18	
+Send	181.525	Receive	181.749	delay	0.224058	Index	808	OverHead	Hop	18	
+Receive	181.749	delay	0.224058	Index	809	OverHead	Hop	0	
+Send	181.749	Send	181.749	Receive	181.762	delay	0.0129347	Index	810	OverHead	Hop	4	
+Send	181.762	Receive	183.006	delay	1.24403	Index	811	OverHead	Hop	19	
+Send	183.006	Receive	183.088	delay	0.0821899	Index	812	OverHead	Hop	8	
+Send	183.088	Receive	183.201	delay	0.112844	Index	813	OverHead	Hop	10	
+Send	183.201	Receive	183.294	delay	0.0928475	Index	814	OverHead	Hop	7	
+Send	183.294	Receive	183.5	delay	0.205605	Index	815	OverHead	Hop	19	
+Send	183.5	Receive	183.655	delay	0.1554	Index	816	OverHead	Hop	18	
+Send	183.655	Receive	184.661	delay	1.00593	Index	817	OverHead	Hop	19	
+Receive	184.661	delay	1.00593	Index	818	OverHead	Hop	0	
+Send	184.661	Send	184.661	Receive	186.782	delay	2.12101	Index	819	OverHead	Hop	19	
+Send	186.782	Receive	186.804	delay	0.0216701	Index	820	OverHead	Hop	2	
+Send	186.804	Receive	186.854	delay	0.0505618	Index	821	OverHead	Hop	3	
+Send	186.854	Receive	186.926	delay	0.0720983	Index	822	OverHead	Hop	12	
+Receive	186.926	delay	0.0720983	Index	823	OverHead	Hop	0	
+Send	186.926	Send	186.926	Receive	187.02	delay	0.0934821	Index	824	OverHead	Hop	16	
+Send	187.02	Receive	187.036	delay	0.0165363	Index	825	OverHead	Hop	4	
+Send	187.036	Receive	187.147	delay	0.110278	Index	826	OverHead	Hop	16	
+Send	187.147	Receive	187.255	delay	0.108798	Index	827	OverHead	Hop	16	
+Send	187.255	Receive	187.363	delay	0.107221	Index	828	OverHead	Hop	16	
+Send	187.363	Receive	187.468	delay	0.105671	Index	829	OverHead	Hop	16	
+Send	187.468	Receive	187.476	delay	0.0076566	Index	830	OverHead	Hop	4	
+Send	187.476	Receive	187.58	delay	0.104281	Index	831	OverHead	Hop	16	
+Send	187.58	Receive	187.614	delay	0.0342376	Index	832	OverHead	Hop	8	
+Send	187.614	Receive	187.717	delay	0.102727	Index	833	OverHead	Hop	16	
+Send	187.717	Receive	187.752	delay	0.0351483	Index	834	OverHead	Hop	8	
+Send	187.752	Receive	187.787	delay	0.0351954	Index	835	OverHead	Hop	8	
+Send	187.787	Receive	187.917	delay	0.129214	Index	836	OverHead	Hop	17	
+Send	187.917	Receive	188.096	delay	0.179266	Index	837	OverHead	Hop	18	
+Send	188.096	Receive	188.275	delay	0.179235	Index	838	OverHead	Hop	18	
+Send	188.275	Receive	188.377	delay	0.102221	Index	839	OverHead	Hop	8	
+Send	188.377	Receive	188.517	delay	0.139514	Index	840	OverHead	Hop	12	
+Send	188.517	Receive	188.527	delay	0.0101849	Index	841	OverHead	Hop	2	
+Send	188.527	Receive	188.707	delay	0.179453	Index	842	OverHead	Hop	18	
+Send	188.707	Receive	188.886	delay	0.179824	Index	843	OverHead	Hop	18	
+Send	188.886	Receive	188.958	delay	0.0714951	Index	844	OverHead	Hop	6	
+Receive	188.958	delay	0.0714951	Index	845	OverHead	Hop	0	
+Send	188.958	Send	188.958	Receive	191.606	delay	2.6486	Index	846	OverHead	Hop	18	
+Send	191.606	Receive	191.684	delay	0.0772546	Index	847	OverHead	Hop	12	
+Receive	191.684	delay	0.0772546	Index	848	OverHead	Hop	0	
+Send	191.684	Send	191.684	Receive	191.714	delay	0.0298206	Index	849	OverHead	Hop	6	
+Send	191.714	Receive	191.819	delay	0.105796	Index	850	OverHead	Hop	16	
+Send	191.819	Receive	191.832	delay	0.0123154	Index	851	OverHead	Hop	2	
+Send	191.832	Receive	191.897	delay	0.0656208	Index	852	OverHead	Hop	10	
+Send	191.897	Receive	191.956	delay	0.0587494	Index	853	OverHead	Hop	8	
+Receive	191.956	delay	0.0587494	Index	854	OverHead	Hop	0	
+Send	191.956	Send	191.956	Receive	192.013	delay	0.0573674	Index	855	OverHead	Hop	8	
+Send	192.013	Receive	192.08	delay	0.0664833	Index	856	OverHead	Hop	10	
+Send	192.08	Receive	192.23	delay	0.149921	Index	857	OverHead	Hop	17	
+Send	192.23	Receive	192.298	delay	0.0678591	Index	858	OverHead	Hop	10	
+Receive	192.298	delay	0.0678591	Index	859	OverHead	Hop	0	
+Send	192.298	Send	192.298	Receive	192.347	delay	0.049572	Index	860	OverHead	Hop	8	
+Send	192.347	Receive	192.542	delay	0.194848	Index	861	OverHead	Hop	18	
+Send	192.542	Receive	192.734	delay	0.191539	Index	862	OverHead	Hop	18	
+Send	192.734	Receive	192.922	delay	0.188041	Index	863	OverHead	Hop	18	
+Send	192.922	Receive	192.993	delay	0.0710937	Index	864	OverHead	Hop	10	
+Send	192.993	Receive	193.226	delay	0.23354	Index	865	OverHead	Hop	19	
+Send	193.226	Receive	193.455	delay	0.228618	Index	866	OverHead	Hop	19	
+Receive	193.455	delay	0.228618	Index	867	OverHead	Hop	0	
+Send	193.455	Send	193.455	Receive	193.631	delay	0.175816	Index	868	OverHead	Hop	18	
+Send	193.631	Receive	193.681	delay	0.0498553	Index	869	OverHead	Hop	6	
+Send	193.681	Receive	193.824	delay	0.14329	Index	870	OverHead	Hop	16	
+Receive	193.824	delay	0.14329	Index	871	OverHead	Hop	0	
+Send	193.824	Send	193.824	Receive	194.093	delay	0.268797	Index	872	OverHead	Hop	20	
+Send	194.093	Receive	195.606	delay	1.51313	Index	873	OverHead	Hop	20	
+Send	195.606	Receive	200.415	delay	4.80876	Index	874	OverHead	Hop	20	
+Receive	200.415	delay	4.80876	Index	875	OverHead	Hop	0	
+Receive	200.415	delay	4.80876	Index	876	OverHead	Hop	0	
+Send	200.415	Send	200.415	Send	200.415	Receive	200.52	delay	0.105176	Index	877	OverHead	Hop	8	
+Send	200.52	Receive	200.729	delay	0.209362	Index	878	OverHead	Hop	14	
+Receive	200.729	delay	0.209362	Index	879	OverHead	Hop	0	
+Receive	200.729	delay	0.209362	Index	880	OverHead	Hop	0	
+Send	200.729	Send	200.729	Send	200.729	Receive	200.761	delay	0.0316849	Index	881	OverHead	Hop	8	
+Send	200.761	Receive	200.955	delay	0.194417	Index	882	OverHead	Hop	18	
+Send	200.955	Receive	200.987	delay	0.031776	Index	883	OverHead	Hop	6	
+Send	200.987	Receive	200.989	delay	0.00244242	Index	884	OverHead	Hop	2	
+Send	200.989	Receive	201.182	delay	0.192965	Index	885	OverHead	Hop	18	
+Send	201.182	Receive	201.277	delay	0.0948407	Index	886	OverHead	Hop	8	
+Send	201.277	Receive	201.28	delay	0.00251343	Index	887	OverHead	Hop	2	
+Send	201.28	Receive	201.499	delay	0.21898	Index	888	OverHead	Hop	18	
+Send	201.499	Receive	201.682	delay	0.183588	Index	889	OverHead	Hop	18	
+Send	201.682	Receive	201.875	delay	0.192826	Index	890	OverHead	Hop	18	
+Send	201.875	Receive	201.976	delay	0.100811	Index	891	OverHead	Hop	8	
+Send	201.976	Receive	201.998	delay	0.021644	Index	892	OverHead	Hop	6	
+Send	201.998	Receive	202.186	delay	0.188223	Index	893	OverHead	Hop	18	
+Send	202.186	Receive	202.371	delay	0.185367	Index	894	OverHead	Hop	18	
+Receive	202.371	delay	0.185367	Index	895	OverHead	Hop	0	
+Send	202.371	Send	202.371	Receive	205.947	delay	3.57579	Index	896	OverHead	Hop	20	
+Send	205.947	Receive	205.989	delay	0.0425413	Index	897	OverHead	Hop	4	
+Send	205.989	Receive	206.341	delay	0.351677	Index	898	OverHead	Hop	22	
+Receive	206.341	delay	0.351677	Index	899	OverHead	Hop	0	
+Send	206.341	Send	206.341	Receive	206.697	delay	0.356303	Index	900	OverHead	Hop	22	
+Send	206.697	Receive	206.732	delay	0.03491	Index	901	OverHead	Hop	2	
+Send	206.732	Receive	206.957	delay	0.22465	Index	902	OverHead	Hop	14	
+Send	206.957	Receive	207.032	delay	0.0754616	Index	903	OverHead	Hop	6	
+Send	207.032	Receive	212.032	delay	5	Index	904	OverHead	Hop	0	
+Send	212.032	Send	212.032	Send	217.032	Receive	217.984	delay	0.951924	Index	905	OverHead	Hop	20	
+Send	217.984	Receive	218.002	delay	0.0175183	Index	906	OverHead	Hop	4	
+Send	218.002	Receive	222.143	delay	4.14125	Index	907	OverHead	Hop	19	
+Send	222.143	Receive	222.258	delay	0.114319	Index	908	OverHead	Hop	17	
+Send	222.258	Receive	224.948	delay	2.69048	Index	909	OverHead	Hop	19	
+Send	224.948	Receive	224.949	delay	0.00117127	Index	910	OverHead	Hop	2	
+Send	224.949	Receive	225.146	delay	0.196404	Index	911	OverHead	Hop	19	
+Send	225.146	Receive	225.318	delay	0.172631	Index	912	OverHead	Hop	10	
+Send	225.318	Receive	225.568	delay	0.249672	Index	913	OverHead	Hop	20	
+Send	225.568	Receive	225.605	delay	0.0370252	Index	914	OverHead	Hop	2	
+Send	225.605	Receive	225.849	delay	0.243688	Index	915	OverHead	Hop	19	
+Receive	225.849	delay	0.243688	Index	916	OverHead	Hop	0	
+Send	225.849	Send	225.849	Receive	226.137	delay	0.288669	Index	917	OverHead	Hop	20	
+Send	226.137	Receive	226.171	delay	0.0332718	Index	918	OverHead	Hop	2	
+Receive	226.171	delay	0.0332718	Index	919	OverHead	Hop	0	
+Send	226.171	Send	226.171	Receive	226.414	delay	0.243211	Index	920	OverHead	Hop	19	
+Send	226.414	Receive	226.559	delay	0.144779	Index	921	OverHead	Hop	17	
+Send	226.559	Receive	226.653	delay	0.0944544	Index	922	OverHead	Hop	16	
+Send	226.653	Receive	226.683	delay	0.0298845	Index	923	OverHead	Hop	2	
+Receive	226.683	delay	0.0298845	Index	924	OverHead	Hop	0	
+Send	226.683	Send	226.683	Receive	226.853	delay	0.169714	Index	925	OverHead	Hop	14	
+Receive	226.853	delay	0.169714	Index	926	OverHead	Hop	0	
+Send	226.853	Send	226.853	Receive	227.047	delay	0.194884	Index	927	OverHead	Hop	18	
+Send	227.047	Receive	227.242	delay	0.194644	Index	928	OverHead	Hop	18	
+Receive	227.242	delay	0.194644	Index	929	OverHead	Hop	0	
+Send	227.242	Send	227.242	Receive	229.954	delay	2.71226	Index	930	OverHead	Hop	19	
+Send	229.954	Receive	230.783	delay	0.828167	Index	931	OverHead	Hop	15	
+Send	230.783	Receive	230.804	delay	0.0215514	Index	932	OverHead	Hop	14	
+Send	230.804	Receive	230.807	delay	0.00252583	Index	933	OverHead	Hop	2	
+Send	230.807	Receive	230.828	delay	0.0218547	Index	934	OverHead	Hop	14	
+Receive	230.828	delay	0.0218547	Index	935	OverHead	Hop	0	
+Send	230.828	Send	230.828	Receive	230.851	delay	0.0220735	Index	936	OverHead	Hop	14	
+Send	230.851	Receive	230.923	delay	0.072955	Index	937	OverHead	Hop	15	
+Send	230.923	Receive	230.932	delay	0.00810833	Index	938	OverHead	Hop	4	
+Send	230.932	Receive	231.057	delay	0.125562	Index	939	OverHead	Hop	16	
+Send	231.057	Receive	231.058	delay	0.000864924	Index	940	OverHead	Hop	2	
+Send	231.058	Receive	231.192	delay	0.133991	Index	941	OverHead	Hop	17	
+Send	231.192	Receive	231.372	delay	0.180125	Index	942	OverHead	Hop	18	
+Send	231.372	Receive	231.549	delay	0.176596	Index	943	OverHead	Hop	18	
+Send	231.549	Receive	231.606	delay	0.0576388	Index	944	OverHead	Hop	12	
+Send	231.606	Receive	233.331	delay	1.72446	Index	945	OverHead	Hop	18	
+Receive	233.331	delay	1.72446	Index	946	OverHead	Hop	0	
+Send	233.331	Send	233.331	Receive	237.668	delay	4.33692	Index	947	OverHead	Hop	19	
+Send	237.668	Receive	237.684	delay	0.0159144	Index	948	OverHead	Hop	2	
+Send	237.684	Receive	237.7	delay	0.0160195	Index	949	OverHead	Hop	2	
+Send	237.7	Receive	237.909	delay	0.209794	Index	950	OverHead	Hop	18	
+Send	237.909	Receive	238.079	delay	0.169319	Index	951	OverHead	Hop	12	
+Send	238.079	Receive	238.14	delay	0.0613442	Index	952	OverHead	Hop	6	
+Send	238.14	Receive	238.159	delay	0.0190397	Index	953	OverHead	Hop	2	
+Receive	238.159	delay	0.0190397	Index	954	OverHead	Hop	0	
+Send	238.159	Send	238.159	Receive	238.264	delay	0.104323	Index	955	OverHead	Hop	16	
+Send	238.264	Receive	238.366	delay	0.102822	Index	956	OverHead	Hop	16	
+Send	238.366	Receive	238.429	delay	0.0627331	Index	957	OverHead	Hop	6	
+Send	238.429	Receive	238.579	delay	0.150154	Index	958	OverHead	Hop	17	
+Send	238.579	Receive	242.314	delay	3.73443	Index	959	OverHead	Hop	17	
+Send	242.314	Receive	242.431	delay	0.11736	Index	960	OverHead	Hop	16	
+Send	242.431	Receive	242.546	delay	0.115362	Index	961	OverHead	Hop	16	
+Send	242.546	Receive	242.66	delay	0.113261	Index	962	OverHead	Hop	16	
+Send	242.66	Receive	242.702	delay	0.042161	Index	963	OverHead	Hop	6	
+Send	242.702	Receive	242.744	delay	0.0425019	Index	964	OverHead	Hop	8	
+Send	242.744	Receive	242.831	delay	0.0868094	Index	965	OverHead	Hop	12	
+Send	242.831	Receive	242.939	delay	0.108274	Index	966	OverHead	Hop	16	
+Send	242.939	Receive	243.046	delay	0.106378	Index	967	OverHead	Hop	16	
+Send	243.046	Receive	243.076	delay	0.0304318	Index	968	OverHead	Hop	4	
+Receive	243.076	delay	0.0304318	Index	969	OverHead	Hop	0	
+Send	243.076	Send	243.076	Receive	243.18	delay	0.104013	Index	970	OverHead	Hop	16	
+Receive	243.18	delay	0.104013	Index	971	OverHead	Hop	0	
+Send	243.18	Send	243.18	Receive	243.382	delay	0.201307	Index	972	OverHead	Hop	18	
+Send	243.382	Receive	243.481	delay	0.0992387	Index	973	OverHead	Hop	16	
+Send	243.481	Receive	243.578	delay	0.0974889	Index	974	OverHead	Hop	16	
+Send	243.578	Receive	243.674	delay	0.0957699	Index	975	OverHead	Hop	16	
+Send	243.674	Receive	243.689	delay	0.0151517	Index	976	OverHead	Hop	2	
+Send	243.689	Receive	243.833	delay	0.143571	Index	977	OverHead	Hop	17	
+Receive	243.833	delay	0.143571	Index	978	OverHead	Hop	0	
+Send	243.833	Send	243.833	Receive	243.924	delay	0.0915638	Index	979	OverHead	Hop	16	
+Send	243.924	Receive	244.014	delay	0.0899575	Index	980	OverHead	Hop	16	
+Send	244.014	Receive	244.063	delay	0.0483151	Index	981	OverHead	Hop	8	
+Receive	244.063	delay	0.0483151	Index	982	OverHead	Hop	0	
+Send	244.063	Send	244.063	Receive	244.15	delay	0.0875267	Index	983	OverHead	Hop	16	
+Receive	244.15	delay	0.0875267	Index	984	OverHead	Hop	0	
+Send	244.15	Send	244.15	Receive	244.169	delay	0.0193188	Index	985	OverHead	Hop	2	

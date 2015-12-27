@@ -288,8 +288,8 @@ OriginConsumer::SendPacket ()
   m_face->ReceiveInterest (interest);
   t1 = Simulator::Now().GetSeconds();
   cout<<"Send"<<"\t"<<t1<<"\t";
-  if(!m_reSendEvent.IsRunning())
-  m_reSendEvent = Simulator::Schedule (Seconds(5), &OriginConsumer::ScheduleNextPacket, this);
+ if(!m_reSendEvent.IsRunning())
+ m_reSendEvent = Simulator::Schedule (Seconds(5), &OriginConsumer::ScheduleNextPacket, this);
 
 }
 

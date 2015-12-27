@@ -88,9 +88,6 @@ ndnFw::DoOnInterest (Ptr<Face> inFace,
                                 Ptr<Interest> interest)
 {
 
-  // Ptr<Node> node = inFace->GetNode();
-  // uint32_t i = node->GetId();
-
   Ptr<pit::Entry> pitEntry = m_pit->Lookup (*interest);
   bool similarInterest = true;
   if (pitEntry == 0)
@@ -117,14 +114,7 @@ ndnFw::DoOnInterest (Ptr<Face> inFace,
       isDuplicated = false;
     }
 
-//  if (isDuplicated)
-//    {
-//      DidReceiveDuplicateInterest (inFace, interest, pitEntry);
-//      return;
-//    }
-
   Ptr<Data> contentObject;
-  //cout<<"!!!"<<endl;
   contentObject = m_contentStore->Lookup (interest);
   if (contentObject != 0)
     { 
@@ -135,26 +125,29 @@ ndnFw::DoOnInterest (Ptr<Face> inFace,
           contentObject->GetPayload ()->AddPacketTag (hopCountTag);
         }
 
+    SourceTag sourceTag;
+   if (interest->GetPayload ()->PeekPacketTag (sourceTag))
+  {
+    contentObject->GetPayload ()->AddPacketTag (sourceTag);
+  }
+
+   IndexTag indexTag;
+   if (interest->GetPayload ()->PeekPacketTag (indexTag) ){
+    contentObject->GetPayload ()->AddPacketTag (indexTag);
+  }
+
       pitEntry->AddIncoming (inFace/*, Seconds (1.0)*/);
 
-      // Do data plane performance measurements
-   //   WillSatisfyPendingInterest (0, pitEntry);
 
-      // Actually satisfy pending interest
       SatisfyPendingInterest (0, contentObject, pitEntry);
       return;
     }
-     //else 
-     //cout<<"NODE "<<i<<" CONTENT"<<endl;
 
   if (similarInterest && ShouldSuppressIncomingInterest (inFace, interest, pitEntry))
     {
       pitEntry->AddIncoming (inFace/*, interest->GetInterestLifetime ()*/);
-      // update PIT entry lifetime
       pitEntry->UpdateLifetime (interest->GetInterestLifetime ());
 
-      // Suppress this interest if we're still expecting data from some other face
-      //NS_LOG_DEBUG ("Suppress interests");
       m_dropInterests (interest, inFace);
 
       DidSuppressSimilarInterest (inFace, interest, pitEntry);
@@ -246,44 +239,54 @@ ndnFw::DidReceiveSolicitedData (Ptr<Face> inFace,
 void
 ndnFw::OnData (Ptr<Face> inFace, Ptr<Data> data)
 {	
-	Ptr<Node> node = inFace->GetNode();
-	uint32_t i = node->GetId();
-	//cout<<"On Data "<<"Node "<<i<<endl;
-	//cout<<m_pit<<endl;
-	if (i==0)
-	{	
-		dataNum++;
-    	// cout<<Simulator::Now().GetSeconds()<<" ";
-    	// cout<<(double)(m_contentStore->GetSize())*100/m_size<<" ";
-    	// cout<<interestNum<<" ";
-    	// cout<<dataNum<<endl;
-  //   cout<<node->GetObject<ns3::ndn::MyNetDeviceFace>()->interestNum<<" ";
-  //   cout<<node->GetObject<ns3::ndn::MyNetDeviceFace>()->m_number<<" "<<endl;
-		// //cout<<m_pit->GetSize()<<" ";
-		if (m_contentStore->GetSize() >m_size-1)
-		{
-			cout<<" Finished! ";
-      
-			// Ptr<ns3::ndn::MyNetDeviceFace> face = node->GetObject<ns3::ndn::MyNetDeviceFace>();
-			// double ai = face->interestNum;
-   //    cout<<ai;
-   //    //cout<<" interestNum "<<face->interestNum<<endl;
-      //Simulator::Destroy ();
-		}
+Ptr<Node> node = inFace->GetNode();
+uint32_t i = node->GetId();
 
-		//cout<<setprecision(4)<<setiosflags(ios::fixed)
+  m_inData (data, inFace);
 
-    //<<" Percentage "<<"% "<<endl;
-	}
-	ForwardingStrategy::OnData (inFace, data);
-	//DoOnData(inFace, data);
+  // Lookup PIT entry
+  Ptr<pit::Entry> pitEntry = m_pit->Lookup (*data);
+  if (pitEntry == 0)
+    {
+      bool cached = false;
+
+      if (m_cacheUnsolicitedData || (m_cacheUnsolicitedDataFromApps && (inFace->GetFlags () & Face::APPLICATION)))
+        {
+          // Optimistically add or update entry in the content store
+          cached = m_contentStore->Add (data);
+        }
+      else
+        {
+          // Drop data packet if PIT entry is not found
+          // (unsolicited data packets should not "poison" content store)
+
+          //drop dulicated or not requested data packet
+          m_dropData (data, inFace);
+        }
+
+      DidReceiveUnsolicitedData (inFace, data, cached);
+      return;
+    }
+  else
+    {
+      bool cached = m_contentStore->Add (data);
+      DidReceiveSolicitedData (inFace, data, cached);
+    }
+
+  while (pitEntry != 0)
+    {
+      // Do data plane performance measurements
+      WillSatisfyPendingInterest (inFace, pitEntry);
+
+      // Actually satisfy pending interest
+      SatisfyPendingInterest (inFace, data, pitEntry);
+
+      // Lookup another PIT entry
+      pitEntry = m_pit->Lookup (*data);
+    }
 }
 
-// void
-// MyFw::DoOnData (Ptr<Face> inFace, Ptr<Data> data)
-// {
 
-// }
 bool
 ndnFw::TrySendOutInterest (Ptr<Face> inFace,
                                         Ptr<Face> outFace,
@@ -371,7 +374,7 @@ ndnFw::DoPropagateInterest (Ptr<Face> inFace,
         break; //propagate only to green faces
       // interest->Print(cout);
       // cout<<endl;
- 		
+
       if (!TrySendOutInterest (inFace, metricFace.GetFace (), interest, pitEntry))
         {
           continue;
