@@ -388,8 +388,12 @@ MyNetDeviceFace::ReceiveFromNetDevice (Ptr<NetDevice> device,
                            const Address &to,
                            NetDevice::PacketType packetType)
 { 
-
-
+CacheTag cache;
+cache.SetHop(1);
+Ptr<Packet> cachePacket = p->Copy();
+cachePacket->RemoveAllPacketTags();
+cachePacket->AddPacketTag(cache);
+Receive(cachePacket);
 
 
   double distance;

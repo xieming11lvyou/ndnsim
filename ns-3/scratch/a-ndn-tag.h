@@ -328,7 +328,7 @@ ObjectSizeTag::GetTypeId (void)
 {
   static TypeId tid = TypeId ("ObjectSizeTag")
     .SetParent<Tag> ()
-    .AddConstructor<VelocityTag> ()
+    .AddConstructor<ObjectSizeTag> ()
     // .AddAttribute ("Mobility",
     //                "The Mobility",
     //                EmptyAttributeValue (),
@@ -518,7 +518,72 @@ IndexTag::Print (std::ostream &os) const
 }
 
 //------------------------------------------------
+class CacheTag : public Tag {
+public:
+  static TypeId GetTypeId (void);
+  virtual TypeId GetInstanceTypeId (void) const;
+
+  virtual uint32_t GetSerializedSize (void) const;
+  virtual void Serialize (TagBuffer i) const;
+  virtual void Deserialize (TagBuffer i);
+
+  // these are our accessors to our tag structure
+  void SetHop (uint32_t hop);
+  uint32_t GetHop (void) const;
 
 
+  void Print (std::ostream &os) const;
+
+private:
+  uint32_t m_hop;
+};
+
+TypeId 
+CacheTag::GetTypeId (void)
+{
+  static TypeId tid = TypeId ("CacheTag")
+    .SetParent<Tag> ()
+    .AddConstructor<CacheTag> ()
+  ;
+  return tid;
+}
+TypeId 
+CacheTag::GetInstanceTypeId (void) const
+{
+  return GetTypeId ();
+}
+
+uint32_t 
+CacheTag::GetSerializedSize (void) const
+{
+  return 8;
+}
+void 
+CacheTag::Serialize (TagBuffer i) const
+{
+  i.WriteU32 (m_hop);
+}
+void 
+CacheTag::Deserialize (TagBuffer i)
+{
+  m_hop = i.ReadU32 ();
+}
+
+void
+CacheTag::SetHop(uint32_t hop)
+{
+  m_hop = hop;
+}
+uint32_t
+CacheTag::GetHop (void) const
+{
+  return m_hop;
+}
+
+void 
+CacheTag::Print (std::ostream &os) const
+{
+  os <<m_hop;
+}
 
 #endif

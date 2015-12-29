@@ -37,6 +37,7 @@
 #include "ns3/ns2-mobility-helper.h"
 
 #include "a-ndn-ndnfw.h"
+ #include "a-ndn-lce.h"
 
 #include "a-ndn-consumer.h"
 
@@ -176,7 +177,7 @@ main (int argc, char *argv[])
  // NS_LOG_INFO ("Installing NDN stack");
   ndn::StackHelper ndnHelper;
   ndnHelper.AddNetDeviceFaceCreateCallback (WifiNetDevice::GetTypeId (), MakeCallback (MyNetDeviceFaceCallback));
-  ndnHelper.SetForwardingStrategy ("ns3::ndn::fw::ndnFw","ID",a);
+  ndnHelper.SetForwardingStrategy ("ns3::ndn::fw::ndnLce","ID",a);
   ndnHelper.SetContentStore ("ns3::ndn::cs::Lru", "MaxSize", "50");
   ndnHelper.SetDefaultRoutes (true);
   ndnHelper.Install (nodes);
