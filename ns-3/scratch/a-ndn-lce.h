@@ -142,6 +142,9 @@ ndnLce::DoOnInterest (Ptr<Face> inFace,
 
       pitEntry->AddIncoming (inFace/*, Seconds (1.0)*/);
 
+  Ptr<Node> node = inFace->GetNode();
+  uint32_t i = node->GetId();
+      std::cout<<"hittttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt---------------------"<<i<<std::endl;
 
       SatisfyPendingInterest (0, contentObject, pitEntry);
       return;
@@ -248,7 +251,7 @@ ndnLce::OnData (Ptr<Face> inFace, Ptr<Data> data)
   {
   Ptr<pit::Entry> pitEntry = m_pit->Lookup (*data);
   DidReceiveSolicitedData (inFace, data, true);
-  bool cached = m_contentStore->Add (data);
+//  bool cached = m_contentStore->Add (data);
   while (pitEntry != 0)
     {
       // Do data plane performance measurements
@@ -264,7 +267,7 @@ ndnLce::OnData (Ptr<Face> inFace, Ptr<Data> data)
       Ptr<Packet> copy =  data->GetPayload()->Copy();
       copy->RemoveAllPacketTags();
       data->SetPayload(copy);
-      // bool cached = m_contentStore->Add (data);
+      bool cached = m_contentStore->Add (data);
   }
 }
 

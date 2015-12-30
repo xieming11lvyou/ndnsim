@@ -388,14 +388,6 @@ MyNetDeviceFace::ReceiveFromNetDevice (Ptr<NetDevice> device,
                            const Address &to,
                            NetDevice::PacketType packetType)
 { 
-CacheTag cache;
-cache.SetHop(1);
-Ptr<Packet> cachePacket = p->Copy();
-cachePacket->RemoveAllPacketTags();
-cachePacket->AddPacketTag(cache);
-Receive(cachePacket);
-
-
   double distance;
   //p ->PeekPacketTag
   //cout<<endl;
@@ -448,7 +440,13 @@ Receive(cachePacket);
         cout<<"fuck";
       }
      // cout<<"false";
-  
+  CacheTag cache;
+cache.SetHop(1);
+Ptr<Packet> cachePacket = p->Copy();
+cachePacket->RemoveAllPacketTags();
+cachePacket->AddPacketTag(cache);
+if (type == HeaderHelper::CONTENT_OBJECT_NDNSIM)
+  Receive(cachePacket);
 
       //exception will be thrown if packet is not recognized
   //   }
@@ -634,8 +632,15 @@ Receive(cachePacket);
 bool
 MyNetDeviceFace::Receive (Ptr<const Packet> p)
 {
-  //NS_LOG_FUNCTION (this << p << p->GetSize ());
 
+  Ptr<Node> node = this->GetNode();
+  uint32_t i = node->GetId();
+  CacheTag cacheTag;
+  bool test = false;
+  if (i ==2) {
+
+     test= p->PeekPacketTag(cacheTag);
+}
   if (!IsUp ())
     {
       // no tracing here. If we were off while receiving, we shouldn't even know that something was there
