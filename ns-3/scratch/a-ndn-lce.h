@@ -56,6 +56,7 @@ private:
 	uint32_t dataNum;
 	uint32_t interestNum;
 	uint32_t consumerID;
+      Ptr<UniformRandomVariable>uv;
 
 	//Name perReceived[m_size];
 
@@ -81,6 +82,9 @@ ndnLce::GetTypeId (void)
 
 ndnLce::ndnLce():dataNum(0), interestNum(0)
 {	
+  uv=CreateObject<UniformRandomVariable>();
+      uv->SetAttribute("Min",DoubleValue(0));
+      uv->SetAttribute("Max",DoubleValue(9));
 }
 
 void
@@ -267,7 +271,9 @@ ndnLce::OnData (Ptr<Face> inFace, Ptr<Data> data)
       Ptr<Packet> copy =  data->GetPayload()->Copy();
       copy->RemoveAllPacketTags();
       data->SetPayload(copy);
-      bool cached = m_contentStore->Add (data);
+      int a = uv->GetValue();
+      if (a <3)
+          bool cached = m_contentStore->Add (data);
   }
 }
 
