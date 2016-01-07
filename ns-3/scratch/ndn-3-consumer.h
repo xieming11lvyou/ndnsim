@@ -246,7 +246,7 @@ ThreeConsumer::SendPacket ()
   m_node->GetObject<ns3::ndn::ThreeNetDeviceFace>()->duplicte = 0;
   m_transmittedInterests (interest, this, m_face);
   t1 = Simulator::Now().GetSeconds();
-  cout<<"Send"<<"\t"<<t1<<"\t";
+//  cout<<"Send"<<"\t"<<t1<<"\t";
   m_face->ReceiveInterest (interest);
   m_reSendEvent = Simulator::Schedule (Seconds(1), &ThreeConsumer::RertransmitPacket, this);
 
@@ -265,23 +265,23 @@ ThreeConsumer::OnData (Ptr<const Data> data)
 
 //-----------------------
   t2 = Simulator::Now().GetSeconds();
-  cout<<"Receive"<<"\t"<<t2<<"\t"<<"delay"<<"\t"<<(t2-t1)<<"\t";
+//  cout<<"Receive"<<"\t"<<t2<<"\t"<<"delay"<<"\t"<<(t2-t1)<<"\t";
   m_numData++;
 
 
-  cout<<"Index"<<"\t"<<m_numData<<"\t";
+//  cout<<"Index"<<"\t"<<m_numData<<"\t";
   FwHopCountTag hopCountTag;
   data->GetPayload ()->PeekPacketTag (hopCountTag);
   HopTag hopTag;
   data->GetPayload ()->PeekPacketTag (hopTag);
 //new  cout<<(t2-t1)<<"\t"<<m_node->GetObject<NewNetDeviceFace>()->duplicte<<endl;//new
-  cout<<"OverHead"<<"\t"<<m_node->GetObject<ThreeNetDeviceFace>()->totalnterestNum<<"\t";
-  cout<<"Hop"<<"\t"<<hopCountTag.Get()<<"\t"<<"retrans"<<"\t"<<retrans<<"\t";
+//  cout<<"OverHead"<<"\t"<<m_node->GetObject<ThreeNetDeviceFace>()->totalnterestNum<<"\t";
+//  cout<<"Hop"<<"\t"<<hopCountTag.Get()<<"\t"<<"retrans"<<"\t"<<retrans<<"\t";
 //  if(hopTag.GetHop()>hopTag.GetOverHead())
 //    {
 //    cout<<"Retransmit"<<hopTag.GetHop()<<" "<<hopTag.GetOverHead()<<" "<<(hopTag.GetHop()-hopTag.GetOverHead());
 //    }
-  cout<<endl;
+//  cout<<endl;
 
 
 
@@ -298,16 +298,7 @@ ThreeConsumer::OnData (Ptr<const Data> data)
 
 
 
-
-
-
-if(m_numData<1000)
-  {
   ScheduleNextPacket ();
-//  Simulator::Schedule (Seconds(1), &ThreeConsumer::ScheduleNextPacket, this);
-  }
-else
-  Simulator::Destroy();
 
 
 

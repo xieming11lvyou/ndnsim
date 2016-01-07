@@ -323,6 +323,16 @@ MyNetDeviceFace::DoSendData (Ptr<Packet> packet)
       hopTag.UpdateHop();
       packet->AddPacketTag (hopTag);
 
+      ProducerTag proTag;
+      if (packet->PeekPacketTag(proTag)) {
+        // cout<<"devicefacetag------------"<<proTag.GetHop() <<endl;
+        if (proTag.GetHop() > 0) {
+          packet->RemovePacketTag(proTag);
+          proTag.SetHop(proTag.GetHop()-1);
+          packet->AddPacketTag (proTag);
+        }
+      }
+
 
 //      Ptr<MobilityModel> mobility = m_node->GetObject<MobilityModel> ();
 //     cout<<Simulator::Now().GetSeconds()<<"\t"<<" RESEND_D "<<m_node->GetId()<<"\t"<<mobility->GetPosition().x<<endl;
@@ -439,14 +449,17 @@ MyNetDeviceFace::ReceiveFromNetDevice (Ptr<NetDevice> device,
         //<<"false";
         cout<<"fuck";
       }
-     // cout<<"false";
-  CacheTag cache;
-cache.SetHop(1);
+
+
+// for cache on strategy
+CacheTag cache;
 Ptr<Packet> cachePacket = p->Copy();
-cachePacket->RemoveAllPacketTags();
-cachePacket->AddPacketTag(cache);
-if (type == HeaderHelper::CONTENT_OBJECT_NDNSIM)
-  Receive(cachePacket);
+if ( !cachePacket->PeekPacketTag(cache))
+{
+    cache.SetHop(1);
+    cachePacket->AddPacketTag(cache);
+}
+Receive(cachePacket);
 
       //exception will be thrown if packet is not recognized
   //   }

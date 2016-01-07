@@ -56,7 +56,48 @@ V2VProducer::V2VProducer ()
 void
 V2VProducer::OnInterest (Ptr<const Interest> interest)
 {
-	Producer::OnInterest(interest);
+  App::OnInterest (interest); // tracing inside
+
+
+  if (!m_active) return;
+
+  Ptr<Data> data = Create<Data> (Create<Packet> (m_virtualPayloadSize));
+  Ptr<Name> dataName = Create<Name> (interest->GetName ());
+  dataName->append (m_postfix);
+  data->SetName (dataName);
+  data->SetFreshness (m_freshness);
+  data->SetTimestamp (Simulator::Now());
+
+  data->SetSignature (m_signature);
+  if (m_keyLocator.size () > 0)
+    {
+      data->SetKeyLocator (Create<Name> (m_keyLocator));
+    }
+
+  // Echo back FwHopCountTag if exists
+  FwHopCountTag hopCountTag;
+  if (interest->GetPayload ()->PeekPacketTag (hopCountTag))
+    {
+      data->GetPayload ()->AddPacketTag (hopCountTag);
+    }
+
+   SourceTag sourceTag;
+   if (interest->GetPayload ()->PeekPacketTag (sourceTag))
+  {
+    data->GetPayload ()->AddPacketTag (sourceTag);
+  }
+
+   IndexTag indexTag;
+   if (interest->GetPayload ()->PeekPacketTag (indexTag))
+   {
+    data->GetPayload ()->AddPacketTag (indexTag);
+  }
+  ProducerTag proTag;
+  proTag.SetHop(2);
+  data->GetPayload ()->AddPacketTag (proTag);
+
+  m_face->ReceiveData (data);
+  m_transmittedDatas (data, this, m_face);
 
 }
 

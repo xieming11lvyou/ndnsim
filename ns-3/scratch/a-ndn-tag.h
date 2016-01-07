@@ -586,4 +586,72 @@ CacheTag::Print (std::ostream &os) const
   os <<m_hop;
 }
 
+class ProducerTag : public Tag {
+public:
+  static TypeId GetTypeId (void);
+  virtual TypeId GetInstanceTypeId (void) const;
+
+  virtual uint32_t GetSerializedSize (void) const;
+  virtual void Serialize (TagBuffer i) const;
+  virtual void Deserialize (TagBuffer i);
+
+  // these are our accessors to our tag structure
+  void SetHop (uint32_t hop);
+  uint32_t GetHop (void) const;
+
+
+  void Print (std::ostream &os) const;
+
+private:
+  uint32_t m_hop;
+};
+
+TypeId 
+ProducerTag::GetTypeId (void)
+{
+  static TypeId tid = TypeId ("ProducerTag")
+    .SetParent<Tag> ()
+    .AddConstructor<ProducerTag> ()
+  ;
+  return tid;
+}
+TypeId 
+ProducerTag::GetInstanceTypeId (void) const
+{
+  return GetTypeId ();
+}
+
+uint32_t 
+ProducerTag::GetSerializedSize (void) const
+{
+  return 8;
+}
+void 
+ProducerTag::Serialize (TagBuffer i) const
+{
+  i.WriteU32 (m_hop);
+}
+void 
+ProducerTag::Deserialize (TagBuffer i)
+{
+  m_hop = i.ReadU32 ();
+}
+
+void
+ProducerTag::SetHop(uint32_t hop)
+{
+  m_hop = hop;
+}
+uint32_t
+ProducerTag::GetHop (void) const
+{
+  return m_hop;
+}
+
+void 
+ProducerTag::Print (std::ostream &os) const
+{
+  os <<m_hop;
+}
+
 #endif

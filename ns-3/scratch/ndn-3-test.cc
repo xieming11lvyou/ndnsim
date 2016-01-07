@@ -90,13 +90,31 @@ void RandSeq (uint32_t n,uint32_t arr[])
    }
 }
 
+void nodeNum(int a, int b, NodeContainer nodes) {
+	for (int j = 0; j <b; j++) {
+		int num1 = 0;
+		double a1_pos = nodes.Get(j)->GetObject<MobilityModel>()->GetPosition().x;
+		if ((950<a1_pos && a1_pos<1050)||(1900<a1_pos && a1_pos<2000)||(0<a1_pos && a1_pos<100)) {
+			for (int i = 0; i<b; i++) {
+				double b_pos = nodes.Get(i)->GetObject<MobilityModel>()->GetPosition().x;
+				if (abs(a1_pos - b_pos) <= 300)
+					num1++;
+			}
+			cout<<Simulator::Now().GetSeconds()<<"\t"<<abs(nodes.Get(j)->GetObject<MobilityModel>()->GetVelocity().x)
+					<<"\t"<<num1<<endl;
+		}
+	}
+
+
+	Simulator::Schedule(Seconds(5.0), nodeNum,10,nodeNumber, nodes);
+}
 int
 main (int argc, char *argv[])
 {
   double T=10;
   int seed = 1;
   numProducer = 1;
-  nodeNumber = 50;
+  nodeNumber = 30;
   Dec =0.2;
 
   // disable fragmentation
@@ -237,7 +255,7 @@ main (int argc, char *argv[])
   consumerHelper.SetAttribute ("LifeTime", StringValue("4000s"));
   consumerHelper.SetAttribute ("StartTime", TimeValue (Seconds (T)));
 //  cout<<"consumerId"<<array[0]<<endl;
-  consumerHelper.Install (nodes.Get (array[0]));
+//  consumerHelper.Install (nodes.Get (array[0]));
 
   //  consumerHelper.SetAttribute ("StopTime", StringValue("30s"));
   //
@@ -250,15 +268,19 @@ main (int argc, char *argv[])
   for(uint32_t i =1;i<numProducer+1;i++)
     {
 //    cout<<"producerId"<<array[i]<<endl;
-    producerHelper.Install (nodes.Get (array[i]));
+//    producerHelper.Install (nodes.Get (array[i]));
     }
 
  ////////////////
 
-
+  Simulator::Schedule(Seconds(10.0), nodeNum,10,nodeNumber, nodes);
   Simulator::Stop (Seconds (4000));
 
   Simulator::Run ();
+
+
+
+
   Simulator::Destroy ();
 
   return 0;
